@@ -416,13 +416,19 @@ async def save_company_cache(
     session: AsyncSession = Depends(get_async_session),
 ) -> dict:
     """儲存公司資料到快取（公開端點，快取 GCIS 公開資料）"""
-    result = await session.execute(
-        select(CompanyCache).where(
-            CompanyCache.name == req.name,
-            CompanyCache.country == req.country,
+    import logging
+    logger = logging.getLogger(__name__)
+    try:
+        result = await session.execute(
+            select(CompanyCache).where(
+                CompanyCache.name == req.name,
+                CompanyCache.country == req.country,
+            )
         )
-    )
-    cache = result.scalar_one_or_none()
+        cache = result.scalar_one_or_none()
+    except Exception as e:
+        logger.error("company-cache save query failed: %s", e, exc_info=True)
+        return {"success": False, "error": str(e)[:200]}
 
     if not cache:
         cache = CompanyCache(name=req.name, country=req.country)
@@ -442,7 +448,11 @@ async def save_company_cache(
     if req.job_url_104:
         cache.job_url_104 = req.job_url_104
 
-    cache.updated_at = datetime.now(timezone.utc)
-    await session.commit()
+    cache.updated_at = datetime.utcnow()
+    try:
+        await session.commit()
+    except Exception as e:
+        logger.error("company-cache save commit failed: %s", e, exc_info=True)
+        return {"success": False, "error": str(e)[:200]}
 
     return {"success": True}
