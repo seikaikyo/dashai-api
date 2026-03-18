@@ -352,13 +352,19 @@ async def get_company_cache(
     session: AsyncSession = Depends(get_async_session),
 ) -> dict:
     """查詢公司快取"""
-    result = await session.execute(
-        select(CompanyCache).where(
-            CompanyCache.name == name,
-            CompanyCache.country == country,
+    import logging
+    logger = logging.getLogger(__name__)
+    try:
+        result = await session.execute(
+            select(CompanyCache).where(
+                CompanyCache.name == name,
+                CompanyCache.country == country,
+            )
         )
-    )
-    cache = result.scalar_one_or_none()
+        cache = result.scalar_one_or_none()
+    except Exception as e:
+        logger.error("company-cache query failed: %s", e, exc_info=True)
+        return {"success": False, "error": str(e)[:200]}
     if not cache:
         return {"success": True, "data": None}
 
