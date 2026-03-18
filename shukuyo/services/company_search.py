@@ -20,8 +20,10 @@ _104_HEADERS = {
     "Accept": "application/json, text/plain, */*",
 }
 
-# GCIS 經濟部商工登記開放資料 API（主要）
-_GCIS_API_URL = "https://data.gcis.nat.gov.tw/od/data/api/6BBA2268-1367-4B42-9CCA-BC17499EBE8C"
+# GCIS 經濟部商工登記開放資料 API
+# 直接打 GCIS 會被擋（Render 在美國），改走 Vercel proxy
+_GCIS_API_ID = "6BBA2268-1367-4B42-9CCA-BC17499EBE8C"
+_GCIS_API_URL = f"https://shukuyo.dashai.dev/proxy/gcis/{_GCIS_API_ID}"
 
 # findcompany 查詢設立日期（備援）
 _FINDCOMPANY_BASE = "https://www.findcompany.com.tw"
@@ -153,11 +155,7 @@ class CompanySearchService:
         Returns:
             104 公司頁面 URL 或 None
         """
-        # 去除常見後綴提高命中率
-        search_name = company_name
-        for suffix in ["股份有限公司", "有限公司"]:
-            search_name = search_name.replace(suffix, "")
-        search_name = search_name.strip()
+        search_name = self._normalize_company_name(company_name)
 
         if not search_name:
             return None
@@ -208,11 +206,20 @@ class CompanySearchService:
 
         return None
 
+    @staticmethod
+    def _normalize_company_name(name: str) -> str:
+        """正規化公司名稱：移除法人後綴、英文前綴/底線"""
+        result = name
+        for suffix in ["股份有限公司", "有限公司"]:
+            result = result.replace(suffix, "")
+        # 移除英文前綴 + 底線/橫線分隔（如 "I-TEK_一德" → "一德"）
+        result = re.sub(r'^[A-Za-z0-9\s._-]+[_\-・]', '', result)
+        result = re.sub(r'^[A-Za-z0-9\s._-]+\s+', '', result)
+        return result.strip()
+
     async def search_gcis(self, keyword: str) -> list[dict]:
         """GCIS 公司名稱搜尋，回傳公司列表含設立日期"""
-        search_name = keyword
-        for suffix in ["股份有限公司", "有限公司"]:
-            search_name = search_name.replace(suffix, "")
+        search_name = self._normalize_company_name(keyword)
 
         async with httpx.AsyncClient(timeout=15.0) as client:
             try:
@@ -243,11 +250,8 @@ class CompanySearchService:
         return results
 
     async def _lookup_gcis(self, company_name: str) -> str | None:
-        """從 GCIS 官方 API 查詢設立日期"""
-        # 去除常見後綴以提高模糊比對命中率
-        search_name = company_name
-        for suffix in ["股份有限公司", "有限公司"]:
-            search_name = search_name.replace(suffix, "")
+        """從 GCIS 官方 API 查詢設立日期（透過 Vercel proxy 避免美國 IP 被擋）"""
+        search_name = self._normalize_company_name(company_name)
 
         async with httpx.AsyncClient(timeout=15.0) as client:
             try:

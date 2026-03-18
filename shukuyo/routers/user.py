@@ -378,7 +378,6 @@ async def get_company_cache(
 @router.post("/company-cache")
 async def save_company_cache(
     req: CompanyCacheSaveRequest,
-    _clerk_id: str = Depends(get_current_user_id),
     session: AsyncSession = Depends(get_async_session),
 ) -> dict:
     """儲存公司資料到快取"""
