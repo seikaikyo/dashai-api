@@ -27,6 +27,9 @@ class Settings(BaseSettings):
 
     # === English Tutor 相關 ===
     app_passcode: str = ""
+    english_model: str = "claude-sonnet-4-20250514"
+    english_default_max_tokens: int = 300
+    english_max_tokens_limit: int = 1200
 
     # === LLM API Keys (共用) ===
     anthropic_api_key: str = ""

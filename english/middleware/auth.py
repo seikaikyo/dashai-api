@@ -3,7 +3,9 @@ import logging
 
 from fastapi import Request
 
-from english.config import settings
+from config import get_settings
+
+settings = get_settings()
 
 logger = logging.getLogger(__name__)
 

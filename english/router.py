@@ -6,7 +6,9 @@ from pydantic import BaseModel, Field
 from typing import Literal
 import anthropic
 
-from english.config import settings
+from config import get_settings
+
+settings = get_settings()
 from english.services.api_health import api_health
 from english.services.question_bank_service import question_bank
 from english.services.interview_coach import analyze_interview_answer
@@ -81,12 +83,12 @@ def chat(req: ChatRequest, request: Request):
     if should_try:
         try:
             max_tokens = (
-                min(req.max_tokens, settings.max_tokens_limit)
+                min(req.max_tokens, settings.english_max_tokens_limit)
                 if req.max_tokens > 0
-                else settings.default_max_tokens
+                else settings.english_default_max_tokens
             )
             resp = client.messages.create(
-                model=settings.model,
+                model=settings.english_model,
                 max_tokens=max_tokens,
                 system=system_prompt,
                 messages=[m.model_dump() for m in req.messages],
@@ -123,7 +125,7 @@ def interview_feedback(req: InterviewFeedbackRequest, request: Request):
     try:
         result = analyze_interview_answer(
             client=client,
-            model=settings.model,
+            model=settings.english_model,
             question_id=req.question_id,
             user_answer=req.user_answer,
             sample_answer=req.sample_answer,
