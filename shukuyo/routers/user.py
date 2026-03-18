@@ -381,6 +381,35 @@ async def get_company_cache(
     }
 
 
+@router.post("/company-cache/batch")
+async def batch_get_company_cache(
+    req: dict,
+    session: AsyncSession = Depends(get_async_session),
+) -> dict:
+    """批次查詢公司快取（一次查多間，減少 round-trip）"""
+    names: list[str] = req.get("names", [])
+    country: str = req.get("country", "tw")
+    if not names or len(names) > 50:
+        return {"success": True, "data": {}}
+
+    from sqlalchemy import or_
+    result = await session.execute(
+        select(CompanyCache).where(
+            CompanyCache.country == country,
+            CompanyCache.name.in_(names),
+        )
+    )
+    caches = result.scalars().all()
+    data = {}
+    for cache in caches:
+        if cache.founding_date:
+            data[cache.name] = {
+                "founding_date": cache.founding_date.isoformat(),
+                "source": cache.source,
+            }
+    return {"success": True, "data": data}
+
+
 @router.post("/company-cache")
 async def save_company_cache(
     req: CompanyCacheSaveRequest,
