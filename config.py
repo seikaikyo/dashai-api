@@ -65,6 +65,7 @@ class Settings(BaseSettings):
         "https://ai-english-tutor.vercel.app",
         # jlpt
         "http://localhost:5172",
+        "https://jlpt.dashai.dev",
         "https://jlpt-n1-learner.vercel.app",
     ]
 
