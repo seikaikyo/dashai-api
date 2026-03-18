@@ -1,4 +1,4 @@
-"""使用者模型 - Clerk 認證 + Neon 持久化"""
+"""使用者模型 - Logto 認證 + Neon 持久化"""
 from sqlmodel import SQLModel, Field, Relationship, Column
 from sqlalchemy import JSON
 from sqlalchemy.dialects.postgresql import UUID as PG_UUID
@@ -8,11 +8,11 @@ import uuid
 
 
 class User(SQLModel, table=True):
-    """使用者（對應 Clerk user）"""
+    """使用者（對應 Logto user）"""
     __tablename__ = "users"
 
     id: str = Field(default_factory=lambda: str(uuid.uuid4()), primary_key=True)
-    clerk_id: str = Field(unique=True, index=True, max_length=100)
+    auth_id: str = Field(unique=True, index=True, max_length=100)
     email: Optional[str] = Field(default=None, max_length=255)
     display_name: Optional[str] = Field(default=None, max_length=100)
     birth_date: Optional[date_type] = Field(default=None)

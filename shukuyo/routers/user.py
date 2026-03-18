@@ -1,4 +1,4 @@
-"""使用者 API - Clerk 認證 + 資料同步"""
+"""使用者 API - Logto 認證 + 資料同步"""
 from datetime import datetime, date as date_type, timezone
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel
@@ -22,7 +22,7 @@ class ProfileSyncRequest(BaseModel):
 class ProfileResponse(BaseModel):
     """使用者 profile 回應"""
     id: str
-    clerk_id: str
+    auth_id: str
     email: str | None
     display_name: str | None
     birth_date: str | None
@@ -33,18 +33,18 @@ class ProfileResponse(BaseModel):
 
 @router.get("/profile")
 async def get_profile(
-    clerk_id: str = Depends(get_current_user_id),
+    auth_id: str = Depends(get_current_user_id),
     session: AsyncSession = Depends(get_async_session),
 ) -> dict:
     """取得使用者 profile（自動建立）"""
     result = await session.execute(
-        select(User).where(User.clerk_id == clerk_id)
+        select(User).where(User.auth_id == auth_id)
     )
     user = result.scalar_one_or_none()
 
     if not user:
         # 首次登入，建立使用者
-        user = User(clerk_id=clerk_id)
+        user = User(auth_id=auth_id)
         session.add(user)
         await session.commit()
         await session.refresh(user)
@@ -53,7 +53,7 @@ async def get_profile(
         "success": True,
         "data": ProfileResponse(
             id=user.id,
-            clerk_id=user.clerk_id,
+            auth_id=user.auth_id,
             email=user.email,
             display_name=user.display_name,
             birth_date=user.birth_date.isoformat() if user.birth_date else None,
@@ -67,17 +67,17 @@ async def get_profile(
 @router.post("/profile/sync")
 async def sync_profile(
     req: ProfileSyncRequest,
-    clerk_id: str = Depends(get_current_user_id),
+    auth_id: str = Depends(get_current_user_id),
     session: AsyncSession = Depends(get_async_session),
 ) -> dict:
     """從 localStorage 同步 profile 到 DB"""
     result = await session.execute(
-        select(User).where(User.clerk_id == clerk_id)
+        select(User).where(User.auth_id == auth_id)
     )
     user = result.scalar_one_or_none()
 
     if not user:
-        user = User(clerk_id=clerk_id)
+        user = User(auth_id=auth_id)
         session.add(user)
 
     if req.birth_date:
@@ -104,7 +104,7 @@ async def sync_profile(
         "success": True,
         "data": ProfileResponse(
             id=user.id,
-            clerk_id=user.clerk_id,
+            auth_id=user.auth_id,
             email=user.email,
             display_name=user.display_name,
             birth_date=user.birth_date.isoformat() if user.birth_date else None,
@@ -142,7 +142,7 @@ class FullSyncRequest(BaseModel):
 
 @router.get("/profile/full")
 async def get_full_profile(
-    clerk_id: str = Depends(get_current_user_id),
+    auth_id: str = Depends(get_current_user_id),
     session: AsyncSession = Depends(get_async_session),
 ) -> dict:
     """取得完整 profile（含 partners + companies）"""
@@ -150,7 +150,7 @@ async def get_full_profile(
     logger = logging.getLogger(__name__)
     try:
         result = await session.execute(
-            select(User).where(User.clerk_id == clerk_id)
+            select(User).where(User.auth_id == auth_id)
         )
         user = result.scalar_one_or_none()
     except Exception as e:
@@ -158,7 +158,7 @@ async def get_full_profile(
         raise HTTPException(status_code=500, detail="Internal server error")
 
     if not user:
-        user = User(clerk_id=clerk_id)
+        user = User(auth_id=auth_id)
         session.add(user)
         await session.commit()
         await session.refresh(user)
@@ -186,7 +186,7 @@ async def get_full_profile(
         "success": True,
         "data": {
             "id": user.id,
-            "clerk_id": user.clerk_id,
+            "auth_id": user.auth_id,
             "birth_date": user.birth_date.isoformat() if user.birth_date else None,
             "plan": user.plan,
             "credits_remaining": user.credits_remaining,
@@ -218,17 +218,17 @@ async def get_full_profile(
 @router.post("/profile/sync-full")
 async def sync_full_profile(
     req: FullSyncRequest,
-    clerk_id: str = Depends(get_current_user_id),
+    auth_id: str = Depends(get_current_user_id),
     session: AsyncSession = Depends(get_async_session),
 ) -> dict:
     """同步完整 profile（含 partners + companies）到 DB"""
     result = await session.execute(
-        select(User).where(User.clerk_id == clerk_id)
+        select(User).where(User.auth_id == auth_id)
     )
     user = result.scalar_one_or_none()
 
     if not user:
-        user = User(clerk_id=clerk_id)
+        user = User(auth_id=auth_id)
         session.add(user)
         await session.flush()
 
@@ -380,7 +380,7 @@ async def save_company_cache(
     req: CompanyCacheSaveRequest,
     session: AsyncSession = Depends(get_async_session),
 ) -> dict:
-    """儲存公司資料到快取"""
+    """儲存公司資料到快取（公開端點，快取 GCIS 公開資料）"""
     result = await session.execute(
         select(CompanyCache).where(
             CompanyCache.name == req.name,

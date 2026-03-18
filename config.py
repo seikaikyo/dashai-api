@@ -19,8 +19,9 @@ class Settings(BaseSettings):
     # === Factory 相關 ===
     # (factory 不需額外 key，公開 API)
 
-    # === Shukuyo 相關 ===
-    clerk_secret_key: str = ""
+    # === Shukuyo 相關 (Logto 認證) ===
+    logto_endpoint: str = ""
+    logto_api_resource: str = ""
 
     # === Red Team 相關 ===
     app_api_key: str = ""

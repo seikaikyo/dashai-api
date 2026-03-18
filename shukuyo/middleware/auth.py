@@ -1,4 +1,4 @@
-"""Clerk JWT 驗證"""
+"""Logto JWT 驗證"""
 import logging
 import time
 from typing import Optional
@@ -16,7 +16,7 @@ _JWKS_TTL = 3600  # 1 小時
 
 
 async def _get_jwks(force_refresh: bool = False) -> dict:
-    """取得 Clerk JWKS（TTL 快取，每小時刷新）"""
+    """取得 Logto JWKS（TTL 快取，每小時刷新）"""
     global _jwks_cache, _jwks_cache_time
 
     now = time.time()
@@ -24,22 +24,19 @@ async def _get_jwks(force_refresh: bool = False) -> dict:
         return _jwks_cache
 
     settings = get_settings()
-    if not settings.clerk_secret_key:
-        raise HTTPException(status_code=500, detail="Clerk 未設定")
+    if not settings.logto_endpoint:
+        raise HTTPException(status_code=500, detail="Logto 未設定")
 
     try:
+        jwks_url = f"{settings.logto_endpoint}/oidc/jwks"
         async with httpx.AsyncClient(timeout=10.0) as client:
-            resp = await client.get(
-                "https://api.clerk.com/v1/jwks",
-                headers={"Authorization": f"Bearer {settings.clerk_secret_key}"},
-            )
+            resp = await client.get(jwks_url)
             resp.raise_for_status()
             _jwks_cache = resp.json()
             _jwks_cache_time = now
             return _jwks_cache
     except Exception as e:
         logger.error("JWKS 取得失敗: %s", e)
-        # 如果有舊快取，fallback 使用
         if _jwks_cache:
             logger.warning("使用過期的 JWKS 快取")
             return _jwks_cache
@@ -47,16 +44,15 @@ async def _get_jwks(force_refresh: bool = False) -> dict:
 
 
 def _extract_token(request: Request) -> Optional[str]:
-    """從 Authorization header 或 cookie 取得 JWT"""
+    """從 Authorization header 取得 JWT"""
     auth = request.headers.get("Authorization", "")
     if auth.startswith("Bearer "):
         return auth[7:]
-    # Clerk 也會透過 __session cookie 傳 token
-    return request.cookies.get("__session")
+    return None
 
 
 async def get_current_user_id(request: Request) -> str:
-    """驗證 JWT 並回傳 Clerk user ID（受保護 API 用）"""
+    """驗證 JWT 並回傳 Logto user ID（受保護 API 用）"""
     token = _extract_token(request)
     if not token:
         raise HTTPException(status_code=401, detail="未提供認證 token")
@@ -92,11 +88,13 @@ async def _verify_token(token: str, force_refresh: bool = False) -> str:
     if not kid or kid not in public_keys:
         raise jwt.InvalidTokenError("Unknown kid")
 
+    settings = get_settings()
     payload = jwt.decode(
         token,
         key=public_keys[kid],
         algorithms=["RS256"],
-        options={"verify_aud": False},  # Clerk 標準 JWT 不帶 aud
+        audience=settings.logto_api_resource,
+        issuer=f"{settings.logto_endpoint}/oidc",
     )
     user_id = payload.get("sub")
     if not user_id:
