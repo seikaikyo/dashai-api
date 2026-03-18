@@ -27,9 +27,10 @@ def _build_async_url(url: str) -> str:
         return (url or "sqlite:///./dashai.db").replace("sqlite:///", "sqlite+aiosqlite:///")
     import re
     async_url = url.replace("postgresql://", "postgresql+asyncpg://")
-    if "sslmode=" in async_url:
-        async_url = re.sub(r'[?&]sslmode=[^&]*', '', async_url)
-        async_url = async_url.replace('?&', '?').rstrip('?')
+    # asyncpg 不支援 sslmode / channel_binding query params，需移除
+    for param in ["sslmode", "channel_binding"]:
+        async_url = re.sub(rf'[?&]{param}=[^&]*', '', async_url)
+    async_url = async_url.replace('?&', '?').rstrip('?').rstrip('&')
     return async_url
 
 
