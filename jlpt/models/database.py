@@ -11,9 +11,10 @@ logger = logging.getLogger(__name__)
 DATABASE_URL = os.environ.get('DATABASE_URL')
 
 if DATABASE_URL:
-    # Neon PostgreSQL
+    # Neon PostgreSQL - 使用 psycopg (v3) driver
+    _pg_url = DATABASE_URL.replace('postgresql://', 'postgresql+psycopg://')
     engine = create_engine(
-        DATABASE_URL,
+        _pg_url,
         echo=False,
         pool_size=5,
         max_overflow=5,
