@@ -1,0 +1,189 @@
+{
+  "weekday_elements": {
+    "0": {"name": "日曜日", "reading": "にちようび", "element": "日", "planet": "太陽"},
+    "1": {"name": "月曜日", "reading": "げつようび", "element": "月", "planet": "月亮"},
+    "2": {"name": "火曜日", "reading": "かようび", "element": "火", "planet": "火星"},
+    "3": {"name": "水曜日", "reading": "すいようび", "element": "水", "planet": "水星"},
+    "4": {"name": "木曜日", "reading": "もくようび", "element": "木", "planet": "木星"},
+    "5": {"name": "金曜日", "reading": "きんようび", "element": "金", "planet": "金星"},
+    "6": {"name": "土曜日", "reading": "どようび", "element": "土", "planet": "土星"}
+  },
+  "element_relations": {
+    "same": {"bonus": 20, "description": "同元素共鳴（品八七曜五行，T21 p.399a），能量相互增強，是發揮本命特質的有利時機"},
+    "generating": {"bonus": 10, "description": "相生關係（品八七曜五行，T21 p.399a），能量順暢流動，適合穩步推進計畫中的事項"},
+    "neutral": {"bonus": 0, "description": "能量平穩（品八七曜五行，T21 p.399a），適合處理日常事務，維持現有節奏即可"},
+    "weakening": {"bonus": -5, "description": "相洩關係（品八七曜五行，T21 p.399a），能量消耗較快，建議控制工作量並適度休息"},
+    "conflicting": {"bonus": -10, "description": "相剋關係（品八七曜五行，T21 p.399a），能量受阻，重大決定宜延後，以觀察為主"}
+  },
+  "generating_pairs": [
+    ["木", "火"],
+    ["火", "土"],
+    ["土", "金"],
+    ["金", "水"],
+    ["水", "木"]
+  ],
+  "conflicting_pairs": [
+    ["木", "土"],
+    ["土", "水"],
+    ["水", "火"],
+    ["火", "金"],
+    ["金", "木"]
+  ],
+  "weakening_pairs": [
+    ["木", "水"],
+    ["水", "金"],
+    ["金", "土"],
+    ["土", "火"],
+    ["火", "木"]
+  ],
+  "special_elements": {
+    "日": {"generates": ["火"], "weakens": [], "conflicts": [], "note": "太陽為至陽之體，能生助火性，同時對木性有溫養之功"},
+    "月": {"generates": ["水"], "weakens": [], "conflicts": [], "note": "月亮為至陰之體，能生助水性，對木性亦有潤澤滋養之效"}
+  },
+  "fortune_categories": {
+    "career": {
+      "name": "事業運",
+      "reading": "しごとうん",
+      "icon": "briefcase",
+      "favorable_elements": ["木", "火", "日"],
+      "description": "工作表現、學業進展、專業技能發展等職涯相關運勢（基於宿曜經品二各日宜忌延伸）"
+    },
+    "love": {
+      "name": "感情運",
+      "reading": "れんあいうん",
+      "icon": "heart",
+      "favorable_elements": ["月", "水", "金"],
+      "description": "戀愛關係、人際往來、家庭相處等情感面向運勢（基於宿曜經品二各日宜忌延伸）"
+    },
+    "health": {
+      "name": "健康運",
+      "reading": "けんこううん",
+      "icon": "activity",
+      "favorable_elements": ["木", "土", "水"],
+      "description": "身體狀況、精神狀態、生活作息等健康相關運勢（基於宿曜經品二各日宜忌延伸）"
+    },
+    "wealth": {
+      "name": "財運",
+      "reading": "ざいうん",
+      "icon": "dollar-sign",
+      "favorable_elements": ["金", "土", "日"],
+      "description": "金錢收支、投資理財、資產累積等財務相關運勢（基於宿曜經品二各日宜忌延伸）"
+    }
+  },
+  "lucky_items": {
+    "directions": {
+      "木": {"direction": "東", "reading": "ひがし"},
+      "火": {"direction": "南", "reading": "みなみ"},
+      "土": {"direction": "中央", "reading": "ちゅうおう"},
+      "金": {"direction": "西", "reading": "にし"},
+      "水": {"direction": "北", "reading": "きた"},
+      "日": {"direction": "東南", "reading": "とうなん"},
+      "月": {"direction": "西北", "reading": "せいほく"}
+    },
+    "colors": {
+      "木": {"color": "綠色", "reading": "みどりいろ", "hex": "#4A9B5A"},
+      "火": {"color": "紅色", "reading": "あかいろ", "hex": "#E85D4C"},
+      "土": {"color": "黃色", "reading": "きいろ", "hex": "#C4A052"},
+      "金": {"color": "白色", "reading": "しろいろ", "hex": "#F5F5F5"},
+      "水": {"color": "黑色", "reading": "くろいろ", "hex": "#2D3436"},
+      "日": {"color": "橙色", "reading": "オレンジいろ", "hex": "#E89B3C"},
+      "月": {"color": "銀色", "reading": "ぎんいろ", "hex": "#C0C0C0"}
+    },
+    "numbers": {
+      "木": [3, 8],
+      "火": [2, 7],
+      "土": [5, 10],
+      "金": [4, 9],
+      "水": [1, 6],
+      "日": [1, 6],
+      "月": [2, 7]
+    }
+  },
+  "daily_advice": {
+    "_comment": "基於 T21n1299 品二各日吉凶。excellent=栄親日級別, good=成友日級別, neutral=安危日級別, caution=衰日級別, challenging=業胎命日級別",
+    "excellent": [
+      "栄日「宜入官拜職、對見大人」（T21 p.397c）。今天適合主動出擊：面試、提案、見主管、拓展人脈，行動會有回報。",
+      "親日「宜結交、歡宴聚會並吉」（T21 p.397c）。今天的人際互動順暢，聚會、合作、建立連結都是好時機。",
+      "栄日「上書表進獻君王、興營買賣」（T21 p.397c）。今天的報告、企劃、業務推進都容易有好結果。該推的案子趁今天推。",
+      "栄親日全面吉利。品二所列多項「並吉」事宜，不管是爭取升遷還是拓展社交，今天的行動力和判斷力都在高點。",
+      "友日「宜結交朋友大吉」（T21 p.391b）。今天主動參加聚會、回覆久未聯絡的朋友，容易遇到願意幫你的人。"
+    ],
+    "good": [
+      "成日「宜修道學問、作諸成就法並吉」（T21 p.398a）。今天適合推進需要專注力的工作，努力容易有成果。",
+      "友日「宜結交朋友大吉」（T21 p.391b），人際互動順暢。跟同事或朋友的溝通比平時容易，團隊合作效率高。",
+      "安日「造作園宅並吉」（T21 p.397c），適合建立制度、整理環境、穩步推進手上的專案。",
+      "成日「合和長年藥法」（T21 p.398a），今天適合做需要權衡的決定，判斷力穩定。",
+      "危日「宜結交、歡宴聚會並吉」（T21 p.397c），社交場合容易有收穫。聚餐、交流都好。"
+    ],
+    "neutral": [
+      "安日「造作園宅並吉」、危日「宜結交」但「不宜遠行買賣」（T21 p.397c-398a）。今日屬中性區間，適合處理例行事務，按自己的節奏走。",
+      "品二記載安日「移徙吉」、危日「歡宴聚會並吉」（T21 p.397c-398a），宜忌並存。今日適合整理資料、更新待辦清單，不需刻意追求突破。",
+      "安危日級別，品二「安坐臥床帳吉」（T21 p.397c）。今日沒有明顯起伏，適合休養充電、散步放空，讓大腦喘息。",
+      "安危日吉凶參半（T21 p.397c-398a）。不需要強求進展，把注意力放在維護現有成果上，確認手邊的事都在軌道上。",
+      "品二安日「造作園宅」（T21 p.397c）、危日有宜有忌。今天的節奏適合慢慢來，遇到解決不了的先放一放。"
+    ],
+    "caution": [
+      "衰日「唯宜解除諸惡、療病」「不宜出入遷移、買賣」（T21 p.398a）。做決定前多想一步，涉及金錢的事情不要急。",
+      "壊日「餘並不堪」（T21 p.398a），不適合主動爭取。低調做事、多聽少說，把精力放在自己能掌控的事上。",
+      "危日「不宜遠行出入移徙、買賣」（T21 p.398a）。人際互動注意措辭，遇到分歧先暫時保留意見。",
+      "衰日「不宜買賣」，不要憑感覺做重要的財務判斷。多找客觀數據或專業意見來輔助決策。",
+      "壊日「宜作鎮壓、降伏怨讎」以外的事情「並不堪」。做事前先確認一遍流程，避開小失誤。"
+    ],
+    "challenging": [
+      "業日「所作善惡亦不成就，甚衰」（T21 p.397c）。重大決定建議延後，把今天當作緩衝日，專注完成已確定的事項。",
+      "胎日「不宜舉動百事」（T21 p.397c）。身體可能感到疲倦，不要硬撐，該休息就休息。",
+      "命日「不宜舉動百事」（T21 p.397c）。品三「宜修功德」，趁低潮回顧方向是否正確，為下一波行動做準備。",
+      "業胎日不適合開啟新計畫或冒險嘗試。把時間花在整理、修復、維護上面，為後續省力氣。",
+      "業日「甚衰」不代表永遠如此。運勢的起伏是三九法的自然節奏，耐心等待更好的栄親日。"
+    ]
+  },
+  "monthly_themes": {
+    "1": {"theme": "新年開局", "focus": "規劃", "element_boost": "木"},
+    "2": {"theme": "穩固根基", "focus": "執行", "element_boost": "水"},
+    "3": {"theme": "春意漸濃", "focus": "人際", "element_boost": "木"},
+    "4": {"theme": "蓄勢待發", "focus": "學習", "element_boost": "火"},
+    "5": {"theme": "積極進取", "focus": "事業", "element_boost": "火"},
+    "6": {"theme": "調適節奏", "focus": "健康", "element_boost": "土"},
+    "7": {"theme": "熱情高峰", "focus": "社交", "element_boost": "火"},
+    "8": {"theme": "收穫累積", "focus": "財運", "element_boost": "金"},
+    "9": {"theme": "深耕專業", "focus": "技能", "element_boost": "金"},
+    "10": {"theme": "穩定發展", "focus": "家庭", "element_boost": "土"},
+    "11": {"theme": "沉澱內省", "focus": "反思", "element_boost": "水"},
+    "12": {"theme": "年終收尾", "focus": "總結", "element_boost": "水"}
+  },
+  "yearly_zodiac": {
+    "子": {"name": "鼠", "reading": "ねずみ", "element": "水"},
+    "丑": {"name": "牛", "reading": "うし", "element": "土"},
+    "寅": {"name": "虎", "reading": "とら", "element": "木"},
+    "卯": {"name": "兔", "reading": "うさぎ", "element": "木"},
+    "辰": {"name": "龍", "reading": "たつ", "element": "土"},
+    "巳": {"name": "蛇", "reading": "へび", "element": "火"},
+    "午": {"name": "馬", "reading": "うま", "element": "火"},
+    "未": {"name": "羊", "reading": "ひつじ", "element": "土"},
+    "申": {"name": "猴", "reading": "さる", "element": "金"},
+    "酉": {"name": "雞", "reading": "とり", "element": "金"},
+    "戌": {"name": "狗", "reading": "いぬ", "element": "土"},
+    "亥": {"name": "豬", "reading": "いのしし", "element": "水"}
+  },
+  "heavenly_stems": {
+    "甲": {"reading": "きのえ", "element": "木", "yin_yang": "陽"},
+    "乙": {"reading": "きのと", "element": "木", "yin_yang": "陰"},
+    "丙": {"reading": "ひのえ", "element": "火", "yin_yang": "陽"},
+    "丁": {"reading": "ひのと", "element": "火", "yin_yang": "陰"},
+    "戊": {"reading": "つちのえ", "element": "土", "yin_yang": "陽"},
+    "己": {"reading": "つちのと", "element": "土", "yin_yang": "陰"},
+    "庚": {"reading": "かのえ", "element": "金", "yin_yang": "陽"},
+    "辛": {"reading": "かのと", "element": "金", "yin_yang": "陰"},
+    "壬": {"reading": "みずのえ", "element": "水", "yin_yang": "陽"},
+    "癸": {"reading": "みずのと", "element": "水", "yin_yang": "陰"}
+  },
+  "year_cycle": [
+    {"year": 2024, "stem": "甲", "branch": "辰"},
+    {"year": 2025, "stem": "乙", "branch": "巳"},
+    {"year": 2026, "stem": "丙", "branch": "午"},
+    {"year": 2027, "stem": "丁", "branch": "未"},
+    {"year": 2028, "stem": "戊", "branch": "申"},
+    {"year": 2029, "stem": "己", "branch": "酉"},
+    {"year": 2030, "stem": "庚", "branch": "戌"}
+  ]
+}

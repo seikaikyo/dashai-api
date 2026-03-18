@@ -1,0 +1,52 @@
+{
+  "stars": {
+    "rahula": {
+      "fortune_name": "Dormant Fortune",
+      "description": "T21 Section 8 describes Rahu as the「蝕神」(eclipse deity, p.399a), which obscures the light of the Sun and Moon. The Kuyou cyclical yearly method (temple lineage: Houjou-ji / Daishoin / Oka-dera) rates this as a deeply inauspicious \"Dormant Fortune\" year. With the eclipse deity in charge, external opportunities are blocked -- things get stuck no matter what you do. This is not about your ability; it is where the cycle has landed. The priority this year: do not go on the offensive, do not impulsively change jobs, and avoid large investments. Write down what you want to do and wait until the Saturn year to act. Cut back on social engagements, conserve your energy, and use this period to observe and prepare. Holding still takes more discipline than moving recklessly.",
+      "yearly_advice": "Rahu is the eclipse deity (T21 Section 8 p.399a); the Kuyou cyclical method (temple lineage) rates it deeply inauspicious. The eclipse blocks external opportunities -- do not go on the offensive, do not impulsively switch jobs, and skip large investments. Write down your plans and wait for the Saturn year. Cut social engagements, conserve energy, and use this time to read the landscape and build up your reserves. After Rahu: Saturn (semi-auspicious) then Mercury (minor-auspicious) then Venus (semi-auspicious). Patience pays off.",
+      "buddha": "Acala (Fudo Myoo)"
+    },
+    "saturn": {
+      "fortune_name": "Opening Fortune",
+      "description": "T21 Section 8 states that each of the seven luminaries governs an element (p.399a). Saturn belongs to earth -- steady and slow by nature. The Kuyou cyclical yearly method (temple lineage) rates this as a semi-auspicious \"Opening Fortune\" year, marking the upswing after the deeply inauspicious Rahu year. The overall trend is upward, but the pace is slow -- do not rush it. Watch your health, especially between summer and autumn when minor issues tend to surface. This year is for building foundations: organize your finances, establish good habits, and map out your next steps. It is not a sprint; it is the moment you step into the starting blocks. Stay grounded and the next three years get progressively better.",
+      "buddha": "Sho Kannon (Avalokitesvara)"
+    },
+    "mercury": {
+      "fortune_name": "Joyful Fortune",
+      "description": "T21 Section 8 states that each of the seven luminaries governs an element (p.399a). Mercury belongs to water -- fluid and changeable. The Kuyou cyclical yearly method (temple lineage) rates this as a minor-auspicious \"Joyful Fortune\" year. Fortune is decent but unstable, and your mind tends to churn more than the situation warrants. Lie low in spring and summer, and make fewer promises; autumn and winter see a clear improvement. When you cannot make up your mind, do not brood alone -- ask someone with experience. Water flows and shifts; this year brings a lot of change, but the overall direction is positive.",
+      "buddha": "Maitreya"
+    },
+    "venus": {
+      "fortune_name": "Steady Fortune",
+      "description": "T21 Section 8 states that each of the seven luminaries governs an element (p.399a). Venus belongs to metal -- sharp and contracting in nature. The Kuyou cyclical yearly method (temple lineage) rates this as a semi-auspicious \"Steady Fortune\" year. Good and bad are interwoven. Relationships demand the most attention this year -- unexpected shifts at work are possible. Metal's nature is consolidation, so this year suits tidying up rather than expanding: review your network, prune unnecessary ties, and listen to professional advice. Difficult situations can reveal who genuinely supports you.",
+      "buddha": "Amitabha"
+    },
+    "sun": {
+      "fortune_name": "Peak Fortune",
+      "description": "T21 Section 8 states「日曜為天體之首」(the Sun is foremost among celestial bodies, p.399a), the most revered of the nine luminaries. The Kuyou cyclical yearly method (temple lineage) rates this as a highly auspicious \"Peak Fortune\" year. Things go your way, wealth luck is strong, and your reputation rises. What to do this year: if a promotion is within reach, go for it; if a project needs pushing, push it; if relationships need tending, tend them. Proactive effort brings returns beyond expectations. One caveat: the smoother things go, the more important humility becomes. Convert your gains into long-term assets -- skills, connections, savings -- rather than spending on vanity. Good fortune does not come around every year, so build a solid base while it lasts.",
+      "buddha": "Senju Kannon (Thousand-Armed Avalokitesvara)"
+    },
+    "mars": {
+      "fortune_name": "Resting Fortune",
+      "description": "T21 Section 8 states that each of the seven luminaries governs an element (p.399a). Mars belongs to fire -- fierce and volatile. The Kuyou cyclical yearly method (temple lineage) rates this as a deeply inauspicious \"Resting Fortune\" year. Fire's impulsive nature makes this year's biggest risk rash decisions. Interpersonal clashes come easily, work hits snags, and many problems trace back to miscommunication. Controlling your temper is the single most important task -- when you feel like lashing out, leave the room and respond ten minutes later. Do not job-hop or make sweeping changes to your situation; hold on to what you have. Next year (Ketu) is still deeply inauspicious, but after that come the Moon and Jupiter years -- two consecutive highly auspicious years. Power through the valley and the upswing awaits.",
+      "yearly_advice": "Mars belongs to fire, fierce and volatile (T21 Section 8 p.399a); the Kuyou cyclical method (temple lineage) rates it deeply inauspicious. The fire year's biggest risk is impulsive action -- when you feel like erupting, leave the room for ten minutes before responding; if you want to switch jobs, shelve it for a week before deciding. Hold on to your current work and relationships; do not actively change the status quo. Next year (Ketu) is still deeply inauspicious, but push past it and you enter the Moon (highly auspicious) then Jupiter (highly auspicious) consecutive upswing.",
+      "buddha": "Kokuzo Bosatsu (Akasagarbha)"
+    },
+    "ketu": {
+      "fortune_name": "Stagnant Fortune",
+      "description": "T21 Section 8 describes Ketu as the「蝕神」(eclipse deity, p.399a), sharing the same obscuring nature as Rahu. The Kuyou cyclical yearly method (temple lineage: Houjou-ji / Daishoin / Oka-dera) rates this as a deeply inauspicious \"Stagnant Fortune\" year. Effort and reward are disproportionate, and things move slower than expected. The first three months of spring require extra patience; conditions gradually improve from autumn onward. This is not about ability -- it is where the cycle's rhythm has landed. Lower your expectations, reduce risk-taking, and protect what you have. Use this slowdown to take stock of your resources and clarify your direction, preparing for the highly auspicious Moon year that follows.",
+      "yearly_advice": "Ketu is the eclipse deity (T21 Section 8 p.399a); the Kuyou cyclical method (temple lineage) rates it deeply inauspicious. Effort and reward are out of proportion, and progress is slower than expected. The first three months of spring require extra patience; autumn brings gradual improvement. Lower your expectations, reduce risk, and protect what you have. The Ketu year is the last of the deeply inauspicious stretch -- push through it and the highly auspicious Moon year awaits. The final stretch of darkness before dawn.",
+      "buddha": "Shakyamuni"
+    },
+    "moon": {
+      "fortune_name": "Advancing Fortune",
+      "description": "T21 Section 8 states「月曜為夜之主」(the Moon rules the night, p.399a), governing nocturnal and yin energy. The Kuyou cyclical yearly method (temple lineage) rates this as a highly auspicious \"Advancing Fortune\" year. Connections and opportunities align simultaneously, and benefactors emerge at work. The Moon's gentle nature means this year's good fortune is less flashy than the Sun year but more stable and lasting. It suits expanding your network, taking on greater responsibility, and nurturing long-term relationships. Seize every introduction and respond to goodwill proactively. Fortune holds throughout the year -- ride the wave and convert your gains into a lasting foundation.",
+      "buddha": "Seishi Bosatsu (Mahasthamaprapta)"
+    },
+    "jupiter": {
+      "fortune_name": "Auspicious Fortune",
+      "description": "T21 Section 8 states that each of the seven luminaries governs an element (p.399a). Jupiter belongs to wood -- its nature is growth and expansion. The Kuyou cyclical yearly method (temple lineage) rates this as a highly auspicious \"Auspicious Fortune\" year. Wood energy rises; whatever you do tends to grow. Marriage luck is strong, family life is harmonious, and your personal life feels full. Starting a new relationship, moving, or changing careers -- choices made this year are likely to turn out well. But good fortune does not mean you can coast; slacking off during an auspicious year is the biggest waste. After Jupiter, the Kuyou cycle moves to the deeply inauspicious Rahu year, so finish what needs to be done while the timing is right.",
+      "buddha": "Yakushi Nyorai (Bhaisajyaguru)"
+    }
+  }
+}

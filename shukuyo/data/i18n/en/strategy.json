@@ -1,0 +1,69 @@
+{
+  "opportunity_details": {
+    "規劃": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) Set yearly goals, organize your thoughts, and map out your direction. Break big goals into monthly actionable steps -- writing them down works far better than keeping them in your head.",
+    "執行": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) Put plans into action, advance step by step, and turn ideas into results. Your execution power is particularly strong this month. Clear out the backlog you have been putting off.",
+    "人際": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) Expand your network and attend social events -- you may meet someone who can help. Proactively reach out to three people you admire but have not contacted in a while. Good connections bring unexpected opportunities.",
+    "學習": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) A prime time for upskilling -- pursue certifications, read, and learn new skills. Your comprehension and retention are sharper than usual during this period. Sign up for that course you have been eyeing.",
+    "事業": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) Actively pursue promotions, demonstrate your expertise, and build workplace influence. Manage up -- make your results visible. If it is time to negotiate your pay, do not hold back.",
+    "健康": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) Take care of body and mind, build exercise habits, and pay attention to warning signs. At least 30 minutes of cardio daily, combined with dietary adjustments. Investing in health this month yields the highest return.",
+    "社交": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) Attend gatherings, make new friends, and maintain important relationships. Step outside your usual circles and meet people from different fields -- diverse exchanges spark fresh ideas.",
+    "財運": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) A favorable time for investing, diversifying income streams, and seizing earning opportunities. Do not just save -- think about how to create new revenue channels. Side projects and investments both deserve serious research.",
+    "專業": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) Go deep in your professional domain, accumulate expertise, and build your personal brand. Pick the direction where you excel most and keep drilling. Write articles or give talks -- let more people know your expertise.",
+    "家庭": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) Spend time with family, handle household matters, and strengthen family bonds. Put down your phone and share a proper meal or conversation with your family. The quality of connection matters more than the hours spent.",
+    "內省": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) Reflect, recalibrate your mindset, and re-examine your life direction. Take a day alone and write down what you got right and wrong this year. Honest self-assessment is the only path to real progress.",
+    "總結": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) Review the year's results, organize resources, and prepare for next year. Tally your gains and shortcomings, then distill lessons into methods you can apply directly next year."
+  },
+  "opportunity_default": "(Section 2 six relationships & Section 8 Seven Luminaries Five Elements, T21 p.397c-399a) Seize opportunities and take action.",
+  "opportunity_format": "Month {month} (score {score}): {detail}",
+  "warning_low_score": "Month {month} scores low ({score}). {tag} Avoid major investments or signing contracts.",
+  "theme_title": "Year of {fortune_name}",
+  "safe_haven": {
+    "eishin_cluster": "{tag}{period} -- a consecutive Eishin-Shin high-score stretch. This is the most solid safe harbor of the year, suited for pushing forward on important matters.",
+    "gyotai_cluster": "{tag}{period} -- consecutive Gou-Tai months. A period of deep karmic affinity where interpersonal cooperation and joint ventures flow particularly well.",
+    "default": "{tag}{period} -- a consecutive high-score stretch. Fortune is stable and trending upward, suited for proactive action and important decisions."
+  },
+  "best_month": {
+    "eishin": "{tag} Month {month} is an Eishin-Shin month ({score} pts) -- one of the best action windows of the year. Push your plans forward boldly.",
+    "gyotai": "{tag} Month {month} is a Gou-Tai month ({score} pts) -- suited for collaboration, signing agreements, and building partnerships.",
+    "mei": "{tag} Month {month} is a Mei month ({score} pts). Your natal energy is amplified -- suited for pioneering action.",
+    "high_score": "{tag} Month {month} scores high ({score} pts). Fortune is favorable -- seize opportunities and act.",
+    "default": "{tag} Month {month} ({score} pts) -- a relatively stable period. Safe to schedule important affairs."
+  },
+  "caution_month": {
+    "ryouhan": "{tag} Month {month} has significant Ryouhan interference. High probability of fortune reversal -- avoid major decisions and signing contracts. Stay defensive and wait for better timing.",
+    "ankai": "{tag} Month {month} is an An-Kai month. Relationships are fragile -- avoid conflict and risk-taking. Keep a low profile.",
+    "default": "{tag} Month {month} scores low ({score} pts). Act conservatively and avoid overreaching."
+  },
+  "ryouhan_outlook": {
+    "no_ryouhan": "No Ryouhan months this year. The year's fortune trajectory is clear and predictable.",
+    "consecutive_format": "Months {start}-{end}: {count} consecutive months of Ryouhan",
+    "scattered_format": "Month(s) {months}: scattered Ryouhan",
+    "high_ratio": "Ryouhan ratio is high. Exercise caution throughout the year and schedule important decisions in non-Ryouhan months wherever possible.",
+    "has_consecutive": "Watch months {start}-{end} -- a consecutive Ryouhan stretch. Avoid major moves during this window.",
+    "low_impact": "Ryouhan occurrences are scattered. Impact is limited -- just be mindful of those individual months."
+  },
+  "yearly_rhythm": {
+    "front_heavy": "Based on Section 2 six relationships & Section 8 Seven Luminaries Five Elements (T21 p.397c-399a) yearly analysis: the first half carries stronger momentum. Concentrate important decisions and actions in the first six months, then shift to consolidation in the second half.",
+    "back_heavy": "Based on Section 2 six relationships & Section 8 Seven Luminaries Five Elements (T21 p.397c-399a) yearly analysis: fortune picks up in the second half. Use the first half for preparation and accumulation, then go all-in when the timing matures.",
+    "v_shape": "Based on Section 2 six relationships & Section 8 Seven Luminaries Five Elements (T21 p.397c-399a) yearly analysis: mid-year (around month {month}) is the trough, with both ends relatively stable. During the trough, focus on introspection and adjustment -- do not rush decisions.",
+    "inv_v_shape": "Based on Section 2 six relationships & Section 8 Seven Luminaries Five Elements (T21 p.397c-399a) yearly analysis: mid-year (around month {month}) is the peak. Concentrate your energy during this golden window, and ease off at the start and end of the year.",
+    "stable": "Based on Section 2 six relationships & Section 8 Seven Luminaries Five Elements (T21 p.397c-399a) yearly analysis: the year's rhythm is even, without major swings. Suited for steady, sustained progress on long-term goals."
+  },
+  "dynamic_tips": {
+    "eishin_high": "{tag} High-score month. Go ahead and pursue what you want -- the success rate is high.",
+    "gyotai_high": "{tag} High-score month. Collaborative efforts yield good results -- take the initiative.",
+    "high_ryouhan": "{tag} Score is decent but Ryouhan interference is in play. Good things may not come easily -- handle unexpected twists with patience.",
+    "high_general": "{tag} Fortune is stable and trending high. A good time to advance plans and make decisions.",
+    "mid_clean": "{tag} Moderate and stable. Advance steadily -- no need to rush or drag.",
+    "mid_ryouhan": "{tag} Moderate fortune with Ryouhan fluctuations. Setbacks and reversals are normal -- keep your composure.",
+    "low_heavy_ryouhan": "{tag} Severe impact. Stay on the defensive -- avoid risk-taking and major decisions.",
+    "low_ankai": "{tag} Low-score month. Relationships tend to get tense -- keep a low profile and steer clear of drama.",
+    "low_general": "{tag} Fortune runs low. Conserve energy and prepare for the next upswing.",
+    "default": "{tag} Fortune is steady. Focus on what is in front of you -- no big moves needed."
+  },
+  "caution_reasons": {
+    "ryouhan_pct": "Ryouhan ratio {pct}%",
+    "ankai_low": "An-Kai low score",
+    "score_low": "Score is low ({score})"
+  }
+}

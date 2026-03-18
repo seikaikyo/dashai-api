@@ -1,0 +1,118 @@
+{
+  "element_relations": {
+    "same": {"description": "Same-element resonance (Section 8: Seven Luminaries & Five Elements, T21 p.399a). Energies reinforce each other -- a favorable time to lean into your innate strengths."},
+    "generating": {"description": "Generative relationship (Section 8: Seven Luminaries & Five Elements, T21 p.399a). Energy flows smoothly, making it a good time to steadily advance ongoing plans."},
+    "neutral": {"description": "Neutral energy (Section 8: Seven Luminaries & Five Elements, T21 p.399a). Suitable for handling routine tasks and maintaining your current pace."},
+    "weakening": {"description": "Draining relationship (Section 8: Seven Luminaries & Five Elements, T21 p.399a). Energy depletes faster than usual -- manage your workload and take breaks."},
+    "conflicting": {"description": "Clashing relationship (Section 8: Seven Luminaries & Five Elements, T21 p.399a). Energy is blocked. Postpone major decisions and focus on observation."}
+  },
+  "fortune_categories": {
+    "career": {
+      "name": "Career",
+      "description": "Work performance, academic progress, and professional skill development (derived from Section 2 daily auspicious/inauspicious guidelines)"
+    },
+    "love": {
+      "name": "Love & Relationships",
+      "description": "Romantic relationships, interpersonal connections, and family harmony (derived from Section 2 daily auspicious/inauspicious guidelines)"
+    },
+    "health": {
+      "name": "Health",
+      "description": "Physical condition, mental well-being, and daily routines (derived from Section 2 daily auspicious/inauspicious guidelines)"
+    },
+    "wealth": {
+      "name": "Wealth",
+      "description": "Income, investments, and asset accumulation (derived from Section 2 daily auspicious/inauspicious guidelines)"
+    }
+  },
+  "daily_advice": {
+    "excellent": [
+      "Eishin day:「宜入官拜職、對見大人」(T21 p.397c). Today favors bold moves -- interviews, proposals, meeting superiors, expanding your network. Action gets rewarded.",
+      "Shin day:「宜結交、歡宴聚會並吉」(T21 p.397c). Social interactions flow easily today. Gatherings, collaborations, and building connections are all well-timed.",
+      "Eishin day:「上書表進獻君王、興營買賣」(T21 p.397c). Reports, proposals, and business pushes are likely to land well today. If you have something to pitch, do it now.",
+      "Eishin-Shin days are broadly auspicious. Section 2 lists multiple matters as「並吉」-- whether you are pursuing a promotion or expanding your social circle, your drive and judgment are at a peak.",
+      "Yuu day:「宜結交朋友大吉」(T21 p.391b). Attend a gathering or reach out to someone you have not contacted in a while. You are likely to find people willing to help."
+    ],
+    "good": [
+      "Jou day:「宜修道學問、作諸成就法並吉」(T21 p.398a). Today suits work that requires deep focus -- effort is more likely to yield results.",
+      "Yuu day:「宜結交朋友大吉」(T21 p.391b). Communication with colleagues and friends comes easier than usual, and teamwork is efficient.",
+      "An day:「造作園宅並吉」(T21 p.397c). A good day for building systems, tidying your environment, and steadily advancing projects.",
+      "Jou day:「合和長年藥法」(T21 p.398a). Today suits decisions that require careful weighing -- your judgment is steady.",
+      "Ki day:「宜結交、歡宴聚會並吉」(T21 p.397c). Social occasions tend to pay off. Meals and networking events are favorable."
+    ],
+    "neutral": [
+      "An day:「造作園宅並吉」; Ki day:「不宜遠行買賣」(T21 p.397c-398a). A neutral zone -- handle routine tasks at your own pace.",
+      "Section 2 notes An day:「移徙吉」and Ki day:「歡宴聚會並吉」(T21 p.397c-398a), with mixed indications. Today suits organizing files and updating your to-do list -- no need to push for breakthroughs.",
+      "An-Ki level. Section 2:「安坐臥床帳吉」(T21 p.397c). No dramatic swings today. Rest, recharge, take a walk, and let your mind breathe.",
+      "An-Ki days carry mixed signals (T21 p.397c-398a). No need to force progress -- focus on maintaining what you already have and making sure things stay on track.",
+      "Section 2 An day:「造作園宅」(T21 p.397c); Ki day has mixed indications. Take it slow today. If something is not resolving, set it aside for now."
+    ],
+    "caution": [
+      "Sui day:「唯宜解除諸惡、療病」「不宜出入遷移、買賣」(T21 p.398a). Think twice before deciding. Do not rush anything involving money.",
+      "Kai day:「餘並不堪」(T21 p.398a). Not the time to push for things. Keep a low profile, listen more than you speak, and focus on what you can control.",
+      "Ki day:「不宜遠行出入移徙、買賣」(T21 p.398a). Watch your words in social interactions. If disagreements arise, hold your opinion for now.",
+      "Sui day:「不宜買賣」. Do not make important financial calls based on gut feeling. Seek objective data or professional advice.",
+      "Kai day: aside from「宜作鎮壓、降伏怨讎」, everything else is「並不堪」. Double-check your workflow before acting to avoid small mistakes."
+    ],
+    "challenging": [
+      "Gou day:「所作善惡亦不成就，甚衰」(T21 p.397c). Postpone major decisions. Treat today as a buffer day and focus on finishing what is already confirmed.",
+      "Tai day:「不宜舉動百事」(T21 p.397c). Your body may feel tired -- do not push through. Rest when you need to.",
+      "Mei day:「不宜舉動百事」(T21 p.397c). Section 3 advises「宜修功德」. Use this low period to review whether your direction is right and prepare for the next wave of action.",
+      "Gou-Tai days are not suited for launching new plans or taking risks. Spend your time organizing, repairing, and maintaining -- it saves energy for later.",
+      "Gou day being「甚衰」does not mean things stay this way. Fortune ebbs and flows as part of the Sanki cycle's natural rhythm. Wait patiently for the next Eishin-Shin day."
+    ]
+  },
+  "lucky_items": {
+    "directions": {
+      "木": "East",
+      "火": "South",
+      "土": "Center",
+      "金": "West",
+      "水": "North",
+      "日": "Southeast",
+      "月": "Northwest"
+    },
+    "colors": {
+      "木": "Green",
+      "火": "Red",
+      "土": "Yellow",
+      "金": "White",
+      "水": "Black",
+      "日": "Orange",
+      "月": "Silver"
+    }
+  },
+  "monthly_themes": {
+    "1": {"theme": "New Year Kickoff", "focus": "Planning"},
+    "2": {"theme": "Building Foundations", "focus": "Execution"},
+    "3": {"theme": "Spring Awakening", "focus": "Relationships"},
+    "4": {"theme": "Gathering Momentum", "focus": "Learning"},
+    "5": {"theme": "Pushing Forward", "focus": "Career"},
+    "6": {"theme": "Finding Your Rhythm", "focus": "Health"},
+    "7": {"theme": "Peak Energy", "focus": "Social"},
+    "8": {"theme": "Harvesting Gains", "focus": "Wealth"},
+    "9": {"theme": "Deepening Expertise", "focus": "Skills"},
+    "10": {"theme": "Steady Growth", "focus": "Family"},
+    "11": {"theme": "Quiet Reflection", "focus": "Reflection"},
+    "12": {"theme": "Year-End Wrap-Up", "focus": "Summary"}
+  },
+  "weekday_planets": {
+    "0": "Sun",
+    "1": "Moon",
+    "2": "Mars",
+    "3": "Mercury",
+    "4": "Jupiter",
+    "5": "Venus",
+    "6": "Saturn"
+  },
+  "special_elements": {
+    "日": {"note": "The Sun is the supreme yang body. It bolsters fire energy and also provides warmth to nurture wood energy."},
+    "月": {"note": "The Moon is the supreme yin body. It bolsters water energy and also provides moisture to nourish wood energy."}
+  },
+  "element_relation_type_names": {
+    "same": "Same Element",
+    "generating": "Generative",
+    "weakening": "Draining",
+    "conflicting": "Clashing",
+    "neutral": "Neutral"
+  }
+}

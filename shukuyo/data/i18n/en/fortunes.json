@@ -1,0 +1,706 @@
+{
+  "daily_fortune_descriptions": {
+    "eishin": [
+      "The classic texts state that on Ei days, one should \"seek office and meet with important people,\" and on Shin days, \"socializing and gatherings are auspicious.\" Today is good for taking initiative: interviews, proposals, meeting supervisors, and expanding your network will pay off.",
+      "Ei days are for \"conducting business and trade\" (T21 p.397c). Today is good for pushing forward anything related to sales, partnerships, or contracts. If you have a pending deal, give it a push today.",
+      "Shin days are for \"socializing and gatherings, all auspicious\" (T21 p.397c). Social events today are likely to connect you with people for long-term collaboration. If you need someone's help, just ask.",
+      "Ei days are for \"submitting proposals to those in authority\" (T21 p.397c). Your proposals, reports, and recommendations are more likely to be accepted today. Send out what you have prepared\u2014the timing is right.",
+      "Ei-Shin days are broadly auspicious (T21 p.397c). Whether you are pursuing a promotion, expanding business, or attending social events, your drive and judgment are at their peak today. Go for it."
+    ],
+    "gyotai": [
+      "The classic texts state that on Gyo days, \"all undertakings, good or bad, will not come to fruition\u2014very inauspicious,\" and on Tai days, \"one should not initiate any matters.\" Nothing you do today is likely to produce results. The best strategy is to hold back and quietly handle what is already in front of you.",
+      "Gyo days are \"very inauspicious\" (T21 p.397c). Your fortune is at a low point today. Not suitable for negotiations, pitches, or starting anything new. Spend your energy on things that do not require external responses\u2014organizing files, studying, recharging.",
+      "Tai days: \"one should not initiate any matters\" (T21 p.397c). Today is not the day to start things. New projects, important conversations, and major transactions should all be postponed for a better time.",
+      "Gyo days: \"all undertakings, good or bad, will not come to fruition\" (T21 p.397c). Neither good nor bad efforts are likely to produce results. Rather than forcing things forward, use this day to quietly build your strength and prepare for future action.",
+      "The text notes one should \"cultivate merit.\" While outward action is not advised, this is a good day for inward growth: reading, studying, self-reflection, and organizing your thoughts. Crouch low to jump higher."
+    ],
+    "mei": [
+      "The classic texts state that on Mei days, \"one should not initiate any matters.\" Today is not suitable for starting anything important. Stay in your lane and handle your responsibilities.",
+      "On Mei days, your natal star returns. The texts say \"one should not initiate.\" A day to neither push nor compete. Focus on self-assessment and taking stock\u2014it is more productive than charging outward.",
+      "The text notes that on Mei days, one should \"cultivate merit.\" While outward action is not advised, self-improvement is favored. Read, reflect, and plan your future direction\u2014quietly prepare for your next move.",
+      "Mei days (T21 p.397c: \"one should not initiate any matters\")\u2014avoid major decisions. If someone pressures you to commit or sign today, delay if you can. It is not avoidance; the timing is off.",
+      "On your natal star day (T21 p.397c), face yourself honestly. Is your current work direction right? Is your life rhythm working? Use this quiet day to think clearly\u2014it is more useful than rushing to act."
+    ],
+    "yusui": [
+      "The classic texts state that on Yu days, \"socializing with friends is very auspicious,\" and on Sui days, \"only dispelling negativity and treating illness are appropriate\" and \"travel, relocation, and trade are not advisable.\" Social gatherings are auspicious, but relocating, changing jobs, and major transactions are not.",
+      "Yu days: \"socializing with friends is very auspicious\" (T21 p.391b). Interpersonal interactions will be smoother than usual today. Dinners, conversations, and networking are all good\u2014but save the big business deals for another day.",
+      "Sui days: \"only dispelling negativity and treating illness are appropriate\" (T21 p.398a). Good for dealing with accumulated problems and backlog. If something has been sitting unresolved, clear it out today.",
+      "Sui days: \"travel, relocation, and trade are not advisable\" (T21 p.398a). Not a good day for business trips, moving, or signing large contracts. If it can wait, let it wait.",
+      "Yu-Sui days (T21 p.397c-398a) set the rhythm: be good to people, go slow on business. Chat with people, share a meal, but keep work at its current pace\u2014no need for big moves."
+    ],
+    "kisei": [
+      "The classic texts state that on Ki days, \"socializing and gatherings are auspicious\" but \"long-distance travel and trade are not advisable,\" and on Sei days, \"studying, learning, and completing ongoing work are auspicious.\" Socializing and learning are favorable; business trips and large transactions are not.",
+      "Sei days: \"studying and learning are auspicious\" (T21 p.398a). Today is especially good for learning, professional development, and exam preparation. Tasks requiring focus will go well today.",
+      "Ki days: \"socializing and gatherings are auspicious\" (T21 p.397c-398a). Social events today are likely to be rewarding. Dinners, team events, and industry meetups are all good.",
+      "Ki days: \"long-distance travel, relocation, and trade are not advisable\" (T21 p.397c-398a). Not suitable for business trips, moving, or signing large contracts. Schedule travel for another day.",
+      "Sei days: \"completing ongoing work is auspicious\" (T21 p.398a). Projects in progress are good to wrap up today. Things you have been studying are especially likely to click into place."
+    ],
+    "ankai": [
+      "The classic texts state that on An days, \"relocation is auspicious\" and \"building and arranging spaces is favorable,\" and on Kai days, \"only suppressing problems and overcoming adversaries is appropriate\u2014everything else is unfavorable.\" Settling your environment is auspicious, handling tough problems works, but do not force other matters.",
+      "An days: \"relocation is auspicious\" (T21 p.397c). If you need to move, transfer, or reorganize your workspace today, go ahead. Things related to settling in go smoothly today.",
+      "Kai days: \"suppressing problems and overcoming adversaries is appropriate\" (T21 p.398a). Thorny issues and difficult opponents can actually be dealt with effectively today. But remember \"everything else is unfavorable\"\u2014do not force other matters.",
+      "An days: \"building spaces and arranging areas is auspicious\" (T21 p.397c). Good for establishing new systems, setting up workflows, and organizing your workspace. Get the foundations right.",
+      "Kai days: \"everything else is unfavorable\" (T21 p.398a). Apart from handling difficult problems, other major matters should be postponed. It is not about your ability\u2014the timing does not support it."
+    ]
+  },
+  "daily_category_descriptions": {
+    "career": {
+      "excellent": [
+        "Ei days: \"seek office and meet with important people\" (T21 p.397c). Today is good for pursuing promotions, meeting supervisors, and submitting important proposals. Your efforts will be seen and accepted.",
+        "Ei days: \"submit proposals to those in authority, conduct business and trade\" (T21 p.397c). Reports, plans, and business development are likely to yield good results today. Push the cases that need pushing.",
+        "Ei-Shin days are broadly auspicious (T21 p.397c). Interviews, negotiations, and contract signings are all favorable. Seize today and take initiative."
+      ],
+      "good": [
+        "Sei days: \"studying and completing ongoing work are auspicious\" (T21 p.398a). Today is good for advancing projects and learning new skills. Your efforts are likely to produce results.",
+        "Yu days: \"socializing with friends is very auspicious\" (T21 p.391b)\u2014this energy carries into workplace collaboration. Interactions with colleagues and clients will be smoother today.",
+        "An days: \"building and arranging spaces is auspicious\" (T21 p.397c). Today is good for establishing systems and organizing workflows. Get the foundations right."
+      ],
+      "fair": [
+        "An-Ki days are mixed (T21 p.397c-398a). Stick to your routine work. No need to try to stand out\u2014just handle your responsibilities.",
+        "An days: \"building and arranging spaces is auspicious\" (T21 p.397c). Today is good for routine tasks: organizing files, replying to emails, updating reports. No rush on big decisions.",
+        "Ki days have both favorable and unfavorable aspects (T21 p.397c-398a). No particular tailwind or headwind at work\u2014maintain a steady pace."
+      ],
+      "caution": [
+        "Sui days: \"travel, relocation, and trade are not advisable\" (T21 p.398a). Not the day for big moves at work. Focus on the problems at hand rather than trying to expand.",
+        "Kai days: \"everything else is unfavorable\" (T21 p.398a). Apart from handling difficult issues, do not force other matters forward. Just hold steady.",
+        "Ki days: \"long-distance travel and trade are not advisable\" (T21 p.397c-398a). Business trips and large transactions should be postponed."
+      ],
+      "warning": [
+        "Gyo days: \"all undertakings, good or bad, will not come to fruition\u2014very inauspicious\" (T21 p.397c). Nothing you do today is likely to produce results. Do your duty and avoid actively pursuing anything. Postpone negotiations or contract signings.",
+        "Mei days: \"one should not initiate any matters\" (T21 p.397c). Not suitable for launching important initiatives today. Hold your position and save your energy for a better time."
+      ]
+    },
+    "love": {
+      "excellent": [
+        "Shin days: \"socializing, marriage arrangements, and gatherings are all auspicious\" (T21 p.397c). Interpersonal interactions are especially smooth today. Good for dates, deep conversations, and defining relationships.",
+        "Yu days: \"socializing with friends is very auspicious\" (T21 p.391b). Social events today are likely to connect you with compatible people. If you are in a relationship, sharing a meal and talking is enough.",
+        "Ei days: \"meet with important people\" (T21 p.397c)\u2014this energy extends to personal relationships. Your expressions are more likely to be received well today. Say what you have been meaning to say."
+      ],
+      "good": [
+        "Ki days: \"socializing and gatherings are auspicious\" (T21 p.397c). The atmosphere at dinners and get-togethers is warm today. Just be natural with the people who matter.",
+        "An days: \"resting peacefully is auspicious\" (T21 p.397c). Everyday interactions with those close to you are harmonious today. Nothing elaborate needed\u2014just being together quietly feels right.",
+        "Today's interpersonal interactions carry a sense of goodwill (T21 p.397c-398a). A good day to catch up with friends or share a meal with family."
+      ],
+      "fair": [
+        "An days: \"resting peacefully is auspicious\" (T21 p.397c). Relationships are stable today. Maintain your usual care and companionship\u2014no need to make any special effort.",
+        "Ki days: \"socializing and gatherings are auspicious\" (T21 p.397c). Interactions with those around you are fine. Find a natural moment to express whatever is on your mind.",
+        "An-Ki level (T21 p.397c-398a). Keep things as they are on the relationship front. A calm day can be its own kind of stability."
+      ],
+      "caution": [
+        "Sui days: \"only dispelling negativity is appropriate\" (T21 p.398a). If you have friction with someone today, focus on resolving the issue rather than escalating conflict. Think before you speak.",
+        "Kai days: \"everything else is unfavorable\" (T21 p.398a)\u2014this applies to relationships too. Not a good day for sensitive discussions or major relationship decisions.",
+        "Misunderstandings can arise easily over small things today (T21 p.397c-398a). Give each other space to cool down first\u2014no rush to explain."
+      ],
+      "warning": [
+        "Gyo days: \"all undertakings, good or bad, will not come to fruition\" (T21 p.397c). No matter how hard you try to work on relationships today, it will not show results. Better to recharge alone and give both yourself and the other person some space.",
+        "Mei days: \"one should not initiate any matters\" (T21 p.397c). Not the day for confessions, confrontations, or major relationship decisions. Be patient\u2014a better time will come."
+      ]
+    },
+    "health": {
+      "excellent": [
+        "Ei days (T21 p.397c)\u2014energy is abundant and your body is at its peak. Good for exercise and outdoor activities. Physical performance is better than usual.",
+        "An days: \"resting peacefully is auspicious.\"\u2014A day of physical and mental calm. Sleep quality is good, recovery is strong. Good time to adjust your routine.",
+        "Sei days: \"preparing long-life remedies is auspicious\" (T21 p.398a). Today is good for starting a health plan, adjusting your diet, or building an exercise habit."
+      ],
+      "good": [
+        "Yu days: \"socializing with friends is very auspicious\" (T21 p.391b). Overall energy flows smoothly and there are no major body issues. Walking, stretching, and light exercise are all good.",
+        "Yu-Sui level (T21 p.397c-398a). Mental clarity is fine\u2014maintain your normal routine. If the weather is nice, getting outside helps both body and mind.",
+        "Body condition is stable today (T21 p.397c-398a). Good for continuing your existing health habits."
+      ],
+      "fair": [
+        "An days: \"resting peacefully is auspicious\" (T21 p.397c). Health is stable today\u2014maintain your usual wellness routine. Be careful not to sit too long; get up and move periodically.",
+        "An-Ki level (T21 p.397c-398a). Physical and mental energy are average. Follow your normal routine.",
+        "Ki days have both favorable and unfavorable aspects (T21 p.397c-398a). No particular health concerns\u2014maintain your current state."
+      ],
+      "caution": [
+        "Sui days: \"only treating illness is appropriate\" (T21 p.398a). Take any signals from your body seriously today. If you feel unwell, rest\u2014do not push through.",
+        "Kai days: \"everything else is unfavorable\" (T21 p.398a). Not suitable for high-intensity exercise or overexertion. Conserve your energy.",
+        "Fatigue comes easily today (T21 p.397c-398a). A few deep breaths and an early bedtime are more effective than anything else."
+      ],
+      "warning": [
+        "Gyo days: \"very inauspicious\" (T21 p.397c). Your body needs rest. Avoid staying up late and intense exercise. Getting to bed early and drinking plenty of water are today's priorities.",
+        "Mei days: \"one should not initiate any matters\" (T21 p.397c). Give your body a break today. If you feel unwell, see a doctor\u2014do not put it off."
+      ]
+    },
+    "wealth": {
+      "excellent": [
+        "Ei days: \"conduct business and trade\" (T21 p.397c). Your financial decisions are sharper than usual today. Good for investments, contract signings, and salary negotiations.",
+        "Shin days: \"marriage arrangements are auspicious\" (T21 p.397c)\u2014extended to finances, this means contract signings are favored. Good for finalizing terms and confirming amounts.",
+        "Ei days are broadly auspicious (T21 p.397c). Your judgment on money matters can be trusted. If a good opportunity presents itself, do not hesitate too long."
+      ],
+      "good": [
+        "Sei days: \"completing ongoing work is auspicious\" (T21 p.398a). Financial planning goes smoothly today. Good for organizing accounts and reviewing assets.",
+        "Yu days: \"socializing with friends is very auspicious\" (T21 p.391b)\u2014interpersonal interactions drive financial luck. Collaboration opportunities and good referrals are more likely today.",
+        "Everyday spending and income management are fine today (T21 p.397c-398a). Normal purchases are unlikely to go wrong."
+      ],
+      "fair": [
+        "An days: \"building and arranging spaces is auspicious\" (T21 p.397c). Financial luck is stable. Maintain your usual spending habits\u2014no need to scrimp but do not splurge either.",
+        "Ki days: \"trade is not advisable\" but socializing is auspicious (T21 p.397c-398a). Money matters are average. Consider waiting a bit longer on large purchases.",
+        "An-Ki level (T21 p.397c-398a). Paying bills and handling routine finances is fine, but major financial decisions are not recommended today."
+      ],
+      "caution": [
+        "Sui days: \"trade is not advisable\" (T21 p.398a). Not suitable for large transactions or investment decisions today. If you see a sale, stay calm and think it through before buying.",
+        "Ki days: \"trade is not advisable\" (T21 p.397c-398a). Financial negotiations will not go well today. Delay by a few days if possible.",
+        "Kai days: \"everything else is unfavorable\" (T21 p.398a)\u2014the same applies to finances. Apart from stopping losses and handling problems, postpone other financial decisions."
+      ],
+      "warning": [
+        "Gyo days: \"all undertakings, good or bad, will not come to fruition\" (T21 p.397c). Financial luck is low. Reduce unnecessary spending today. Contract signings, investments, and loans should all be postponed.",
+        "Mei days: \"one should not initiate any matters\" (T21 p.397c)\u2014this includes finances. Avoiding large sums of money today is safest. Stick to small everyday purchases."
+      ]
+    }
+  },
+  "ryouhan_category_descriptions": {
+    "career": {
+      "high_reversal": [
+        {
+          "zh": "品三記載凌犯期間「吉事皆凶」。工作表面順利，但這種順遂往往藏著陷阱。重要決策建議延後到凌犯結束，尤其是合約簽署和人事異動。",
+          "ja": "品三に凌犯期間は「吉事皆凶」と記載。仕事は表面上順調だが、この順調さには罠が潜む。重要な決断は凌犯終了後に延期すべし。",
+          "en": "The text states that during a Ryouhan period, \"all auspicious matters turn inauspicious.\" Work may look smooth on the surface, but that smoothness often hides traps. Postpone important decisions until the Ryouhan period ends, especially contract signings and personnel changes."
+        },
+        {
+          "zh": "凌犯期間「吉事皆凶」，看起來是好時機的事反而危險。今天做的決定可能幾天後翻盤，多觀察再行動。",
+          "ja": "凌犯期間「吉事皆凶」、好機に見えることほど危険。今日の決定が数日後に覆る可能性あり。様子を見てから行動すべし。",
+          "en": "During a Ryouhan period, \"all auspicious matters turn inauspicious\"\u2014what looks like a good opportunity is actually risky. Decisions made today may be overturned in a few days. Observe more before acting."
+        },
+        {
+          "zh": "品三「吉事皆凶」的格局。職場氣氛不錯但別被表象迷惑，原典建議「宜修諸功德」，靜心充實自己比主動出擊安全。",
+          "ja": "品三「吉事皆凶」の格局。職場の雰囲気は良いが表面に惑わされるな。原典は「宜しく諸の功徳を修すべし」と勧める。",
+          "en": "The pattern of \"all auspicious matters turn inauspicious\" is active. The workplace atmosphere feels good, but do not be fooled by appearances. The classic texts advise to \"cultivate merit\"\u2014quietly improving yourself is safer than taking initiative."
+        }
+      ],
+      "mid_reversal": [
+        {
+          "zh": "凌犯期間吉凶難判斷，工作上的局勢不明朗。維持現有進度就好，品三建議「修諸功德」，把精力放在自我提升上。",
+          "ja": "凌犯期間は吉凶の判断が難しく、仕事の局面が不透明。現状維持に努め、品三の勧める「諸の功徳を修す」こと。",
+          "en": "During a Ryouhan period, it is hard to judge what is favorable and what is not. The work situation is unclear. Maintain your current pace and focus on self-improvement, as the texts advise: \"cultivate merit.\""
+        },
+        {
+          "zh": "凌犯影響下工作節奏不穩定，同事間容易誤解。溝通多確認一次，不要假設對方理解你的意思。",
+          "ja": "凌犯の影響で仕事のリズムが不安定。同僚間で誤解が生じやすい。コミュニケーションは確認を怠らないこと。",
+          "en": "Under Ryouhan influence, your work rhythm is unstable and misunderstandings between colleagues are more likely. Double-check your communications\u2014do not assume the other person understood you."
+        }
+      ],
+      "low_reversal": [
+        {
+          "zh": "品三「凶事皆吉」的格局。運勢雖低，但凌犯逆轉反而提供喘息空間。原本預期的阻礙可能沒那麼嚴重，不要急著放棄。",
+          "ja": "品三「凶事皆吉」の格局。運勢は低調だが、凌犯の逆転がかえって猶予を与える。予想された障害はそれほど深刻でない可能性あり。",
+          "en": "The pattern of \"all inauspicious matters turn auspicious\" is active. Fortune is low, but the Ryouhan reversal provides breathing room. The obstacles you anticipated may not be as serious as expected\u2014do not give up too quickly."
+        },
+        {
+          "zh": "凌犯「凶事皆吉」，看似困難的處境可能暗藏轉機。先把手邊的事做好，品三說的「修諸功德」就是最好的準備。",
+          "ja": "凌犯「凶事皆吉」、困難に見える状況に転機が潜む可能性あり。手元の仕事をこなし、品三の「諸の功徳を修す」を実践すべし。",
+          "en": "Under Ryouhan, \"all inauspicious matters turn auspicious\"\u2014a difficult-looking situation may hide a turning point. Do your current work well. \"Cultivating merit\" as the texts say is the best preparation."
+        }
+      ]
+    },
+    "love": {
+      "high_reversal": [
+        {
+          "zh": "品三「吉事皆凶」，感情面看起來甜蜜的事反而要小心。今天的浪漫承諾和衝動告白，過幾天可能會覺得太冒進。",
+          "ja": "品三「吉事皆凶」、恋愛面で甘美に見えることほど注意。今日のロマンチックな約束や衝動的な告白は数日後に後悔する恐れあり。",
+          "en": "Under \"all auspicious matters turn inauspicious,\" be careful with things that look sweet on the surface in relationships. Romantic promises and impulsive confessions made today may feel too hasty in a few days."
+        },
+        {
+          "zh": "凌犯期間「吉事皆凶」，跟伴侶的互動表面和諧，但小問題可能在之後放大。心裡的話等凌犯過後再說比較好。",
+          "ja": "凌犯期間「吉事皆凶」、パートナーとの関係は表面上穏やかだが、小さな問題が後で拡大する恐れあり。本音の話し合いは凌犯後に。",
+          "en": "During a Ryouhan period, interactions with your partner may seem harmonious on the surface, but small issues could escalate later. Save the heart-to-heart talks for after the Ryouhan period."
+        }
+      ],
+      "mid_reversal": [
+        {
+          "zh": "凌犯期間感情判斷力模糊。對方的言行可能不是你想的那個意思，不要過度解讀，重大決定等凌犯結束再做。",
+          "ja": "凌犯期間は恋愛の判断力がぼやける。相手の言動を深読みせず、重大な決断は凌犯終了後に。",
+          "en": "During a Ryouhan period, your judgment in love becomes hazy. The other person's words and actions may not mean what you think. Do not over-interpret\u2014save major decisions for after the Ryouhan period ends."
+        },
+        {
+          "zh": "凌犯影響下感情互動容易失準。今天維持日常相處就好，品三建議「修諸功德」，把時間花在充實自己上。",
+          "ja": "凌犯の影響で感情的やり取りにズレが生じやすい。日常の付き合いに留め、品三の勧める「諸の功徳を修す」を実践すべし。",
+          "en": "Under Ryouhan influence, emotional interactions tend to miss the mark. Keep things at the level of everyday companionship and spend your time on self-improvement."
+        }
+      ],
+      "low_reversal": [
+        {
+          "zh": "品三「凶事皆吉」，感情運雖低，但凌犯逆轉可能帶來意外的溫暖。之前冷淡的關係有回溫跡象，把握但不強求。",
+          "ja": "品三「凶事皆吉」、恋愛運は低調だが、凌犯の逆転が意外な温もりをもたらす可能性あり。冷えた関係に回復の兆し。",
+          "en": "Under \"all inauspicious matters turn auspicious,\" love fortune is low but the Ryouhan reversal may bring unexpected warmth. A previously cold relationship shows signs of thawing\u2014be open but do not force it."
+        },
+        {
+          "zh": "凌犯「凶事皆吉」，看起來不順的感情反而有緩和的可能。保持平常心，不要因暫時低潮就做出分手的決定。",
+          "ja": "凌犯「凶事皆吉」、不調に見える恋愛にかえって緩和の可能性あり。平常心を保ち、一時の低迷で別れを決断しないこと。",
+          "en": "Under Ryouhan, \"all inauspicious matters turn auspicious\"\u2014a rocky-looking relationship may actually ease up. Stay calm and do not make breakup decisions based on a temporary low."
+        }
+      ]
+    },
+    "health": {
+      "high_reversal": [
+        {
+          "zh": "品三「吉事皆凶」，身體感覺還行但容易忽視微弱警訊。不要做太激烈的運動，「覺得沒事」不代表真的沒問題。",
+          "ja": "品三「吉事皆凶」、体調は悪くないが微かな警告を見落としやすい。激しい運動は避け、不調を感じたら軽視しないこと。",
+          "en": "Under \"all auspicious matters turn inauspicious,\" your body may feel fine but you could easily miss subtle warning signs. Avoid intense exercise\u2014\"feeling fine\" does not mean everything is fine."
+        },
+        {
+          "zh": "凌犯「吉事皆凶」，身體感知容易有偏差。飲食清淡一些、早點休息。品三建議「修諸功德」，讓身心都有恢復的餘裕。",
+          "ja": "凌犯「吉事皆凶」、体の感覚にズレが生じやすい。食事は控えめに、早めの休息を。品三の「諸の功徳を修す」で心身に回復の余裕を。",
+          "en": "Under Ryouhan, body awareness can be off. Eat light, rest early. Give your body and mind room to recover."
+        }
+      ],
+      "mid_reversal": [
+        {
+          "zh": "凌犯期間健康狀態不穩定，注意力和反應速度下降。開車、操作機具要比平常更小心。",
+          "ja": "凌犯期間は健康状態が不安定。注意力や反応速度が低下するため、運転や機械操作には普段以上の注意を。",
+          "en": "During a Ryouhan period, your health is unstable and your attention and reaction speed are reduced. Be extra careful when driving or operating machinery."
+        },
+        {
+          "zh": "凌犯影響下身體狀況搖擺不定。不要臨時改變飲食或運動計畫，品三建議「修諸功德」，維持穩定作息最重要。",
+          "ja": "凌犯の影響で体調が揺れ動く。食事や運動の急な変更は避け、品三の「諸の功徳を修す」に従い安定した生活リズムの維持を。",
+          "en": "Under Ryouhan influence, your physical condition fluctuates. Do not make sudden changes to your diet or exercise plan. Maintaining a stable routine is most important."
+        }
+      ],
+      "low_reversal": [
+        {
+          "zh": "品三「凶事皆吉」，身體雖然偏弱，但凌犯逆轉可能讓慢性不適緩解。這是調養身體的好時機，順勢而為。",
+          "ja": "品三「凶事皆吉」、体調は弱めだが、凌犯の逆転で慢性的な不調が緩和される可能性あり。体を養う好機。",
+          "en": "Under \"all inauspicious matters turn auspicious,\" your body is on the weaker side, but the Ryouhan reversal may ease chronic discomfort. A good time to take care of your body\u2014go with the flow."
+        },
+        {
+          "zh": "凌犯「凶事皆吉」，健康面表面低迷但惡化風險不高。靜養休息、避免過勞，品三說的「修諸功德」就是最好的養生。",
+          "ja": "凌犯「凶事皆吉」、健康面は表面上低迷だが悪化のリスクは軽減。静養・休息に努め、品三の「諸の功徳を修す」が最良の養生。",
+          "en": "Under Ryouhan, health looks sluggish on the surface but the risk of deterioration is low. Rest quietly, avoid overwork. \"Cultivating merit\" as the texts say is the best way to care for yourself."
+        }
+      ]
+    },
+    "wealth": {
+      "high_reversal": [
+        {
+          "zh": "品三「吉事皆凶」，財運看起來不錯但凌犯期間的「好運」常是錢來得快去得也快。獲利或好消息可能有隱藏成本。",
+          "ja": "品三「吉事皆凶」、金運は良さそうだが凌犯期間の「好運」は入りも出も速い。利益や良い知らせに隠れたコストがある可能性。",
+          "en": "Under \"all auspicious matters turn inauspicious,\" financial luck looks good but during a Ryouhan period, \"good luck\" often means money comes fast and leaves fast. Profits or good news may carry hidden costs."
+        },
+        {
+          "zh": "凌犯「吉事皆凶」，表面的財運順遂要打折看待。投資、借貸、大額消費都等凌犯結束再評估。",
+          "ja": "凌犯「吉事皆凶」、表面的な金運の順調さは割り引いて見るべき。投資・借入・大きな支出は凌犯終了後に再評価を。",
+          "en": "Under Ryouhan, take surface-level financial luck with a grain of salt. Investments, loans, and large purchases should all wait until the Ryouhan period is over for reassessment."
+        }
+      ],
+      "mid_reversal": [
+        {
+          "zh": "凌犯期間財務狀況不透明，收支可能有預期外的波動。今天適合整理帳目，不適合做財務決策。",
+          "ja": "凌犯期間中は財務状況が不透明で、収支に予想外の変動の可能性。帳簿の整理には適すが、財務的な決断には不向き。",
+          "en": "During a Ryouhan period, the financial picture is unclear and income or expenses may fluctuate unexpectedly. Good day to organize your accounts\u2014not a good day for financial decisions."
+        },
+        {
+          "zh": "凌犯影響下金錢判斷力下降。看起來划算的東西可能有問題，購物前多比較。品三建議「修諸功德」，錢的事緩一緩。",
+          "ja": "凌犯の影響で金銭面の判断力が低下。お得に見えるものに問題が潜む可能性。品三の「諸の功徳を修す」に従い、金銭面は慎重に。",
+          "en": "Under Ryouhan influence, your judgment on money matters declines. What looks like a bargain may have problems\u2014compare more before buying. Take it slow on financial matters."
+        }
+      ],
+      "low_reversal": [
+        {
+          "zh": "品三「凶事皆吉」，財運偏弱但凌犯逆轉讓預期的損失可能不會發生。之前擔心的財務問題有緩解跡象，不必過度焦慮。",
+          "ja": "品三「凶事皆吉」、金運は弱めだが凌犯の逆転で予想された損失は回避できる可能性。財務問題に緩和の兆しあり。",
+          "en": "Under \"all inauspicious matters turn auspicious,\" financial luck is weak but the Ryouhan reversal means anticipated losses may not materialize. Financial worries you had before show signs of easing\u2014no need for excessive anxiety."
+        },
+        {
+          "zh": "凌犯「凶事皆吉」，表面的財運低迷可能只是虛驚。守住現有資產，不要恐慌性地調整。",
+          "ja": "凌犯「凶事皆吉」、表面的な金運の低迷は杞憂に終わる可能性。現有資産を守り、パニック的な調整は控えるべし。",
+          "en": "Under Ryouhan, the surface-level financial slump may turn out to be a false alarm. Protect your existing assets and do not make panic-driven adjustments."
+        }
+      ]
+    }
+  },
+  "monthly_fortune_descriptions": {
+    "eishin": [
+      "The classic texts state that on Ei days, one should \"seek office and meet with important people,\" and on Shin days, \"socializing and gatherings are auspicious\" (T21 p.397c). This month forms an Ei-Shin relationship with your natal star. Good for driving important plans, expanding your network, and pursuing promotions.",
+      "Ei days: \"conduct business and trade\" (T21 p.397c). This month is good for advancing business, signing contracts, and discussing partnerships. If you have been sitting on a proposal, sending it out this month gives it a higher chance of success.",
+      "Shin days: \"socializing and marriage arrangements are auspicious\" (T21 p.397c). Interpersonal interactions flow smoothly this month. Interviews, social events, and building long-term partnerships are all well-timed.",
+      "Ei days: \"submitting proposals to those in authority\" (T21 p.397c). Your proposals, reports, and recommendations are more likely to be accepted this month. If you want to pitch something to your superiors, schedule it now.",
+      "An Ei-Shin month is broadly auspicious. The classic texts list many favorable activities. Whether it is workplace performance or expanding your network, proactive action will be rewarded."
+    ],
+    "gyotai": [
+      "The classic texts state that on Gyo days, \"all undertakings, good or bad, will not come to fruition\u2014very inauspicious,\" and on Tai days, \"one should not initiate any matters\" (T21 p.397c). This month forms a Gyo-Tai relationship with your natal star. Whatever you do is unlikely to produce results. The best strategy is to pull back and observe.",
+      "Gyo days: \"very inauspicious\" (T21 p.397c). Your fortune is at a low point this month. Not suitable for launching new plans, changing jobs, negotiating, or making major investments. Focus your energy on maintaining the status quo.",
+      "Tai days: \"one should not initiate any matters\" (T21 p.397c). This month is not the month to start things. New ideas should be researched and planned first\u2014wait until next month to act.",
+      "The text notes one should \"cultivate merit\" (T21 p.391b). While outward action is unfavorable, inward growth is supported: professional development, reading, organizing your thoughts, and building strength for future action.",
+      "Gyo-Tai months (T21 p.397c: \"will not come to fruition\")\u2014forcing things forward only wastes more energy. Accept this month's rhythm. Get things organized and learn what you need to learn. When the next Ei-Shin month arrives, you will be ready to go all out."
+    ],
+    "mei": [
+      "The classic texts state that on Mei days, \"one should not initiate any matters\" (T21 p.397c). Your natal star returns this month. Stay in your lane and do not initiate important matters.",
+      "Mei days: \"one should not initiate\" (T21 p.397c). This month, neither pushing nor competing is safest. Focus on self-assessment and taking stock of your resources\u2014more practical than charging outward.",
+      "The text notes that on Mei days, one should \"cultivate merit\" (T21 p.391b). This month is good for self-improvement: professional development, reflection, and planning your future direction. Quietly prepare for your next move.",
+      "A Mei month (T21 p.397c: \"one should not initiate any matters\") is not suitable for major decisions. If someone pressures you to commit or sign, delay if you can. It is not avoidance\u2014the timing is off.",
+      "Your natal star month (T21 p.397c) is a time to face yourself. Is your current work direction right? Does your life focus need adjusting? Use this month to think clearly."
+    ],
+    "yusui": [
+      "The classic texts state that on Yu days, \"socializing with friends is very auspicious,\" and on Sui days, \"only dispelling negativity and treating illness are appropriate\" and \"travel, relocation, and trade are not advisable\" (T21 p.397c-398a). Social gatherings are auspicious, but relocating, changing jobs, and major transactions are not.",
+      "Yu days: \"socializing with friends is very auspicious\" (T21 p.391b). Interpersonal interactions flow smoothly this month. Dinners, reconnecting with contacts, and expanding your social circle are all good.",
+      "Sui days: \"only dispelling negativity and treating illness are appropriate\" (T21 p.398a). This month is good for dealing with accumulated problems and backlog. Clear out what has been sitting unresolved.",
+      "Sui days: \"travel, relocation, and trade are not advisable\" (T21 p.398a). This month is not the right time for moving, changing jobs, or making large investments. Postpone if possible.",
+      "A Yu-Sui month (T21 p.397c-398a) sets the rhythm: be good to people, go slow on business. Interact with others and maintain relationships, but keep work at its current pace\u2014no big moves."
+    ],
+    "kisei": [
+      "The classic texts state that on Ki days, \"socializing and gatherings are auspicious\" but \"long-distance travel and trade are not advisable,\" and on Sei days, \"studying, learning, and completing ongoing work are auspicious\" (T21 p.397c-398a). Socializing and learning are favorable; business trips and large transactions are not.",
+      "Sei days: \"studying and learning are auspicious\" (T21 p.398a). This month is especially good for professional development, certification exams, and learning new skills. Focus and comprehension are at their best.",
+      "Ki days: \"socializing and gatherings are auspicious\" (T21 p.397c). Dinners, meetups, and industry exchanges this month are likely to be rewarding.",
+      "Ki days: \"long-distance travel, relocation, and trade are not advisable\" (T21 p.398a). Business trips, moving, and large transactions should be scheduled for next month.",
+      "Sei days: \"completing ongoing work is auspicious\" (T21 p.398a). Projects in progress are good to wrap up this month. Things you have been studying are likely to click into place. Make the most of this month to refine your skills."
+    ],
+    "ankai": [
+      "The classic texts state that on An days, \"relocation is auspicious\" and \"building and arranging spaces is favorable,\" and on Kai days, \"only suppressing problems and overcoming adversaries is appropriate\u2014everything else is unfavorable\" (T21 p.397c-398a). Settling your environment is auspicious, handling tough problems works, but do not force other matters.",
+      "An days: \"relocation is auspicious\" (T21 p.397c). If you need to move, transfer, or reorganize your environment this month, go ahead. Things related to settling in go smoothly.",
+      "Kai days: \"suppressing problems and overcoming adversaries is appropriate\" (T21 p.398a). Thorny issues and difficult opponents can be dealt with effectively this month. But \"everything else is unfavorable\"\u2014do not force other matters.",
+      "An days: \"building spaces and arranging areas is auspicious\" (T21 p.397c). This month is good for establishing new systems, organizing workflows, and getting your environment and foundations in order.",
+      "Kai days: \"everything else is unfavorable\" (T21 p.398a). Apart from handling difficult problems, major matters should be postponed. It is not about ability\u2014the timing does not support it."
+    ]
+  },
+  "monthly_fortune_advice": {
+    "eishin": [
+      "Ei days: \"seek office\" (T21 p.397c). Schedule your most important pursuits this month: promotions, interviews, proposals, partnership talks. Action will be rewarded.",
+      "Shin days: \"socializing is auspicious\" (T21 p.397c). If there is someone you want to meet, reach out. If there is a potential partner you want to work with, set up a meeting. Your success rate for outreach is high this month.",
+      "Ei days: \"conduct business and trade\" (T21 p.397c). Business development and contract negotiations are more efficient this month. Push the deals that need pushing.",
+      "Ei days: \"submitting proposals to those in authority\" (T21 p.397c). Send out those reports and plans you have been preparing. Proposals are more likely to be adopted this month.",
+      "An Ei-Shin month is broadly auspicious (T21 p.397c). Schedule your most important tasks this month\u2014efficiency and results are at their peak."
+    ],
+    "gyotai": [
+      "Gyo days: \"undertakings will not come to fruition\" (T21 p.397c). This month is not for pursuing external goals. Pull back, wait, and save your energy for the next wave.",
+      "Tai days: \"one should not initiate any matters\" (T21 p.397c). Write your new plans down on paper first and wait until next month to launch them.",
+      "\"Cultivate merit\" (T21 p.391b). This month is good for professional development, reading, and learning new skills. Inner growth is more effective than outward hustle.",
+      "A Gyo-Tai month (T21 p.397c: \"all undertakings, good or bad, will not come to fruition\")\u2014forcing things forward only wastes more energy. Get things organized. When the next Ei-Shin month arrives, you will be ready.",
+      "Gyo-Tai (T21 p.397c: \"will not come to fruition\"). Accept this month's quiet rhythm. Building strength does not look impressive, but it will pay off later."
+    ],
+    "mei": [
+      "Mei days: \"one should not initiate any matters\" (T21 p.397c). Give yourself time alone this month to organize your thoughts and prepare for the future.",
+      "\"Cultivate merit.\"\u2014Review what you have done over the past few months. What is worth continuing, what needs adjusting\u2014figure it out now.",
+      "Mei days (T21 p.397c: \"one should not initiate any matters\"). Not suitable for major decisions this month. If someone pressures you to commit, take a beat before responding.",
+      "A Mei month (T21 p.397c: \"one should not initiate any matters\") is a good time to settle down and think about what you truly care about. Rank your priorities across work, life, and relationships\u2014your future actions will have more direction.",
+      "\"Cultivate merit\" (T21 p.391b). No need to rush for progress. A month of holding steady and building inner strength is more valuable than rushing to act."
+    ],
+    "yusui": [
+      "Yu days: \"socializing with friends is very auspicious\" (T21 p.391b). Focus your attention on nurturing relationships this month. Dinners and reconnecting with old friends are both good.",
+      "Sui days: \"only dispelling negativity is appropriate\" (T21 p.398a). Problems and loose ends that have been dragging on\u2014clear them out this month.",
+      "Sui days: \"trade is not advisable\" (T21 p.398a). Postpone large transactions and investments. Hold steady with what you have\u2014no need to rush.",
+      "The Yu-Sui month strategy (T21 p.397c-398a): expand your social circle, but keep business and finances at their current pace.",
+      "Each day, do what needs doing (T21 p.397c-398a). Steady accumulation over the month is more solid than a frantic sprint."
+    ],
+    "kisei": [
+      "Sei days: \"studying and learning are auspicious\" (T21 p.398a). This month, give yourself an extra day of cooling-off before making decisions. Rushing to respond often leads to regret.",
+      "Ki days: \"long-distance travel and trade are not advisable\" (T21 p.398a). Be extra cautious with anything involving business trips or large transactions.",
+      "Sei days: \"completing ongoing work is auspicious\" (T21 p.398a). Back up important files, confirm deadlines, and handle administrative matters early. Avoiding problems is better than fixing them after the fact.",
+      "Ki days: \"socializing and gatherings are auspicious\" (T21 p.397c). When collaborating with others, spell out responsibilities clearly. Written agreements are more reliable than verbal ones.",
+      "A Ki-Sei month (T21 p.397c-398a) is half favorable, half restricted. Go ahead with learning and socializing; be careful with money and relocation."
+    ],
+    "ankai": [
+      "Kai days: \"everything else is unfavorable\" (T21 p.398a). Keep a low profile this month, recharge, and wait for a better time to take action.",
+      "An days: \"relocation is auspicious\" (T21 p.397c). If you need to reorganize your environment or adjust your infrastructure, this month it goes smoothly.",
+      "The positive use of Kai days: \"suppressing problems and overcoming adversaries is appropriate\" (T21 p.398a). Face difficult problems head-on, but do not touch new ventures.",
+      "An-Kai days (T21 p.397c-398a). Make fewer commitments and take on fewer new tasks this month. Wrapping up your current work is enough. Wait for your fortune to improve before expanding.",
+      "The An-Kai month strategy (T21 p.397c-398a): settle and organize with confidence; hold off on expansion. Guard what you have\u2014when the time is right, you will be able to move."
+    ]
+  },
+  "weekly_fortune_focus": {
+    "same": [
+      "This week's ruling planet shares the same element as your natal star (based on the Seven Luminaries and Five Elements, T21 p.399a). During this resonance period, your judgment and execution are at their peak. Good for pushing forward important work that requires focus. Schedule key decisions and meetings for these days.",
+      "A same-element week under the Seven Luminaries\u2014your rhythm and the environment are in sync. Tasks that usually feel heavy will be lighter this week, and your communication and comprehension are sharper than usual. Good for deep-thinking work.",
+      "A same-element week makes your personal strengths more prominent. Areas where you excel will stand out. Good for presentations, leading teams, and handling anything that requires persuasion.",
+      "Same-element resonance puts your expressiveness and influence at a high point. Decisions made this week tend to hold up over time.",
+      "A same-element week under the Seven Luminaries\u2014your presence is stronger than usual this week. Whether at work or in daily life, people will pay more attention to your ideas. Use this influence to drive what matters to you."
+    ],
+    "generating": [
+      "This week's ruling planet element generates your natal element (based on the Seven Luminaries and Five Elements, T21 p.399a). External energy nourishes your natal star, and conditions are favorable. Support and cooperation from others come more easily. Good for handling matters that need external resources.",
+      "A generating week under the Seven Luminaries\u2014you are more likely to receive help in interpersonal interactions, and resistance at work is lower than expected. Schedule long-delayed important items this week\u2014your efficiency for pushing things forward is high.",
+      "Generating energy under the Seven Luminaries boosts your learning absorption and project execution. If there is a topic you want to research, spend a few evenings this week digging into it.",
+      "A generating week\u2014external resources flow toward you. Assistance from colleagues, information from friends, shortcuts at work\u2014it will feel like everything around you is helping. Expand your scope of action and take an extra step.",
+      "The generating energy of the Seven Luminaries brings especially high learning efficiency. Reading, classes, learning by doing\u2014you can convert new knowledge into usable skills faster than usual."
+    ],
+    "weakening": [
+      "This week, your natal element generates the ruling planet's element (Seven Luminaries and Five Elements, T21 p.399a)\u2014energy tends to flow outward. Adjusting your pace is key: cut unnecessary socializing and focus your energy on the few things that truly matter. Doing less but doing it well is more valuable than touching everything.",
+      "A weakening week under the Seven Luminaries\u2014your drive may be lower than last week. This is a normal cyclical change. Reduce the number of things you are handling simultaneously. Cut your to-do list in half and focus on what remains. Pay attention to diet and sleep.",
+      "A weakening week\u2014use efficiency to replace time. Do not work overtime to catch up. Optimize your process instead: delegate what can be delegated, simplify what can be simplified, and save your energy for the critical parts.",
+      "A weakening week\u2014the sense of drain is more noticeable. Your body is telling you to slow down. Nap at lunch if you can, get to bed an hour early if possible. Physical recovery directly affects next week's performance.",
+      "A weakening week\u2014not suitable for juggling too many things. After listing your tasks, everything beyond the top three gets pushed to next week. Energy is limited\u2014doing three things at ninety percent is better than ten things at fifty percent."
+    ],
+    "conflicting": [
+      "This week's ruling planet element conflicts with your natal element (based on the Seven Luminaries and Five Elements). Plans may hit unexpected variables. When you get stuck, step back and look at the big picture. Find the real cause of the problem before addressing it\u2014that is more effective than pushing through. Patience matters more than ability this week.",
+      "A conflicting week\u2014the challenge is controlling your pace. External distractions make you want to speed up, but the faster you go, the more mistakes you make. Complete the three most important tasks each day and leave the rest for next week.",
+      "A conflicting week\u2014communication requires extra effort. Others may not react as expected. It is not that you said something wrong; you are just temporarily on different frequencies. Confirm important messages in writing.",
+      "A conflicting week\u2014unexpected situations may arise. Move important task deadlines forward by two days to build in buffer time. If something comes up, you will still have time to respond.",
+      "The tension of a conflicting week is not all pressure\u2014sometimes it is the trigger for a breakthrough. Problems that are stuck may produce new solutions through friction. Try looking at things from a different angle."
+    ],
+    "neutral": [
+      "This week's ruling planet element has no direct generating or conflicting relationship with your natal element (Seven Luminaries and Five Elements, T21 p.399a)\u2014energy is stable. Your own initiative matters most right now. Push what you want to push, learn what you want to learn. Steady work will not disappoint you.",
+      "A neutral-energy week under the Seven Luminaries\u2014good for work that requires consistent output. Writing reports, organizing data, reviewing progress\u2014these less exciting but important tasks are best handled this week.",
+      "A neutral week\u2014the environment will neither push you nor hold you back. You decide this week's focus. Pick the one thing you most want to complete and concentrate your effort. Without distractions, focus is your strongest weapon.",
+      "A neutral week\u2014steady conditions are good for planning. Next month's plans, annual goal progress checks\u2014your mind is clearest when there is no external interference.",
+      "A neutral week\u2014nothing unexpected will disrupt your rhythm. Use this stable period to clear out small tasks: reply to accumulated messages, organize data, confirm your to-do items. Clear the small stones so the road ahead is smoother."
+    ]
+  },
+  "weekly_category_tips": {
+    "career": {
+      "same": [
+        "Same-element week\u2014your judgment at work is steady. Good for making important decisions and pushing forward projects that require personal accountability.",
+        "Peak work efficiency period. Schedule your most focus-intensive tasks for these days\u2014output quality is at its best."
+      ],
+      "generating": [
+        "Generating week under the Seven Luminaries\u2014easier to get support at work. Proposals that need management approval have a higher pass rate if submitted now.",
+        "Generating week\u2014team collaboration is efficient. Proposals are more readily accepted and cooperation is high. Schedule tasks requiring multi-party communication this week."
+      ],
+      "weakening": [
+        "Weakening week\u2014play defense at work. Good for improving existing work: optimizing processes, organizing documents, reviewing results.",
+        "Weakening week\u2014workload may be heavier than expected. Prioritize tasks with deadlines. Non-urgent items can wait until next week\u2014spend your limited energy where it counts."
+      ],
+      "conflicting": [
+        "Conflicting week\u2014watch your wording at work. Keep important instructions and agreements in writing to avoid disputes over verbal commitments.",
+        "Conflicting week\u2014unplanned changes may occur at work. Stay flexible, have backup plans ready, and treat changes as opportunities to show adaptability."
+      ],
+      "neutral": [
+        "Neutral week\u2014work progresses steadily. No particular tailwind or headwind. Move forward at your own pace.",
+        "Neutral week\u2014good for long-term work planning. Use the calm to think through your priorities for next month or even next quarter."
+      ]
+    },
+    "love": {
+      "same": [
+        "Same-element week\u2014interactions feel natural and your charm is up. Those in relationships should plan a date. Singles can take initiative.",
+        "Same-element week\u2014emotional expressiveness is high. Things you usually struggle to say come out naturally this week. If you have something to tell someone important, stop putting it off."
+      ],
+      "generating": [
+        "Generating week\u2014the feeling of being supported in relationships is strong. Your partner is more attentive than usual, and friends may introduce you to someone.",
+        "Generating week\u2014social fortune is good. A good time for gatherings and dates. You are radiating approachability, making it a good time to start new connections."
+      ],
+      "weakening": [
+        "Weakening week\u2014you may come across as cold due to fatigue. Explain your state to your partner or friends so they do not misunderstand.",
+        "Weakening week\u2014emotional fluctuations are higher. Do not make major relationship decisions when you are in a bad mood. Stabilize yourself first."
+      ],
+      "conflicting": [
+        "Conflicting week\u2014some minor friction in interpersonal interactions is possible. If there is a misunderstanding, clear it up on the spot rather than letting it fester.",
+        "Conflicting week\u2014communication with your partner requires extra patience. You do not need to win the argument. Mutual understanding matters more than winning a debate."
+      ],
+      "neutral": [
+        "Neutral week\u2014relationships are calm and stable. No romantic surprises and no headaches either. Use the calm to simply be present with the people you care about.",
+        "Neutral week\u2014adjust your social rhythm as you see fit. Meet people if you want, be alone if you want. The most comfortable interactions come naturally."
+      ]
+    },
+    "health": {
+      "same": [
+        "Same-element week\u2014body condition is stable. Good for maintaining or intensifying exercise habits. Physical and mental energy are in normal range. Do not overdo it just because you feel good.",
+        "Same-element week\u2014no particular health issues. Maintain your normal routine and diet. Drink more water, less sugary drinks."
+      ],
+      "generating": [
+        "Generating week\u2014energy is abundant. Good for increasing exercise intensity or trying a new sport. Recovery is strong\u2014you bounce back quickly even if you push a bit harder.",
+        "Generating week\u2014metabolism efficiency is higher, making this a good time to adjust your diet or start a health plan. Changes you make now are more likely to show results."
+      ],
+      "weakening": [
+        "Weakening week\u2014fatigue comes more easily. Try to get to bed by 11 PM and cut back on caffeine. If your neck and shoulders are tight, spend ten minutes stretching.",
+        "Weakening week\u2014immunity may dip slightly. Stay warm, avoid cold foods. If your body feels off, rest\u2014do not push through."
+      ],
+      "conflicting": [
+        "Conflicting week\u2014stress may show up in your body. Watch for headaches, stiff neck and shoulders, and insomnia. Spend ten minutes each day on deep breathing or stretching.",
+        "Conflicting week\u2014watch how your emotions affect your body. When you are irritable, exercise instead of sitting around. A twenty-minute walk is more effective than two hours of scrolling your phone."
+      ],
+      "neutral": [
+        "Neutral week\u2014body condition is steady. Maintain your current health habits. If you already exercise regularly, keep going. If not, start with thirty minutes of walking each day.",
+        "Neutral week\u2014health management is about maintenance. Keeping a stable routine and diet is the best care you can give your body."
+      ]
+    }
+  },
+  "monthly_theme_descriptions": {
+    "eishin": [
+      "The classic texts state that on Ei days, one should \"seek office, meet with important people, submit proposals to those in authority, conduct business and trade,\" and on Shin days, \"socializing, marriage arrangements, and gatherings are all auspicious\" (T21 p.397c). This month forms an Ei-Shin relationship with your natal star, and the success rate for all kinds of action is higher than other months. Schedule matters that require persuasion, advocacy, or forward momentum for this month.",
+      "The monthly star forms a favorable Ei-Shin angle with your natal star. The favorable activities listed in the texts\u2014seeking office, socializing, and gatherings\u2014are all supported this month. Schedule what you most want to accomplish and you will see a noticeably higher success rate.",
+      "An Ei-Shin month runs smoothly overall. Workplace cooperation, expanding your network, and business development are all favorable. Multiple notations of \"all auspicious\" in the classic texts support you in taking proactive action this month."
+    ],
+    "gyotai": [
+      "The classic texts state that on Gyo days, \"all undertakings, good or bad, will not come to fruition\u2014very inauspicious,\" and on Tai days, \"one should not initiate any matters\" (T21 p.397c). This month's star forms a Gyo-Tai relationship with your natal star\u2014whatever you do is unlikely to produce results. This is not about you; the monthly cycle has reached its low point. Pull back and save your energy for a better month.",
+      "The baseline tone for a Gyo-Tai month is \"will not come to fruition\" and \"do not initiate.\" Rather than forcing progress, use this time to organize information, recharge through learning, and plan your next steps. The text notes one should \"cultivate merit\" (T21 p.391b)\u2014inner growth is more valuable than outward action.",
+      "The monthly star is in the Gyo-Tai position relative to your natal star (T21 p.397c). Returns on outward action are low. Accept this month's rhythm and quietly build strength. When the Gyo-Tai month passes and a new Ei-Shin or Yu-Sui month arrives, you will be ready."
+    ],
+    "mei": [
+      "The classic texts state that on Mei days, \"one should not initiate any matters\" (T21 p.397c), and one should \"cultivate merit\" (T21 p.391b). Your natal star returns this month. A time to stop and see your direction clearly. Career plans, life priorities, and relationships\u2014use this month to think things through quietly. That is more useful than rushing to act.",
+      "A Mei month lets you step back from daily busyness and see the bigger picture. Spend time on review, organizing information, and reprioritizing. These seemingly unproductive activities are building momentum for your next wave of action. \"Cultivating merit\" as the texts say is exactly this.",
+      "Mei days (T21 p.397c). This month is for subtraction. Activities that take your time but give nothing back, plans left half-finished\u2014use the clarity of a Mei month to make your cuts. What remains is what truly matters, and your energy going forward will be more focused."
+    ],
+    "yusui": [
+      "The classic texts state that on Yu days, \"socializing with friends is very auspicious,\" and on Sui days, \"only dispelling negativity and treating illness are appropriate\" and \"travel, relocation, and trade are not advisable\" (T21 p.397c-398a). A Yu-Sui month has calm, steady energy\u2014socializing is auspicious but big moves are not. Things that require patience and repetitive practice are best suited for this month.",
+      "A Yu-Sui month runs at a steady pace (T21 p.397c-398a). Yu days bring smooth interpersonal interactions, while Sui days are good for handling long-delayed issues. Use this steadiness to tackle procrastinated tasks: organizing your environment, updating records, clearing your backlog.",
+      "Yu-Sui (T21 p.397c-398a)\u2014do not compare your pace with others. You are building strength while others sprint, and that is completely normal. Sui days: \"only dispelling negativity is appropriate\" (T21 p.398a). Solving problems one by one is the best kind of progress."
+    ],
+    "kisei": [
+      "The classic texts state that on Ki days, \"socializing and gatherings are auspicious\" but \"long-distance travel, relocation, and trade are not advisable,\" and on Sei days, \"studying, learning, and completing ongoing work are auspicious\" (T21 p.397c-398a). A Ki-Sei month has a half-favorable, half-restricted quality\u2014you may encounter partial resistance. Prepare backup plans and double-check important documents.",
+      "The strategy for a Ki-Sei month is to respond by context. Sei days: \"studying and learning are auspicious\"\u2014learning, research, and skill-building are efficient. Ki days: \"long-distance travel and trade are not advisable\" (T21 p.397c-398a)\u2014business trips and large transactions require caution. Distinguish what is favorable from what is not, and you can minimize risk.",
+      "Ki-Sei (T21 p.397c-398a)\u2014interpersonal interactions require extra patience. The tension of a Ki-Sei month can create friction in communication. When something feels off, calm down before responding. It saves a lot of trouble."
+    ],
+    "ankai": [
+      "The classic texts state that on An days, \"relocation is auspicious, travelers entering a home, building spaces and arranging areas are all auspicious,\" and on Kai days, \"only suppressing problems and overcoming adversaries is appropriate\u2014everything else is unfavorable\" (T21 p.397c-398a). An An-Kai month's overall energy leans low. Kai days' \"everything else is unfavorable\" limits most actions. The best response is to go with the flow: handle settling-in tasks with confidence, and reduce everything else.",
+      "An-Kai (T21 p.397c-398a). An An-Kai month is not suited for risk-taking or expansion. Guard what you already have and wrap up things left halfway\u2014that is more valuable than starting new plans. An days: \"relocation is auspicious\" (T21 p.397c). If you need to reorganize your environment or rearrange your space, this month it goes smoothly.",
+      "Kai days: \"everything else is unfavorable\" (T21 p.398a)\u2014this sets the baseline constraint for the month. Do not rush to seize every opportunity. Observe for a few days to confirm there are no issues before acting. Listen to people you trust and use their perspective to supplement your blind spots."
+    ]
+  },
+  "yearly_fortune_advice": {
+    "same": [
+      "This year's stem-branch shares the same element as your natal star (Seven Luminaries and Five Elements, T21 p.399a). Your personal traits are amplified and you feel at home in your areas of expertise. Recommended: deepen your existing strengths while scheduling self-assessment to avoid stagnating in your comfort zone.",
+      "A same-element year (Seven Luminaries and Five Elements, T21 p.399a) is a good time to solidify your foundations. Skills and connections accumulated in the past naturally develop this year. Build your fundamentals so your expertise stands the test of time.",
+      "Same-element resonance (Seven Luminaries and Five Elements, T21 p.399a) is stable but can lead to fixed thinking. Concentrate your energy on your strongest areas\u2014depth over breadth. Proactively connect with people from different fields to bring in fresh perspectives."
+    ],
+    "generating": [
+      "A generating year under the Five Elements (Seven Luminaries, T21 p.399a)\u2014the external environment supports you. A good year for expansion: changing jobs, growing your business, trying new skills. Success rates are higher than usual. Keep your quality standards high.",
+      "A generating year (Seven Luminaries, T21 p.399a)\u2014resistance to your efforts decreases. Projects that were stuck before may find a turning point. Focusing on two or three of your most important goals will yield the best results.",
+      "A generating year (Seven Luminaries and Five Elements, T21 p.399a) accelerates learning. Absorption and comprehension are especially strong. Good for enrolling in courses, earning certifications, and diving deep into new fields. Investing in yourself has a high return this year."
+    ],
+    "weakening": [
+      "This year, your natal element nourishes the stem-branch element (Seven Luminaries and Five Elements, T21 p.399a)\u2014you will give more than you receive. Learn to manage your energy and recharge regularly. Reserve a few days each month to completely unplug. Do not burn out.",
+      "A weakening year (Seven Luminaries and Five Elements, T21 p.399a)\u2014the same tasks require more effort than before. Efficiency matters more than hard work. Learn to say no, set boundaries, do less but do it well.",
+      "A weakening year (Seven Luminaries and Five Elements, T21 p.399a)\u2014the keyword this year is \"simplify.\" Energy is limited. List the three things you most want to accomplish; everything else goes on standby. Balanced nutrition and adequate sleep are non-negotiable this year."
+    ],
+    "conflicting": [
+      "This year's stem-branch element conflicts with your natal element (Seven Luminaries, T21 p.399a)\u2014the external environment carries tension. When facing difficulties, leverage your team and outside resources. Learn to work with momentum rather than against it. Impatience is your biggest enemy this year.",
+      "A conflicting year (Seven Luminaries and Five Elements, T21 p.399a) requires a different strategy. When the direct path is blocked, taking a detour is often faster. Cultivate patience and flexibility, maintain your pace, and you can turn danger into opportunity.",
+      "A conflicting year (Seven Luminaries and Five Elements, T21 p.399a)\u2014the friction of this year is wearing off unnecessary rough edges. Control your emotions and avoid making major decisions under pressure. Wait for the storm to pass before deciding."
+    ],
+    "kyo": [
+      "The Nine Luminaries cycle has reached an inauspicious star year (Sukuyodo temple tradition). A once-in-nine-years low point. The most practical strategy is to shrink your front: clearly separate \"must do\" from \"can wait\" and keep only the essentials. Do not start new plans, change jobs, or invest heavily. Guard what you have. When facing major decisions, set them aside for seven days first.",
+      "An inauspicious star year in the Nine Luminaries cycle (temple tradition: Hojoji/Daishoin). Difficult but not catastrophic\u2014what follows a trough is a recovery. Your primary goal is to get through safely: reduce social obligations, decline high-risk invitations, and avoid loans and large investments. Pause three seconds before saying anything.",
+      "An inauspicious star year in the Nine Luminaries cycle (Sukuyodo temple tradition). The upside of a low year: it helps you see what truly matters. This year, pursue stability rather than growth. Fix your daily routine, take care of your body, and maintain your core relationships."
+    ],
+    "neutral": [
+      "This year's stem-branch element has no strong conflict or boost with your natal element (Seven Luminaries and Five Elements, neutral, T21 p.399a)\u2014you have maximum autonomy. Your proactive effort determines your annual results. Self-disciplined people pull ahead most easily in years like this.",
+      "A neutral year (Seven Luminaries and Five Elements, T21 p.399a) is good for setting long-term plans and advancing them steadily. Few external variables\u2014you can focus on doing your best with what you have.",
+      "A neutral year (Seven Luminaries and Five Elements, T21 p.399a)\u2014no particular tailwind or headwind. Good for things that require sustained long-term effort: learning a language, building an exercise habit, systematically organizing your finances. One step at a time, every day."
+    ]
+  },
+  "yearly_theme_descriptions": {
+    "same": [
+      "This year's stem-branch shares the same element as your natal star (Seven Luminaries and Five Elements, T21 p.399a). Same-element resonance amplifies your core traits\u2014areas of expertise come naturally, intuition sharpens, decisions feel more certain. But same-frequency also means blind spots get amplified. Find trusted friends to regularly exchange ideas with and use outside perspectives to correct your dead angles. Good for going deep\u2014take skills or relationships with existing foundations to the next level.",
+      "A same-element year (Seven Luminaries and Five Elements, T21 p.399a) is like a magnifying glass. Your proudest abilities stand out more, but your weaknesses have nowhere to hide. Spend the first month on self-inventory: list three strengths to reinforce and two shortcomings to face, then use the remaining eleven months to push forward. A year of steady output\u2014results depend on your discipline.",
+      "This year's stem-branch shares the same element as your natal star (Seven Luminaries and Five Elements, T21 p.399a)\u2014the external environment mirrors your inner energy. Opportunities gravitate toward your strengths. Past accumulation of connections, skills, and reputation will naturally convert into tangible rewards. Do what you do best and keep your rhythm."
+    ],
+    "generating": [
+      "A generating year under the Five Elements (Seven Luminaries, T21 p.399a)\u2014external energy supports you. Applications are more likely to be approved, partnership proposals more readily accepted, and learning new skills is faster. Schedule things you have been wanting to do but have not started for this year's plan. When things go smoothly, periodically stop and check if your direction is still correct.",
+      "A generating year (Seven Luminaries, T21 p.399a)\u2014the advantage is \"attraction.\" When you are in good form, others are more willing to work with you. Make full use of this advantage to build long-term relationships. Seeds planted this year will bear fruit over the next two to three years. Focusing on two or three core goals yields the best results.",
+      "A generating year (Seven Luminaries, T21 p.399a)\u2014learning ability and adaptability are at their peak. Changing fields, learning new tech, entering unfamiliar social circles\u2014you will get up to speed faster than expected. Step out of your comfort zone early in the year, and by year-end you will be glad you did not hesitate. First half: launch new ventures. Second half: consolidate and deepen."
+    ],
+    "weakening": [
+      "This year, your natal element nourishes the stem-branch (Seven Luminaries and Five Elements, T21 p.399a)\u2014more energy flows out than in. Giving more than you receive is this year's pattern. Energy management is the most important challenge: treat time and energy as a limited budget. Reserve at least one day each week to completely unplug. Doing less but doing it well beats touching everything at sixty percent.",
+      "A weakening year (Seven Luminaries, T21 p.399a) requires a change of approach. The right strategy is \"precise investment\"\u2014cut social commitments with no real benefit, decline extra work with no payoff, and save your time for the few things that truly matter. You may learn something valuable in the process of helping others.",
+      "A weakening year (Seven Luminaries and Five Elements, T21 p.399a)\u2014what you need most this year is to set boundaries. If you do not actively control your output, you will feel drained by year-end. Learn to say \"I can't do that.\" Health is this year's bottom line\u2014diet, sleep, and exercise are non-negotiable."
+    ],
+    "conflicting": [
+      "This year's stem-branch element conflicts with your natal element (Seven Luminaries, T21 p.399a)\u2014the energy field carries friction and tension. Plans may get interrupted and interpersonal conflicts may arise. Stepping back to think before acting is more effective than pushing through. The patience and adaptability you develop this year will become your most important assets for the years ahead. Avoid making major decisions under pressure.",
+      "A conflicting year (Seven Luminaries, T21 p.399a)\u2014tension also creates opportunities for transformation. You will be forced to face problems you have been avoiding. The process is uncomfortable, but you come out stronger. Stay flexible, control your emotions, and when you get stuck, try a different approach.",
+      "A conflicting year (Seven Luminaries and Five Elements, T21 p.399a)\u2014this year's strategy is \"take the detour.\" When the straight path is blocked, cutting in from a different angle is often faster. Let go of attachment to your original plan and use adaptability instead of stubbornness. Tension with certain people is not about right or wrong\u2014you are just temporarily out of sync. Give each other space."
+    ],
+    "kyo": [
+      "This year is an inauspicious star year in the Nine Luminaries cycle (Sukuyodo temple tradition). External support drops to its lowest. Everything takes more effort than usual. The smartest move is to acknowledge reality and adjust your approach: change your goal from \"charge forward\" to \"do not fall back.\" Guard your job, guard your health, guard the people who matter. The Nine Luminaries cycle will not stay here\u2014what follows a trough is a recovery.",
+      "An inauspicious star year in the Nine Luminaries cycle (temple tradition: Hojoji/Daishoin). Things may not follow your script. Your job right now is not to reverse the situation but to preserve your strength. Focus your energy on three things: sleep well, eat well, and stay in touch with people who make you feel safe. If a major decision can be delayed, delay it. Wait until your condition returns before acting.",
+      "An inauspicious star year in the Nine Luminaries cycle (Sukuyodo temple tradition). The defining feature of a low year is that everything runs half a beat slow. Use this forced slowdown to do things you normally have no time for: organize your files, reconnect with old friends, think about what kind of life you want for the next three years. This year will not give you a stage, but it will give you room to think."
+    ],
+    "neutral": [
+      "This year's stem-branch element has no strong conflict or boost with your natal element (Seven Luminaries and Five Elements, neutral, T21 p.399a). You have maximum autonomy to decide what this year becomes. What you do is what you get; what you put in is what you take out. Spend two weeks at the start of the year on serious planning, then check progress by quarter. The final result is the sum of your actions.",
+      "A neutral year (Seven Luminaries and Five Elements, T21 p.399a) is like a blank canvas. The environment recedes into the background and gives the stage entirely to you. Good for things that require long-term, steady investment: language learning, writing, building passive income, deepening important relationships. A period without external interference is ideal for focus.",
+      "A neutral year (Seven Luminaries and Five Elements, T21 p.399a)\u2014this year's rhythm is \"one step at a time, every day.\" No need for big bursts or grabbing fleeting opportunities. Do your work well each day, check your direction once a month. A steady year where results depend on consistency, not explosiveness."
+    ]
+  },
+  "yearly_category_descriptions": {
+    "career": {
+      "same": [
+        "Career-wise, same-element resonance under the Seven Luminaries (T21 p.399a) amplifies your professional ability. You feel at home in your domain, and colleagues and supervisors trust your judgment more. Good for deepening your current position and pursuing greater responsibility. Watch out for losing innovative drive because things feel too easy.",
+        "Same-element resonance under the Seven Luminaries (T21 p.399a)\u2014your workplace performance this year is steady and solid. Your work style matches the environment's needs, and project execution is more efficient than previous years. If promotion opportunities arise, your chances of success are decent. Do not stay in your comfort zone too long\u2014occasionally take on challenging assignments to keep growing."
+      ],
+      "generating": [
+        "Generating year under the Seven Luminaries (T21 p.399a)\u2014career momentum is strong and the external environment pushes you upward. A great year for changing jobs, starting a business, or pursuing a new position within your company. Your ideas are more readily adopted, and cross-department collaboration runs smoother. Lock in your targets early and use the first half to sprint, the second half to consolidate.",
+        "Generating year under the Seven Luminaries (T21 p.399a)\u2014you have more benefactors at work this year. People will proactively pull you up, introduce you to key figures, or offer unexpected opportunities. Stay open-minded and do not rush to say no. At the same time, increase your visibility\u2014not by being flashy, but by making sure the right people see your professional results."
+      ],
+      "weakening": [
+        "Weakening year under the Seven Luminaries (T21 p.399a)\u2014work requires more effort this year. You may be assigned more work or need to clean up messes left by others. This is not about your ability; it is the normal pattern of an energy-draining year. Concentrate your energy on the two or three things that best demonstrate your value, and handle the rest at minimum acceptable standards.",
+        "Weakening year under the Seven Luminaries (T21 p.399a)\u2014the main theme at work this year is \"hold steady.\" Not a good time for expansion, but well-suited for perfecting what you have. Optimize your processes, maintain relationships, and build solid foundations. When an energy-recovery year arrives, your current groundwork will fuel your sprint."
+      ],
+      "conflicting": [
+        "Conflicting year under the Seven Luminaries (T21 p.399a)\u2014you will encounter some unexpected challenges at work. Plans get disrupted, partners change their minds, and market conditions shift suddenly. These variables are not necessarily bad\u2014better opportunities sometimes hide within change. Stay flexible and do not cling to the original plan. Give yourself room to try Plan B and C.",
+        "Conflicting year under the Seven Luminaries (T21 p.399a)\u2014workplace relationships need extra effort. Gaps in understanding between you and colleagues or supervisors may appear. More confirmation and more communication will prevent most problems. Do not handle work conflicts emotionally\u2014cool off for a few days before responding. The outcome is usually better than reacting in the moment."
+      ],
+      "kyo": [
+        "An inauspicious star year in the Nine Luminaries cycle (Sukuyodo temple tradition)\u2014not the year to go on offense at work. Do not change jobs, push for a large raise, or confront your supervisor head-on this year. Hold your current position and focus on not making mistakes. If you are laid off or forced to transition, do not rush into a decision. Give yourself at least two weeks to cool down before acting. Career decisions made during a low year are easy to regret.",
+        "An inauspicious star year in the Nine Luminaries cycle (Sukuyodo temple tradition). When you encounter unfair treatment at work, this year is not the time for a direct confrontation\u2014but you can treat it as material for observation and learning. Record what happens. Think through what you truly care about and how you want to be treated. Meanwhile, use this time to strengthen your skills, organize your portfolio, and maintain key connections. Preparation done during a low year turns directly into results when the next opportunity arrives."
+      ],
+      "neutral": [
+        "Neutral stem-branch under the Five Elements (Seven Luminaries, T21 p.399a)\u2014your career performance depends on your own level of investment. No windfalls this year, but no unforeseeable obstacles either. Set clear quarterly goals and advance them steadily. Best used for accumulating skills, building long-term competitiveness, and deepening your expertise.",
+        "Neutral stem-branch under the Five Elements\u2014the workplace environment is stable this year with few external disruptions. Use this quiet period for things that require focus: earning certifications, writing professional articles, organizing your portfolio. These investments with no immediate payoff will suddenly prove useful at some point in the future."
+      ]
+    },
+    "love": {
+      "same": [
+        "In relationships, same-element resonance under the Seven Luminaries (T21 p.399a) brings clarity about what you want. Whether single or attached, you will be more honest about your inner needs. Singles are more likely to meet someone with similar values this year\u2014no need to rush, but put yourself in the right settings. Those in relationships enjoy stability with a touch of comfort\u2014plan some new shared experiences to add spark.",
+        "Same-element resonance under the Seven Luminaries (T21 p.399a)\u2014you are especially attractive in love this year. Same-element energy makes you more confident and composed. This kind of inside-out appeal is the most lasting. Singles who meet someone they like have a good chance with a direct approach. Those in relationships will find their mutual understanding deepening\u2014a good time to discuss future plans."
+      ],
+      "generating": [
+        "Generating year under the Seven Luminaries (T21 p.399a)\u2014love fortune is strong. Romantic prospects are plentiful and high-quality, giving you a sense of \"finally meeting the right person.\" But do not let the smooth sailing make you skip the process of truly getting to know someone\u2014good relationships need time to confirm. Those in relationships may want to plan a wedding or accomplish something meaningful together.",
+        "Generating year under the Seven Luminaries (T21 p.399a)\u2014you will feel supported and understood in your relationship this year. Your partner is more willing to accommodate you, and friends may proactively introduce you to someone. Make the most of this good fortune, but remember to give as well. Love is a two-way street\u2014the goodwill you receive needs to come back in some form."
+      ],
+      "weakening": [
+        "Weakening year under the Seven Luminaries (T21 p.399a)\u2014relationships need more intentional effort this year. You may neglect your partner due to work, or lose interest in socializing because your energy is low. But relationships do not pause just because you are busy. Reserve at least one uninterrupted block of time each week for the people who matter. Singles do not need to rush into dating\u2014get your own state right first.",
+        "Weakening year under the Seven Luminaries (T21 p.399a)\u2014those in relationships should watch communication quality. You may speak more bluntly when tired, and your partner may not realize you are just exhausted rather than uncaring. Say things kindly. When words are not enough, talk face to face. Showing vulnerability in a relationship is not losing\u2014it is letting the other person know you need them."
+      ],
+      "conflicting": [
+        "Conflicting year under the Seven Luminaries (T21 p.399a)\u2014some bumps in love this year. You may encounter clashing values, mismatched life rhythms, or different expectations for the future. These issues have been below the surface for a while. Them coming up this year is actually a good thing. Facing them head-on is better than pretending they are not there. Whatever the outcome, honesty is the only way through.",
+        "Conflicting year under the Seven Luminaries (T21 p.399a)\u2014singles may find that this year's romantic prospects come with a sense of challenge. Someone who makes your heart race may also make you hesitate\u2014that ambivalence is actually helping you clarify what type of person you truly need. Do not rush to commit. Observe more, learn more. Wait for the tension to pass before deciding."
+      ],
+      "kyo": [
+        "An inauspicious star year in the Nine Luminaries cycle (Sukuyodo temple tradition)\u2014the best strategy in love this year is \"do not stir things up.\" Avoid making major relationship decisions this year\u2014your emotions during a low period can distort how you see the relationship. Reassess when your state of mind stabilizes for a more objective view. Those in relationships should just treat each other well. When fights happen, leave the room first and talk after cooling down. Singles do not need to rush\u2014focus on taking care of yourself, and when your state is right, you will naturally attract the right person.",
+        "An inauspicious star year in the Nine Luminaries cycle (Sukuyodo temple tradition). What you need most in love this year is someone who makes you feel safe. That does not have to be a romantic partner\u2014it could be family, close friends, anyone whose presence makes the world feel less bleak. Proactively stay in touch with these people. When you are tired, call them. On weekends, meet up for a meal. Do not carry everything alone, and do not feel embarrassed about leaning on someone. For those in relationships, treat your partner as a teammate rather than an audience this year\u2014facing things together is more effective than bearing them alone."
+      ],
+      "neutral": [
+        "Neutral stem-branch under the Five Elements (Seven Luminaries, T21 p.399a)\u2014love is neither hot nor cold this year. Good for steady relationship-building. No dramatic twists, but there will be small moments of joy in everyday interactions. Those in relationships should focus on the basics: eating well together, talking well, resting well. Singles do not need to be anxious, but do not close yourself off either\u2014maintain your normal social frequency.",
+        "Neutral stem-branch under the Five Elements. This year's theme in love is \"quality over quantity.\" Deep exchanges are more valuable than frequent dates. Understanding a person's character matters more than their external conditions. If you want a lasting relationship, this year's stable environment is ideal for building one slowly."
+      ]
+    },
+    "health": {
+      "same": [
+        "Health-wise, same-element resonance under the Seven Luminaries (T21 p.399a) keeps your body in generally stable condition. Your constitution and this year's energy frequency are aligned\u2014major issues are unlikely. But \"stable\" does not mean \"ignore it.\" Because this year has few warning signs, it is easy to overlook things that accumulate slowly. Maintain regular exercise and balanced nutrition, and schedule a comprehensive checkup. Prevention is always cheaper than treatment.",
+        "Same-element resonance under the Seven Luminaries (T21 p.399a)\u2014your body's foundation is solid this year. Good for building long-term health habits. Whether it is starting to jog, learning to swim, or restructuring your diet, habits formed this year are more likely to stick. Do not wait for your body to sound an alarm\u2014invest in health while you feel good."
+      ],
+      "generating": [
+        "Generating year under the Seven Luminaries (T21 p.399a)\u2014health fortune is good. A great year for improving your physical condition. If you want to lose weight, build muscle, or address a chronic minor issue, results will be more visible this year. Recovery is also better\u2014even if you occasionally skip sleep or break routine, you bounce back faster. But do not take that as permission to abuse your body.",
+        "Generating year under the Seven Luminaries (T21 p.399a)\u2014energy is abundant this year and fatigue comes less easily. But this good condition needs to be channeled correctly\u2014burn off excess energy through regular exercise rather than overtime. Good time to try a new sport or increase your exercise frequency from three times a week to four or five."
+      ],
+      "weakening": [
+        "Weakening year under the Seven Luminaries (T21 p.399a)\u2014health is this year's highest-priority item. Energy flowing outward makes you tire more easily than usual, and immunity may dip slightly. Colds, allergies, and digestive issues may be more frequent. Strongly recommended: ensure seven to eight hours of sleep per night and cut back on caffeine and alcohol. Do not push through\u2014your body's signals are more accurate than your willpower.",
+        "Weakening year under the Seven Luminaries (T21 p.399a)\u2014your body is reminding you of debts owed. Fatigue accumulated from years of high-intensity operation may surface all at once this year. Do not be alarmed\u2014your body is self-repairing. Work with what your body needs: rest when you need rest, see a doctor when you need a doctor. Recover well this year, and you will have the capital to sprint in the future."
+      ],
+      "conflicting": [
+        "Conflicting year under the Seven Luminaries (T21 p.399a)\u2014pay extra attention to how stress affects your body. The anxiety of a high-tension year can lead to insomnia, headaches, muscle tension, or digestive problems. Finding a stress-relief method that works for you is a required course this year\u2014whether that is exercise, meditation, or simply talking to someone. Do not let stress build up inside until it explodes.",
+        "Conflicting year under the Seven Luminaries (T21 p.399a)\u2014the rush of things makes it easy to ignore body signals this year. Build a habit of spending five minutes each day scanning your body: where is it sore, where is it tight, am I sleeping enough, am I eating well. Addressing small issues promptly prevents them from becoming big problems. Schedule a health checkup in the first half of the year\u2014catch things early."
+      ],
+      "kyo": [
+        "An inauspicious star year in the Nine Luminaries cycle (Sukuyodo temple tradition)\u2014health needs more proactive attention than usual this year. Your body recovers more slowly during a low year, so prevention matters more than treatment. Sleep seven hours per night, eat three proper meals, walk at least thirty minutes per week\u2014these basics are your best protection. If symptoms appear, see a doctor early. Do not put it off. Schedule a full checkup this year: if there is something, catch it early; if there is nothing, rest easy. Taking care of your body is the foundation for facing everything else.",
+        "An inauspicious star year in the Nine Luminaries cycle (Sukuyodo temple tradition). This year's stress will show up directly in your body. Insomnia, migraines, digestive issues, unexplained fatigue\u2014your body is telling you to stop. Do not push through. When you are tired, rest. When you cannot handle it, ask for help. Reduce caffeine and alcohol\u2014they provide short-term energy but drain your recovery capacity long-term. Find a fixed relaxation ritual: a bath, a walk, music\u2014whatever works. Give yourself thirty minutes each day to think about absolutely nothing. When your body holds up, everything else is negotiable."
+      ],
+      "neutral": [
+        "Neutral stem-branch under the Five Elements (Seven Luminaries, T21 p.399a)\u2014health is stable and this year is good for body management. No major concerns, but do not let that become an excuse to slack on your routine. Think of health management as a long-term investment\u2014every bit of effort you put in this year will pay off over the next several years. Set regular exercise times, improve your diet, and maintain adequate sleep.",
+        "Neutral stem-branch under the Five Elements. Your body will not give you many warnings this year, so you need to proactively check in. Weigh yourself regularly, track sleep quality, and observe changes in your skin and energy levels. These daily micro-adjustments reflect your health status more accurately than a once-a-year checkup."
+      ]
+    },
+    "wealth": {
+      "same": [
+        "Wealth-wise, same-element resonance under the Seven Luminaries (T21 p.399a) sharpens your financial perception. You can judge more precisely than usual which money to spend, which to save, and which investments to follow. Good time to reassess your financial structure: Is your insurance adequate? Do you have three to six months of living expenses in an emergency fund? Does your investment portfolio need rebalancing? Use your heightened financial intuition this year for decisions with long-term benefits.",
+        "Same-element resonance under the Seven Luminaries (T21 p.399a)\u2014your financial situation is stable this year without major swings. Income and expenses are within expected range\u2014no sudden windfalls or large unexpected costs. This kind of stability is ideal for building financial foundations: pay off small debts, set up automatic savings, and learn some basic investment knowledge."
+      ],
+      "generating": [
+        "Generating year under the Seven Luminaries (T21 p.399a)\u2014financial luck is strong. Good opportunities to increase income this year: raises, bonuses, side income, or investment returns. But \"opportunities exist\" does not mean they land in your lap automatically. You need to actively pursue them\u2014negotiate your salary when the time is right, push for project bonuses. At the same time, control spending. Do not spend more just because you earn more. Save or invest the extra income in appreciating assets.",
+        "Generating year under the Seven Luminaries (T21 p.399a)\u2014money may flow in from unexpected channels this year. Stay open-minded and do not reject unconventional earning opportunities. Of course, if something sounds too good to be true, take time to verify before acting. Legitimate opportunities are genuinely more plentiful this year."
+      ],
+      "weakening": [
+        "Weakening year under the Seven Luminaries (T21 p.399a)\u2014prepare mentally for spending more and saving less. You will not lose money, but the places you need to spend are more than expected: repairs, medical expenses, social obligations, or unavoidable upgrades. Set aside a reserve fund in advance so you are not caught off guard. Save where you can, but do not cut where you should not.",
+        "Weakening year under the Seven Luminaries (T21 p.399a)\u2014not a good year for high-risk investments or impulsive large purchases. Focus on \"not losing\" rather than chasing high returns. Steadily protecting existing assets matters more. If you must make financial decisions, consult a professional rather than going by gut feeling."
+      ],
+      "conflicting": [
+        "Conflicting year under the Seven Luminaries (T21 p.399a)\u2014some unexpected financial fluctuations are possible. An investment you thought was safe may dip, expected income may arrive late, or an unplanned expense may appear. The response: do not put all your eggs in one basket. Maintain financial flexibility. Always keep three to six months of living expenses on hand to give yourself room to handle changes.",
+        "Conflicting year under the Seven Luminaries (T21 p.399a)\u2014think for three extra seconds before spending money this year. Impulse purchases and impulse investments are the most common mistakes in a high-tension year. See something you want? Put it in your cart and wait two days. Hear about a great opportunity? Write it down and research it for a week. If it still seems worthwhile after the cooling period, then spend."
+      ],
+      "kyo": [
+        "An inauspicious star year in the Nine Luminaries cycle (Sukuyodo temple tradition)\u2014the core financial strategy this year is \"steady.\" Avoid borrowing, avoid investments you are unsure about, and take extra time to verify before making major financial decisions. A low year has more environmental interference, making impulsive money decisions more likely. Giving yourself more thinking time will not hurt. Keep as much cash on hand as possible\u2014prepare at least six months of living expenses as a safety cushion. If you have existing investment positions, do not add more and do not panic-sell. Maintain the status quo. This year's goal is not making money\u2014it is holding steady.",
+        "An inauspicious star year in the Nine Luminaries cycle (Sukuyodo temple tradition). You may encounter unexpected expenses this year: car breaks down, appliances need replacing, medical treatment needed, a friend asks to borrow money. Get your reserve fund ready in advance so you do not panic when it happens. Do not spend money you do not have to spend; delay payments you can delay. If someone pitches you insurance, mutual funds, or any financial product, just say \"let me think about it\" and push the decision to next year. Protecting your wallet during a low year matters more than anything."
+      ],
+      "neutral": [
+        "Neutral stem-branch under the Five Elements (Seven Luminaries, T21 p.399a)\u2014finances are stable with no major ups or downs. This environment is ideal for long-term financial planning: dollar-cost averaging, rebalancing your asset allocation, or starting to research an investment tool you have been curious about. Do not expect explosive financial growth this year, but steady, consistent accumulation adds up to a respectable sum by year-end.",
+        "Neutral stem-branch under the Five Elements. Financial luck this year is average\u2014income is proportional to effort. Want to earn more? Do more. No shortcuts. Focus on improving your earning ability: skill upgrades that lead to raises, a portfolio that creates side opportunities. The returns on these investments are more reliable than any financial trick."
+      ]
+    }
+  }
+}

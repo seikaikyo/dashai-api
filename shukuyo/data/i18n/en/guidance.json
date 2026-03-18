@@ -1,0 +1,499 @@
+{
+  "directions": {
+    "命": {
+      "suitable": [
+        {
+          "sutra": "宜修功德（品三凌犯化解）",
+          "cbeta": "0391b",
+          "seeker": "Invest in yourself: get certifications, take courses, polish your portfolio, assess your strengths",
+          "hr": "Suitable for roles with training opportunities (Training & Development, Knowledge Management, Internal Audit)"
+        }
+      ],
+      "timing_poor": [
+        {
+          "sutra": "不宜舉動百事",
+          "cbeta": "0397c",
+          "seeker": "Pursuing promotions, switching jobs, or negotiating salary — effort outweighs returns right now, wait for better timing",
+          "hr": "Not the best time to assign pioneering tasks; keep this person within their established responsibilities"
+        }
+      ],
+      "remedy": {
+        "principle": "Stay steady, build from within",
+        "seeker": "Now is not the time to make big moves, but it is the perfect time to stockpile. Get certified, organize your portfolio, learn new skills — these investments will pay off when your next favorable period arrives.",
+        "hr": "Place in a stable role (Administrative Assistant, Document Processing, Data Maintenance) with an internal training plan. This person delivers steady output in familiar territory."
+      },
+      "summary": "Suited for stable roles with steady output in familiar areas, paired with internal training",
+      "action_advice": "Focus on building your skills and preparing for the next wave of action"
+    },
+    "栄": {
+      "suitable": [
+        {
+          "sutra": "宜入官拜職",
+          "cbeta": "0397c",
+          "seeker": "Actively pursue promotions; show leadership in interviews",
+          "hr": "Suitable for promotion or key positions (Department Head, Project Lead, Technical Director)"
+        },
+        {
+          "sutra": "對見大人",
+          "cbeta": "0397c",
+          "seeker": "Request one-on-one meetings with interviewers or senior leaders to demonstrate your vision",
+          "hr": "Suitable for upward-facing roles (Chief of Staff, Executive Assistant, Strategic Planning)"
+        },
+        {
+          "sutra": "上書表進獻君王",
+          "cbeta": "0397c",
+          "seeker": "Prepare a polished proposal or portfolio to showcase your planning abilities",
+          "hr": "Suitable for proposal-driven roles (Marketing Planner, Product Manager, Proposal Consultant)"
+        },
+        {
+          "sutra": "興營買賣",
+          "cbeta": "0397c",
+          "seeker": "Highlight your sales track record and client acquisition experience in interviews",
+          "hr": "Suitable for business development roles (Sales Director, Account Manager, Business Development)"
+        }
+      ],
+      "timing_poor": [],
+      "remedy": {
+        "principle": "Act boldly — the timing is right",
+        "seeker": "This is the best time to make your move. Promotions, proposals, interviews, new client outreach — every action will bring better-than-expected returns. Get ready and go.",
+        "hr": "This person is in their peak period. Give them room and resources, and they will deliver beyond expectations. Suitable for core responsibilities."
+      },
+      "summary": "A great time for bold action — promotions, proposals, and business development will pay off",
+      "action_advice": "Present yourself confidently in interviews; seize opportunities for advancement and growth"
+    },
+    "衰": {
+      "suitable": [
+        {
+          "sutra": "唯宜解除諸惡、療病",
+          "cbeta": "0398a",
+          "seeker": "Solve existing problems, remove obstacles, ensure quality, fix bugs",
+          "hr": "Problem-solving roles (Maintenance Engineer, Quality Control, Customer Complaint Handling)"
+        },
+        {
+          "sutra": "宜修功德（品三）",
+          "cbeta": "0391b",
+          "seeker": "Get certifications, take courses, organize your portfolio, learn new technologies",
+          "hr": "Roles with training opportunities (Training & Development, Knowledge Management)"
+        }
+      ],
+      "timing_poor": [
+        {
+          "sutra": "不宜出入遷移",
+          "cbeta": "0391b",
+          "seeker": "Switching jobs, changing careers, or relocating — adaptation will be difficult, effort outweighs returns",
+          "hr": "Frequent transfers are ineffective for this person; let them settle and deepen their expertise at a fixed location"
+        },
+        {
+          "sutra": "不宜買賣",
+          "cbeta": "0391b",
+          "seeker": "Taking on contracts, negotiating deals, or quoting prices — deals are prone to falling through or being undercut",
+          "hr": "External procurement or contract negotiations will yield limited results; assign internal execution tasks instead"
+        }
+      ],
+      "remedy": {
+        "principle": "Build from within, accumulate capital for the next wave",
+        "seeker": "Redirect your energy from outward expansion to inward growth. Contract negotiations are poorly timed right now, but getting certified or learning new skills is ideal. What you build now will serve you well when the next favorable period arrives.",
+        "hr": "Place in problem-solving or quality assurance roles with an internal training plan. This person excels at resolving existing issues and delivers consistently at a fixed location."
+      },
+      "summary": "Excels at solving existing problems; suited for stable execution roles paired with continuing education for growth",
+      "action_advice": "Focus on resolving the issues at hand while building skills through certifications and training"
+    },
+    "安": {
+      "suitable": [
+        {
+          "sutra": "移徙吉",
+          "cbeta": "0397c",
+          "seeker": "Target companies that are expanding — new ventures or branch offices are ideal",
+          "hr": "New venture setup, branch establishment, satellite office launch"
+        },
+        {
+          "sutra": "遠行人入宅",
+          "cbeta": "0397c",
+          "seeker": "Roles with occasional travel but a home base work well; you can hit the ground running when you return",
+          "hr": "Roles requiring travel with a fixed base (Regional Sales, Field Technician, On-site Consultant)"
+        },
+        {
+          "sutra": "造作園宅",
+          "cbeta": "0397c",
+          "seeker": "Target companies building new teams or departments — you can help build from scratch",
+          "hr": "Department setup, facility planning roles (Plant Operations, Space Design, Equipment Integration)"
+        },
+        {
+          "sutra": "作壇場並吉",
+          "cbeta": "0397c",
+          "seeker": "Target companies implementing new systems; highlight your experience in process development",
+          "hr": "System establishment and process planning roles (ISO Implementation, SOP Development, Compliance Management)"
+        }
+      ],
+      "timing_poor": [],
+      "remedy": {
+        "principle": "Settle in and build a solid foundation",
+        "seeker": "This is a great time to establish roots. Relocations, transfers, and joining new teams will go smoothly. Target companies that are expanding — your ability to build stability is exactly what they need.",
+        "hr": "This person is worth long-term investment. They adapt quickly after joining. Roles that involve establishing new locations or systems will bring out their best."
+      },
+      "summary": "Excels at settling into new environments and building from scratch; best in roles that require establishing foundations",
+      "action_advice": "Settle in for long-term growth and build a solid work base"
+    },
+    "危": {
+      "suitable": [
+        {
+          "sutra": "宜結交、歡宴聚會並吉",
+          "cbeta": "0397c",
+          "seeker": "Social gatherings, team building, expanding your internal network",
+          "hr": "External-facing social roles (Public Relations, Client Relations, Community Management, Event Planning)"
+        }
+      ],
+      "timing_poor": [
+        {
+          "sutra": "不宜遠行出入移徙",
+          "cbeta": "0398a",
+          "seeker": "Frequent travel, overseas assignments, or role transfers — things tend to go wrong on the move",
+          "hr": "Frequent travel assignments are ineffective; let this person leverage their social skills within the office"
+        },
+        {
+          "sutra": "不宜買賣",
+          "cbeta": "0391b",
+          "seeker": "Major contract negotiations or large purchases — deals tend to stall",
+          "hr": "Major contract negotiations will yield limited results; assign to day-to-day operational work"
+        }
+      ],
+      "remedy": {
+        "principle": "Channel social skills inward; hold off on external expansion",
+        "seeker": "Your social skills are a real strength, but right now they are best applied within the company — nurture team relationships, attend department events, build cross-team connections. Put major external deals on hold.",
+        "hr": "This person has strong social skills. Place them in roles requiring internal coordination or team building. External negotiations are less effective at the moment; let others handle those."
+      },
+      "summary": "Strong in social settings; best suited for internal coordination and team building roles",
+      "action_advice": "Demonstrate your social skills in interviews; focus on team relationship building after joining"
+    },
+    "成": {
+      "suitable": [
+        {
+          "sutra": "宜修道學問",
+          "cbeta": "0398a",
+          "seeker": "Study, get certified, attend conferences and seminars",
+          "hr": "Roles requiring continuous learning (R&D Engineer, Data Analyst, Technical Consultant)"
+        },
+        {
+          "sutra": "合和長年藥法",
+          "cbeta": "0398a",
+          "seeker": "Long-term R&D projects, deep technical work over extended periods",
+          "hr": "Long-term R&D projects (Product Development, Process Improvement, Technical Architecture Design)"
+        },
+        {
+          "sutra": "作諸成就法並吉",
+          "cbeta": "0398a",
+          "seeker": "Completing project deliverables and meeting targets — your efforts will produce tangible results",
+          "hr": "Delivery-focused roles (Project Manager, Systems Integrator, Implementation Consultant)"
+        }
+      ],
+      "timing_poor": [],
+      "remedy": {
+        "principle": "Deepen your learning — effort will yield results",
+        "seeker": "Both learning and delivery are in your favor. Choose companies with solid training programs — you will thrive there. Highlight your learning agility and track record of meeting project goals in interviews.",
+        "hr": "This person is a fast learner. Providing training and certification opportunities will rapidly boost their capabilities. They deliver projects on schedule."
+      },
+      "summary": "Learning and project delivery are both favored; effort will produce tangible results",
+      "action_advice": "Highlight your learning ability and expertise in interviews; pursue continuing education after joining"
+    },
+    "壊": {
+      "suitable": [
+        {
+          "sutra": "宜作鎮壓、降伏怨讎",
+          "cbeta": "0398a",
+          "seeker": "Tackling difficult problems, crisis response, removing obstacles",
+          "hr": "Crisis management roles (Legal, Risk Control, Cybersecurity Incident Response, Escalated Complaint Handling)"
+        }
+      ],
+      "timing_poor": [
+        {
+          "sutra": "餘並不堪",
+          "cbeta": "0398a",
+          "seeker": "Routine administrative tasks — you will find them boring and perform averagely; channel your energy toward tough problems instead",
+          "hr": "Routine administrative or daily tasks yield limited results; focus this person on troubleshooting assignments"
+        }
+      ],
+      "remedy": {
+        "principle": "Focus on difficult tasks; delegate the rest",
+        "seeker": "You perform best when solving hard problems. Target companies with tough challenges to tackle, and demonstrate your resilience and problem-solving abilities in interviews. Routine work is not your arena.",
+        "hr": "This person thrives on difficult tasks and crisis response. Give them clear objectives and they will go all-in. Routine work can be distributed to others. A 3-6 month adjustment period improves long-term results."
+      },
+      "summary": "Excels at tackling tough problems and crisis response; performs best in challenging environments",
+      "action_advice": "Focus on troubleshooting assignments after joining — that is where you shine"
+    },
+    "友": {
+      "suitable": [
+        {
+          "sutra": "宜結交朋友大吉",
+          "cbeta": "0391b",
+          "seeker": "Expand your network; attend industry events and community meetups",
+          "hr": "Roles requiring network building (Business Development, Strategic Partnerships, Community Operations)"
+        },
+        {
+          "sutra": "歡宴聚會並吉",
+          "cbeta": "0397c",
+          "seeker": "Team building and social gatherings — your network will generate job opportunities",
+          "hr": "Collaborative roles (HR, Team Lead, Cross-department Coordination)"
+        }
+      ],
+      "timing_poor": [],
+      "remedy": {
+        "principle": "Networking brings opportunities — attend more events",
+        "seeker": "Your network is your greatest asset right now. Attend industry events and community meetups — job opportunities will emerge from your connections. Choose companies that value teamwork.",
+        "hr": "This person excels at teamwork and brings external connections and positive energy to the department. Well-suited for roles that require collaboration and cross-team communication."
+      },
+      "summary": "Networking brings opportunities; team building and expanding connections are both favored",
+      "action_advice": "Actively expand your network and build team relationships after joining"
+    },
+    "親": {
+      "suitable": [
+        {
+          "sutra": "宜結交",
+          "cbeta": "0397c",
+          "seeker": "Accept company resources and mentorship; choose companies willing to develop new talent",
+          "hr": "Training-track positions (Management Associate, Internal Rotation, Succession Pipeline)"
+        },
+        {
+          "sutra": "定婚姻",
+          "cbeta": "0397c",
+          "seeker": "Negotiate long-term contracts; express your commitment and long-term plans",
+          "hr": "Long-term contract positions (Core R&D, Senior Consultant, Partner Track)"
+        },
+        {
+          "sutra": "歡宴聚會並吉",
+          "cbeta": "0397c",
+          "seeker": "Demonstrate your social etiquette and client-facing skills in interviews",
+          "hr": "External-facing roles representing the company (PR Spokesperson, Business Representative, VIP Reception)"
+        }
+      ],
+      "timing_poor": [],
+      "remedy": {
+        "principle": "Deepen collaboration, accept mentorship",
+        "seeker": "The company is willing to invest resources in you — accept it. This is a good time for long-term agreements and formal contracts. Interviews will feel relaxed, and you will make a strong impression.",
+        "hr": "This person has high compatibility with the company and strong loyalty. Worth long-term investment and mentorship — providing resources and development opportunities will deepen the working relationship."
+      },
+      "summary": "High compatibility with the company; well-suited for mentorship and long-term collaboration",
+      "action_advice": "Accept the resources and mentorship the company offers; deepen the working relationship"
+    },
+    "業": {
+      "suitable": [
+        {
+          "sutra": "宜修功德（品三）",
+          "cbeta": "0391b",
+          "seeker": "Study, research, organize your knowledge base",
+          "hr": "Research or knowledge-building roles (Researcher, Data Archiving, System Maintenance)"
+        }
+      ],
+      "timing_poor": [
+        {
+          "sutra": "所作善惡亦不成就",
+          "cbeta": "0397c",
+          "seeker": "Performance-driven roles — input and output will not be proportional in the short term; this is about timing, not ability",
+          "hr": "Short-term performance roles (sales targets, KPI-driven positions) will yield limited results; assign to long-term accumulation work"
+        },
+        {
+          "sutra": "甚衰",
+          "cbeta": "0397c",
+          "seeker": "Bold moves or big actions — you are in an energy-building phase and actions will be less effective",
+          "hr": "Roles demanding immediate results will underperform; assign to behind-the-scenes support work"
+        }
+      ],
+      "remedy": {
+        "principle": "Build your reserves, prepare for the next peak",
+        "seeker": "You are in an energy-building phase — everything feels like running against the wind. The smartest move is to pour your energy into learning and skill-building. When the tide turns, you will be better prepared than everyone else.",
+        "hr": "This person is suited for long-term accumulation work, building energy in a low-pressure environment. Place in research or knowledge-building roles with ample time for growth, focusing on long-term development."
+      },
+      "summary": "Suited for long-term accumulation work; building energy in a stable environment to prepare for the next peak",
+      "action_advice": "Focus your energy on learning and building your skill set"
+    },
+    "胎": {
+      "suitable": [
+        {
+          "sutra": "宜修功德（品三凌犯化解）",
+          "cbeta": "0391b",
+          "seeker": "Choose companies with structured training programs as a springboard for building your capabilities",
+          "hr": "Development-track positions (Intern-to-Full-Time, Apprenticeship, Long-term Training Program)"
+        }
+      ],
+      "timing_poor": [
+        {
+          "sutra": "不宜舉動百事（同命日）",
+          "cbeta": "0397c",
+          "seeker": "Ground-up pioneering work — the timing is not yet right; steady growth within an established system works better",
+          "hr": "Pioneering roles (New Venture Development, Startup Projects) are less effective right now; assign to established operations"
+        }
+      ],
+      "remedy": {
+        "principle": "Grow steadily within an established system",
+        "seeker": "Choose roles where you can take over existing operations and grow within a mature system. You are a high-potential type — a breakthrough will come when the timing is right. Nothing you build now goes to waste.",
+        "hr": "This person has high potential and is worth long-term cultivation. Suited for taking over established operations and growing steadily. Provide room and time to develop."
+      },
+      "summary": "High potential; suited for taking over established operations with steady growth — a breakthrough will come when the time is right",
+      "action_advice": "Build your capabilities within an established system, preparing for a future breakthrough"
+    }
+  },
+  "tiers": {
+    "seeker": {
+      "1": {
+        "label": "Highly Suitable",
+        "reason": "Strong alignment with this company; excellent timing this year"
+      },
+      "2": {
+        "label": "Good for Growth",
+        "reason": "Good compatibility; standard preparation will serve you well"
+      },
+      "3": {
+        "label": "Workable",
+        "reason": "Room for development, but the company's fortune this year requires attention"
+      },
+      "4": {
+        "label": "Needs Adjustment",
+        "reason": "The astrological compatibility requires more adaptation; refer to the classical analysis below for suitable departments"
+      }
+    },
+    "hr": {
+      "1": {
+        "label": "High Compatibility",
+        "reason": "Strong alignment with the company; excellent timing this year"
+      },
+      "2": {
+        "label": "Good Fit",
+        "reason": "Good compatibility; standard placement will bring results"
+      },
+      "3": {
+        "label": "Adjustable",
+        "reason": "Has specific strengths to leverage; needs to be matched with the right role"
+      },
+      "4": {
+        "label": "Needs Arrangement",
+        "reason": "The astrological compatibility requires more adaptation; proper role placement per the direction guidance can still yield contributions"
+      }
+    }
+  },
+  "hr_summary": {
+    "命": {
+      "summary": "This person is suited for stable roles with steady output in familiar areas; internal training opportunities will further enhance their performance",
+      "action_advice": "Assign stable execution work paired with an internal training plan"
+    },
+    "栄": {
+      "summary": "This person is in their peak period and can energize the team; suited for roles that require active expansion",
+      "action_advice": "Provide room and resources for them to deliver beyond expectations"
+    },
+    "衰": {
+      "summary": "This person excels at solving existing problems; suited for stable execution work with consistent delivery at a fixed location",
+      "action_advice": "Place in problem-solving or quality assurance roles; strength lies in steady performance"
+    },
+    "安": {
+      "summary": "This person is worth long-term investment; they adapt quickly after joining and are suited for building a solid work base",
+      "action_advice": "Ideal for long-term retention; assign to a stable department for development"
+    },
+    "危": {
+      "summary": "This person has strong social skills; suited for client-facing or coordination roles with standout performance in team interactions",
+      "action_advice": "Place in roles requiring external communication; social settings are their strength"
+    },
+    "成": {
+      "summary": "This person is a fast learner; suited for roles requiring continuous growth and project delivery — effort will produce results",
+      "action_advice": "Provide training and certification opportunities to rapidly boost their capabilities"
+    },
+    "壊": {
+      "summary": "This person is suited for difficult tasks and crisis response; give them clear objectives and they will go all-in",
+      "action_advice": "Place in troubleshooting roles; a 3-6 month adjustment period improves long-term results"
+    },
+    "友": {
+      "summary": "This person excels at teamwork; suited for collaborative roles with a positive social influence",
+      "action_advice": "Place in departments requiring team collaboration; they improve team morale"
+    },
+    "親": {
+      "summary": "This person has high compatibility with the company; suited for mentorship tracks to deepen the working relationship",
+      "action_advice": "Worth long-term investment; provide company resources and development opportunities"
+    },
+    "業": {
+      "summary": "This person is suited for long-term accumulation work; they build energy steadily in a low-pressure environment with a focus on long-term development",
+      "action_advice": "Place in research or knowledge-building roles with ample time for growth"
+    },
+    "胎": {
+      "summary": "This person has high potential; suited for taking over established operations with steady growth and long-term cultivation",
+      "action_advice": "Ideal for talent pipeline programs; provide room and time to develop"
+    }
+  },
+  "recommendation": {
+    "seeker": {
+      "1": {
+        "summary_prefix": "Highly Suitable",
+        "action_items": [
+          "Strong alignment with this company — prepare actively for the interview",
+          "Timing is excellent this year; the sooner you act, the better"
+        ]
+      },
+      "2": {
+        "summary_prefix": "Good for Growth",
+        "action_items": [
+          "Prepare through the normal process; demonstrate qualities that match the direction guidance in your interview"
+        ]
+      },
+      "3": {
+        "summary_prefix": "Workable",
+        "action_items": [
+          "The company's fortune is lower this year; expect a longer adjustment period after joining",
+          "Learn more about team culture and department dynamics during the interview to check for fit"
+        ]
+      },
+      "4": {
+        "summary_prefix": "Needs Adjustment",
+        "action_items": [
+          "The astrological compatibility requires more adaptation; refer to the classical analysis below to choose suitable departments and roles",
+          "Focus on understanding whether the specific role aligns with your directional strengths during the interview"
+        ]
+      }
+    },
+    "hr": {
+      "1": {
+        "summary_prefix": "High Compatibility",
+        "action_items": [
+          "Strong alignment with the company; can be assigned to core responsibilities directly",
+          "Timing is excellent this year; the sooner they start, the greater the impact"
+        ]
+      },
+      "2": {
+        "summary_prefix": "Good Fit",
+        "action_items": [
+          "Proceed with standard hiring; focus on whether actual capabilities match the direction guidance"
+        ]
+      },
+      "3": {
+        "summary_prefix": "Adjustable",
+        "action_items": [
+          "Compatibility is affected by the company's fortune this year; assign to roles matching the direction guidance",
+          "Provide extra support and adjustment time during the onboarding period"
+        ]
+      },
+      "4": {
+        "summary_prefix": "Needs Arrangement",
+        "action_items": [
+          "The astrological compatibility requires more adaptation; proper role placement per the classical analysis can still bring results",
+          "Refer to the classical analysis for suitable role placement; avoid positions that conflict with their directional strengths"
+        ]
+      }
+    },
+    "sutra_ref_template": "Classical text \"{sutra}\" — ",
+    "ankai_warn": {
+      "壊_seeker": "The initial adjustment period tends to be longer, but once you get through the first 3-6 months, things become solid",
+      "安_seeker": "This direction has a stabilizing effect on the company, but you may take on more pressure — remember to take care of yourself",
+      "壊_hr": "The initial adjustment period tends to be longer; plan for a 3-6 month onboarding window — things become solid after that",
+      "安_hr": "This direction has a stabilizing effect on the company, but this person may take on more pressure — check in regularly"
+    }
+  },
+  "strategic": {
+    "score_suffix": " pts",
+    "tier_prefix": "Tier {rank}",
+    "fortune_good": ", plus the company's annual fortune is {level} — great timing",
+    "fortune_suffix": ", company's annual fortune: {level}",
+    "top_pick_reason": "{rel_name} / {tier_label} / {score} pts — {dir_summary}",
+    "insight_company_mansion": "The company's natal mansion is {mansion} ({element} element)",
+    "insight_user_mansion": "Your natal mansion is {mansion} ({element} element)",
+    "insight_kuyou": "This year's ruling star is {star}, fortune level: {level}",
+    "insight_eishin_hr": "Among {total} candidates, {count} have a prosperous-intimate relationship with the company — high compatibility",
+    "insight_eishin_seeker": "Among the {total} companies you applied to, {count} have a prosperous-intimate relationship — a strong overall portfolio",
+    "insight_dominant": "The dominant direction is \"{direction}\" ({count} entries) — {summary}",
+    "category_reason": "{dir_label} ({score} pts) — {dir_text}"
+  }
+}

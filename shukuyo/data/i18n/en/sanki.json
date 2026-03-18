@@ -1,0 +1,24 @@
+{
+  "day_types": {
+    "period_start": {
+      "1": "Starting point of the 27-day cycle -- the day your natal lunar mansion returns. The original text states:「凡命、胎宿直日，不宜舉動百事」(T21 p.391b; p.397c). Stay put, avoid launching new ventures or making major decisions. A day for reflection and inner work.",
+      "2": "The karmic position where past-life causes manifest. The original text (latter volume) states:「所作善惡亦不成就，甚衰」(Note: Section 3 alternatively records「所作皆吉祥」; the two accounts differ, and the system follows the latter volume). Whatever you attempt is unlikely to bear fruit. Lie low and refrain from rash moves. This marks the entrance to the Hakai (destruction) phase.",
+      "3": "The beginning of rebirth, corresponding to the Tai (embryo) position. The original text states:「凡命、胎宿直日，不宜舉動百事」(T21 p.391b; p.397c). Like the Mei day, this is a day for stillness. Quiet your mind and prepare for the next cycle."
+    },
+    "day": {
+      "2": "The original text (latter volume) states:「即宜入官拜職、對見大人、上書表進獻君王、興營買賣、裁著新衣、沐浴及諸吉事並大吉。出家人剃髮、割爪甲、沐浴、承事師主、啟請法要並吉」(T21 p.397c-398a). A day for proactive, auspicious action.",
+      "3": "The original text (latter volume) states:「唯宜解除諸惡、療病」(T21 p.398a). Section 3 adds:「並不宜遠行，出入遷移、買賣裁衣、剃頭剪甲並不吉」(T21 p.391b). Momentum wanes. Purification, warding off negativity, and healing are appropriate; do not force anything else.",
+      "4": "The original text (latter volume) states:「移徙吉，遠行人入宅、造作園宅、安坐臥床帳、作壇場並吉」(T21 p.397c-398a; Section 3:「移動遠行、修園宅臥具、作壇場並吉」). A day of stability and calm. Moving, returning home from travel, building, and setting up altars are all auspicious. Steady progress pays off.",
+      "5": "The original text (latter volume) states:「宜結交、定婚姻，歡宴聚會並吉」(T21 p.397c-398a), but also:「危壞日，並不宜遠行出、入移徙、買賣、婚姻、裁衣、剃頭、沐浴並凶」(T21 p.398a). (Note: marriage appears in both auspicious and inauspicious listings.) Social gatherings are favorable; travel and commerce should be avoided.",
+      "6": "The original text (latter volume) states:「宜修道學問、合和長年藥法，作諸成就法並吉」(T21 p.398a; Section 3:「修學問道、合藥求仙吉」). Study, practice, and completion rituals are all auspicious. Effort bears fruit -- a day for focused progress and bringing important matters to conclusion.",
+      "7": "The original text (latter volume) states:「宜作鎮壓、降伏怨讎及討伐阻壞奸惡之謀，餘並不堪」(T21 p.398a; Section 3:「又宜壓鎮降伏怨讎及討伐暴惡」). Also:「危壞日，並不宜遠行出、入移徙、買賣、婚姻、裁衣、剃頭、沐浴並凶」. Subjugation and suppression rituals are viable, but all other activities are inadvisable. A day with the power to vanquish evil and restore order.",
+      "8": "Section 3 states:「宜結交朋友大吉」(T21 p.391b). The latter volume states:「宜結交、定婚姻，歡宴聚會並吉」(T21 p.397c-398a). Interpersonal relations flow smoothly -- a good day for socializing, gatherings, and collaboration.",
+      "9": "Section 3 states:「宜結交朋友大吉」. The latter volume states:「宜結交、定婚姻，歡宴聚會並吉」(same notation as Yuu day). A day for spending time with family, partners, and close friends. Social gatherings are auspicious."
+    }
+  },
+  "period_descriptions": {
+    "0": "Active Phase (Sanki method, T21 Section 2 p.397c-398a). The first period (Ichiku) of the 27-day cycle, starting from the natal mansion. Energy is abundant -- suited for proactive action and launching new endeavors.",
+    "1": "Declining Phase (Sanki method, T21 Section 2 p.397c-398a). The second period (Niku) of the 27-day cycle, starting from the karmic mansion. Issues accumulated earlier come to the surface. Time to pull back and tidy up.",
+    "2": "Transitional Phase (Sanki method, T21 Section 2 p.397c-398a). The third period (Sanku) of the 27-day cycle, starting from the embryo mansion. The old ends and the new begins to germinate. A time for reflection and preparation."
+  }
+}
