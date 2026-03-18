@@ -1,0 +1,82 @@
+[
+  {
+    "id": "grammar_fill_001",
+    "sentence": "She _____ to the store if she had known it was closed.",
+    "options": ["wouldn't have gone", "won't go", "didn't go", "hasn't gone"],
+    "answer": "wouldn't have gone",
+    "response": "Let's practice grammar! Fill in the blank:\n\nShe _____ to the store if she had known it was closed.\n\n1. wouldn't have gone\n2. won't go\n3. didn't go\n4. hasn't gone\n\nThe correct answer is: wouldn't have gone\n\nThis is the third conditional, used for unreal past situations. The structure is: if + past perfect, would + have + past participle. We use it to talk about things that didn't happen and their imagined consequences.",
+    "response_zh": "來練習文法吧！填空：\n\n如果她知道商店關門了，她_____去。\n\n1. wouldn't have gone\n2. won't go\n3. didn't go\n4. hasn't gone\n\n正確答案是：wouldn't have gone\n\n這是第三條件句，用於非真實的過去情境。結構是：if + 過去完成式, would + have + 過去分詞。用來談論沒發生的事情和它們假想的後果。"
+  },
+  {
+    "id": "grammar_fill_002",
+    "sentence": "It is essential that every employee _____ the new safety procedures before operating the machinery.",
+    "options": ["understand", "understands", "understood", "has understood"],
+    "answer": "understand",
+    "response": "Let's practice grammar! Fill in the blank:\n\nIt is essential that every employee _____ the new safety procedures before operating the machinery.\n\n1. understand\n2. understands\n3. understood\n4. has understood\n\nThe correct answer is: understand\n\nThis is the subjunctive mood. After expressions like 'it is essential that', 'it is important that', or 'it is necessary that', we use the base form of the verb without -s, even for third-person singular subjects.",
+    "response_zh": "來練習文法吧！填空：\n\n每位員工在操作機器前_____了解新的安全流程是很重要的。\n\n1. understand\n2. understands\n3. understood\n4. has understood\n\n正確答案是：understand\n\n這是虛擬語氣。在 'it is essential that'、'it is important that' 或 'it is necessary that' 等表達之後，我們使用動詞原形，即使主詞是第三人稱單數也不加 -s。"
+  },
+  {
+    "id": "grammar_fill_003",
+    "sentence": "The report _____ by the committee before the board meeting takes place next Friday.",
+    "options": ["will have been reviewed", "will review", "has reviewed", "would review"],
+    "answer": "will have been reviewed",
+    "response": "Let's practice grammar! Fill in the blank:\n\nThe report _____ by the committee before the board meeting takes place next Friday.\n\n1. will have been reviewed\n2. will review\n3. has reviewed\n4. would review\n\nThe correct answer is: will have been reviewed\n\nThis is the future perfect passive. We use it when an action will be completed before a specific future time. The structure is: will + have + been + past participle. The passive is needed because the report is the object of the reviewing action.",
+    "response_zh": "來練習文法吧！填空：\n\n這份報告在下週五的董事會議之前_____被委員會審查完畢。\n\n1. will have been reviewed\n2. will review\n3. has reviewed\n4. would review\n\n正確答案是：will have been reviewed\n\n這是未來完成式被動語態。當一個動作會在特定未來時間點之前完成時使用。結構是：will + have + been + 過去分詞。因為報告是被審查的對象，所以需要被動式。"
+  },
+  {
+    "id": "grammar_fill_004",
+    "sentence": "The professor whose _____ influenced thousands of students retired last year.",
+    "options": ["research has", "research have", "researches has", "researches have"],
+    "answer": "research has",
+    "response": "Let's practice grammar! Fill in the blank:\n\nThe professor whose _____ influenced thousands of students retired last year.\n\n1. research has\n2. research have\n3. researches has\n4. researches have\n\nThe correct answer is: research has\n\nThis tests relative clauses and subject-verb agreement. 'Research' is an uncountable noun, so it takes a singular verb ('has'). The relative clause 'whose research has influenced thousands of students' modifies 'the professor'.",
+    "response_zh": "來練習文法吧！填空：\n\n那位_____影響了數千名學生的教授去年退休了。\n\n1. research has\n2. research have\n3. researches has\n4. researches have\n\n正確答案是：research has\n\n這題測試關係子句和主動詞一致性。'Research' 是不可數名詞，所以搭配單數動詞 'has'。關係子句 'whose research has influenced thousands of students' 修飾 'the professor'。"
+  },
+  {
+    "id": "grammar_fill_005",
+    "sentence": "She told me that she _____ the project the following day.",
+    "options": ["would finish", "will finish", "finishes", "has finished"],
+    "answer": "would finish",
+    "response": "Let's practice grammar! Fill in the blank:\n\nShe told me that she _____ the project the following day.\n\n1. would finish\n2. will finish\n3. finishes\n4. has finished\n\nThe correct answer is: would finish\n\nThis is reported speech. When the reporting verb ('told') is in the past tense, the verb in the reported clause shifts back one tense. 'Will finish' in direct speech becomes 'would finish' in reported speech. 'The following day' replaces 'tomorrow' in the time reference shift.",
+    "response_zh": "來練習文法吧！填空：\n\n她告訴我她隔天_____完成那個專案。\n\n1. would finish\n2. will finish\n3. finishes\n4. has finished\n\n正確答案是：would finish\n\n這是間接引語。當引述動詞 'told' 是過去式時，被引述子句中的動詞要往回退一個時態。直接引語中的 'will finish' 在間接引語中變成 'would finish'。'The following day' 取代了原本的 'tomorrow'。"
+  },
+  {
+    "id": "grammar_fill_006",
+    "sentence": "You _____ have told me about the change in plans earlier - I wasted two hours waiting.",
+    "options": ["should", "could", "would", "might"],
+    "answer": "should",
+    "response": "Let's practice grammar! Fill in the blank:\n\nYou _____ have told me about the change in plans earlier - I wasted two hours waiting.\n\n1. should\n2. could\n3. would\n4. might\n\nThe correct answer is: should\n\nWe use 'should have + past participle' to express criticism or regret about a past action that didn't happen. It implies that telling me was the right thing to do but wasn't done. 'Could have' expresses possibility, 'might have' expresses speculation, and 'would have' is used in conditionals.",
+    "response_zh": "來練習文法吧！填空：\n\n你_____早點告訴我計畫的變更——我白等了兩個小時。\n\n1. should\n2. could\n3. would\n4. might\n\n正確答案是：should\n\n我們用 'should have + 過去分詞' 表達對過去未做之事的批評或遺憾。這暗示告訴我是正確的做法但沒有做到。'Could have' 表示可能性，'might have' 表示推測，'would have' 用於條件句。"
+  },
+  {
+    "id": "grammar_fill_007",
+    "sentence": "I remember _____ her at the conference, but I can't recall what we discussed.",
+    "options": ["meeting", "to meet", "met", "having met"],
+    "answer": "meeting",
+    "response": "Let's practice grammar! Fill in the blank:\n\nI remember _____ her at the conference, but I can't recall what we discussed.\n\n1. meeting\n2. to meet\n3. met\n4. having met\n\nThe correct answer is: meeting\n\nAfter 'remember' followed by a gerund (-ing form), we refer to a memory of a past event. After 'remember' followed by an infinitive (to + verb), we mean remembering to do something in the future. Since the speaker is recalling a past event, the gerund 'meeting' is correct.",
+    "response_zh": "來練習文法吧！填空：\n\n我記得在研討會上_____她，但我想不起來我們聊了什麼。\n\n1. meeting\n2. to meet\n3. met\n4. having met\n\n正確答案是：meeting\n\n'remember' 後面接動名詞（-ing 形式）時，指的是對過去事件的記憶。'remember' 後面接不定詞（to + 動詞）時，是記得要在未來做某事。因為說話者在回憶過去的事件，所以用動名詞 'meeting'。"
+  },
+  {
+    "id": "grammar_fill_008",
+    "sentence": "Neither the manager nor the employees _____ aware of the policy change.",
+    "options": ["were", "was", "are being", "has been"],
+    "answer": "were",
+    "response": "Let's practice grammar! Fill in the blank:\n\nNeither the manager nor the employees _____ aware of the policy change.\n\n1. were\n2. was\n3. are being\n4. has been\n\nThe correct answer is: were\n\nWith 'neither...nor', the verb agrees with the subject closest to it. Since 'employees' (plural) is closest to the verb, we use the plural past tense 'were'. If the sentence were 'neither the employees nor the manager', the answer would be 'was'.",
+    "response_zh": "來練習文法吧！填空：\n\n經理和員工都_____知道這項政策的變更。\n\n1. were\n2. was\n3. are being\n4. has been\n\n正確答案是：were\n\n在 'neither...nor' 結構中，動詞與最靠近它的主詞一致。因為 'employees'（複數）最靠近動詞，所以用複數過去式 'were'。如果句子是 'neither the employees nor the manager'，答案就會是 'was'。"
+  },
+  {
+    "id": "grammar_fill_009",
+    "sentence": "She is interested _____ applying for the position, but she is concerned _____ the long commute.",
+    "options": ["in / about", "about / in", "with / about", "in / with"],
+    "answer": "in / about",
+    "response": "Let's practice grammar! Fill in the blank:\n\nShe is interested _____ applying for the position, but she is concerned _____ the long commute.\n\n1. in / about\n2. about / in\n3. with / about\n4. in / with\n\nThe correct answer is: in / about\n\nPrepositions are fixed collocations with certain adjectives. 'Interested in' and 'concerned about' are standard adjective-preposition combinations in English. These must be memorized as set phrases rather than derived from rules.",
+    "response_zh": "來練習文法吧！填空：\n\n她對申請這個職位_____有興趣，但她_____長距離通勤感到擔憂。\n\n1. in / about\n2. about / in\n3. with / about\n4. in / with\n\n正確答案是：in / about\n\n介系詞是特定形容詞的固定搭配。'Interested in' 和 'concerned about' 是英文中標準的形容詞介系詞組合。這些必須作為固定片語記憶，而不是從規則推導。"
+  },
+  {
+    "id": "grammar_fill_010",
+    "sentence": "_____ having submitted the application late, she was still considered for the role.",
+    "options": ["Despite", "Although", "Even", "However"],
+    "answer": "Despite",
+    "response": "Let's practice grammar! Fill in the blank:\n\n_____ having submitted the application late, she was still considered for the role.\n\n1. Despite\n2. Although\n3. Even\n4. However\n\nThe correct answer is: Despite\n\n'Despite' is a preposition followed by a noun phrase or gerund (e.g., 'despite having submitted'). 'Although' is a conjunction and must be followed by a full clause with a subject and verb (e.g., 'although she submitted'). 'Even' and 'However' do not fit the grammatical structure here.",
+    "response_zh": "來練習文法吧！填空：\n\n_____申請遲交了，她仍然被考慮擔任這個角色。\n\n1. Despite\n2. Although\n3. Even\n4. However\n\n正確答案是：Despite\n\n'Despite' 是介系詞，後面接名詞片語或動名詞（如 'despite having submitted'）。'Although' 是連接詞，必須接完整子句（如 'although she submitted'）。'Even' 和 'However' 不符合這裡的文法結構。"
+  }
+]

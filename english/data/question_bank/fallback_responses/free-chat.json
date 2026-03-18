@@ -1,0 +1,72 @@
+[
+  {
+    "id": "free-chat_001",
+    "keywords": ["hello", "hi", "hey", "good morning", "good afternoon"],
+    "user_example": "Hey, how are you?",
+    "response": "Hey! I'm doing great, thanks for asking. What's on your mind today? We can talk about pretty much anything - current events, hobbies, travel, books, whatever you feel like. I'm here to chat and help you practice your English along the way. What sounds good to you?",
+    "response_zh": "嘿！我很好，謝謝你問！你今天在想什麼？我們幾乎什麼都可以聊，時事、興趣、旅行、書，隨你想。我在這裡陪你聊天，順便幫你練英文。你想聊什麼？"
+  },
+  {
+    "id": "free-chat_002",
+    "keywords": ["hobby", "hobbies", "free time", "spare time", "interests"],
+    "user_example": "What do you do in your free time?",
+    "response": "I love that question - hobbies say a lot about a person! Me, I'd probably spend every free moment reading and hiking if I could. What about you? Do you have any hobbies you're really into right now, or maybe something you've been wanting to try? I'm curious whether you prefer activities that get you outdoors or ones where you can just unwind at home.",
+    "response_zh": "我很喜歡這個問題，興趣真的能看出一個人的個性！我的話，如果可以的話，大概會把所有空閒時間花在閱讀和健行上。你呢？你現在有特別投入的興趣嗎，或者有什麼一直想嘗試的事？我很好奇你偏好戶外活動還是在家放鬆的活動。"
+  },
+  {
+    "id": "free-chat_003",
+    "keywords": ["travel", "trip", "visited", "country", "destination"],
+    "user_example": "I love traveling. Do you have any travel recommendations?",
+    "response": "Oh, travel is one of my favorite topics! There are so many incredible places. If you're into history and architecture, Portugal is absolutely worth a visit - Lisbon in particular has this wonderful energy without feeling too touristy. If you want something more off the beaten path, Georgia (the country, not the US state) has been on a lot of people's radar lately for its food, wine, and mountains. Where have you traveled that you really loved, and what kind of trip are you thinking about next?",
+    "response_zh": "旅行是我最愛聊的話題之一！有太多很棒的地方了。如果你喜歡歷史和建築，葡萄牙絕對值得一去，尤其是里斯本，那裡有一種很棒的活力，又不會太觀光客化。如果你想去比較冷門的地方，喬治亞（是國家，不是美國那個州）最近因為美食、葡萄酒和山景受到很多關注。你去過最喜歡的地方是哪裡？下一趟打算去哪裡？"
+  },
+  {
+    "id": "free-chat_004",
+    "keywords": ["food", "eat", "restaurant", "cuisine", "cooking"],
+    "user_example": "I really enjoy cooking. What's your favorite type of food?",
+    "response": "Cooking is such a great skill to have! There's something really satisfying about making something from scratch. If I had to pick a favorite cuisine, I'd probably go with Japanese - the balance of simplicity and precision is fascinating, and the range is massive from ramen to sushi to izakaya food. Do you tend to cook a particular style, or do you experiment with different cuisines? And what's a dish you've been proud of recently?",
+    "response_zh": "會做菜是一項很棒的技能！從零開始做出東西真的很有成就感。如果要我選最喜歡的料理，大概會選日本料理，簡單和精準的平衡讓人著迷，而且範圍超廣，從拉麵到壽司到居酒屋料理。你平常做特定風格的菜嗎，還是會嘗試不同料理？最近有什麼讓你自豪的菜嗎？"
+  },
+  {
+    "id": "free-chat_005",
+    "keywords": ["movie", "film", "watch", "series", "show", "netflix"],
+    "user_example": "I've been watching a lot of movies lately. Any recommendations?",
+    "response": "I'm always happy to talk films! It really depends on the mood. For something thought-provoking, 'Everything Everywhere All at Once' is unlike anything else out there. If you want a gripping thriller, 'Parasite' holds up brilliantly even if you already know the twist. For TV series, 'Succession' is endlessly quotable and great for learning formal English in corporate settings. What kind of films or shows are you usually drawn to - genre, tone, anything like that? I can narrow it down.",
+    "response_zh": "我很樂意聊電影！真的要看心情。想看發人深省的，《乎都有可能》跟其他電影完全不一樣。想看驚悚的，《寄生上流》即使你已經知道劇情轉折也一樣精彩。電視劇的話，《乃承之戰》超多金句，而且很適合學商業英文。你通常被什麼類型的影片吸引？類型、風格都可以說，我可以幫你篩選。"
+  },
+  {
+    "id": "free-chat_006",
+    "keywords": ["weather", "cold", "hot", "rain", "sunny", "season"],
+    "user_example": "The weather has been really strange lately.",
+    "response": "It really has been all over the place in a lot of places! Weather is actually a fascinating topic for language learners because English has so many expressions for it. We say 'it's raining cats and dogs' for heavy rain, or 'under the weather' when we feel ill. What's it like where you are right now? Are you someone who prefers the summer heat or the crispness of autumn and winter? I find people have surprisingly strong opinions about this.",
+    "response_zh": "最近很多地方天氣真的很不穩定！天氣其實對語言學習者來說是個很有趣的話題，因為英文有超多相關的說法。我們說 'raining cats and dogs' 形容大雨，或 'under the weather' 表示身體不舒服。你那邊現在天氣怎麼樣？你比較喜歡夏天的熱還是秋冬的涼爽？我發現大家對這個話題意見出奇地強烈。"
+  },
+  {
+    "id": "free-chat_007",
+    "keywords": ["weekend", "plans", "this week", "holiday", "day off"],
+    "user_example": "I don't have any plans this weekend. Any suggestions?",
+    "response": "A free weekend is actually such a luxury! Depending on your energy level, I'd say: if you want to be productive, try visiting somewhere local you've never been - even in your own city there are usually spots people overlook. If you want to completely unwind, a movie marathon at home with good food is genuinely underrated. Or if you want to combine English practice with fun, watching a series in English without subtitles is surprisingly effective. What do your weekends usually look like - do you like to keep busy or take it slow?",
+    "response_zh": "空閒的週末其實是一種奢侈！看你的精力狀況，我建議：如果想充實一點，可以去逛一個你從沒去過的本地景點，即使在自己的城市裡通常也有被忽略的好地方。如果想完全放鬆，在家看電影配好吃的東西真的被低估了。或者如果想把英文練習跟樂趣結合，不開字幕看英文影集效果出乎意料地好。你週末通常怎麼過？喜歡忙碌一點還是慢慢來？"
+  },
+  {
+    "id": "free-chat_008",
+    "keywords": ["work", "job", "career", "office", "boss", "colleagues"],
+    "user_example": "Work has been really stressful lately.",
+    "response": "Sorry to hear that - work stress has a way of bleeding into everything else. It's worth asking whether it's a volume problem (too much to do), a relationship problem (difficult people), or a direction problem (not feeling like the work matters). Each one needs a different approach. What's been the main source of stress for you? Sometimes just talking it through can help clarify what's actually going on. And separately - is English something you use at work, or more for personal reasons?",
+    "response_zh": "聽到這個很遺憾，工作壓力真的會影響到生活的方方面面。值得想想這是量的問題（太多事要做）、人際問題（難相處的人）、還是方向問題（覺得工作沒意義）。每種情況需要不同的應對方式。你主要的壓力來源是什麼？有時候聊一聊就能幫助釐清狀況。另外，英文是你工作上會用到的，還是比較是個人需求？"
+  },
+  {
+    "id": "free-chat_009",
+    "keywords": ["english", "learning", "improve", "practice", "study", "tips"],
+    "user_example": "Do you have any tips for improving my English?",
+    "response": "Absolutely - and the fact that you're having conversations in English right now is already one of the best things you can do. The single biggest accelerator most learners overlook is consuming content that's slightly above their level: podcasts, news, or shows where you catch about 80% and have to work for the rest. The discomfort is where the growth happens. Writing regularly also helps a lot - even a short journal entry in English each day builds fluency faster than you'd expect. What feels like your biggest challenge right now - speaking, vocabulary, grammar, something else?",
+    "response_zh": "當然！而且你現在就在用英文對話，這已經是你能做的最好的事之一了。大多數學習者忽略的最大加速器，就是接觸比自己程度稍高的內容：播客、新聞或影集，那種你能聽懂 80% 左右、剩下的要費點力的。不舒適感就是成長的地方。每天寫一點也很有幫助，即使是一段簡短的英文日記，累積下來提升流暢度的速度會比你想像的快。你覺得現在最大的挑戰是什麼？口說、詞彙、文法，還是其他的？"
+  },
+  {
+    "id": "free-chat_010",
+    "keywords": ["culture", "difference", "country", "american", "british", "english"],
+    "user_example": "I'm curious about the differences between American and British culture.",
+    "response": "That's a great topic and one that comes up constantly in language learning! The differences go deeper than just spelling and vocabulary - though those are real ('colour' vs 'color', 'lift' vs 'elevator'). British English tends toward understatement: 'not bad' often means 'really quite good'. American English tends to be more direct and enthusiastic. Culturally, humour and self-deprecation play a bigger role in British conversation, while Americans tend to be warmer and more openly friendly with strangers. Are there any specific expressions or cultural moments that have confused you? I'd love to help explain them.",
+    "response_zh": "這是個很棒的話題，在語言學習中一直被提起！差異不只是拼寫和詞彙，雖然那些確實存在（'colour' 跟 'color'、'lift' 跟 'elevator'）。英式英文傾向低調表達：'not bad' 通常是指『其實蠻好的』。美式英文比較直接和熱情。文化上，幽默和自嘲在英國對話中扮演更大的角色，而美國人對陌生人通常更熱情和友善。有沒有什麼特定的表達或文化時刻讓你困惑的？我很樂意幫你解釋。"
+  }
+]

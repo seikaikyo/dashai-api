@@ -1,0 +1,82 @@
+[
+  {
+    "id": "vocabulary_001",
+    "prompt": "Choose the word that best completes the sentence: The scientist's findings were _____ by multiple independent studies.",
+    "options": ["corroborated", "fabricated", "diminished", "extricated"],
+    "answer": "corroborated",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The scientist's findings were _____ by multiple independent studies.\n\n1. corroborated\n2. fabricated\n3. diminished\n4. extricated\n\nThe correct answer is: corroborated\n\n'Corroborate' means to confirm or give support to a statement or theory. 'Fabricated' means invented or made up. 'Diminished' means reduced or made smaller. 'Extricated' means freed from a difficult situation. Independent studies confirming findings is a classic use of 'corroborate'.",
+    "response_zh": "詞彙測驗！\n\n選擇最適合的詞完成句子：這位科學家的發現被多項獨立研究所_____。\n\n1. corroborated（證實）\n2. fabricated（捏造）\n3. diminished（削弱）\n4. extricated（解救）\n\n正確答案是：corroborated\n\n'Corroborate' 意思是確認或支持某個陳述或理論。'Fabricated' 是捏造。'Diminished' 是減少。'Extricated' 是從困境中解脫。獨立研究確認發現，是 'corroborate' 的經典用法。"
+  },
+  {
+    "id": "vocabulary_002",
+    "prompt": "Choose the word that best completes the sentence: The CEO's _____ remarks at the shareholder meeting caused the company's stock to drop sharply.",
+    "options": ["incendiary", "benign", "verbose", "cursory"],
+    "answer": "incendiary",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The CEO's _____ remarks at the shareholder meeting caused the company's stock to drop sharply.\n\n1. incendiary\n2. benign\n3. verbose\n4. cursory\n\nThe correct answer is: incendiary\n\n'Incendiary' means tending to stir up conflict or strong reaction - literally, something that causes fire. It fits because controversial remarks would cause a sharp market reaction. 'Benign' means harmless, 'verbose' means using too many words, and 'cursory' means hastily done without attention to detail.",
+    "response_zh": "詞彙測驗！\n\n選擇最適合的詞：執行長在股東會上的_____言論導致公司股價大跌。\n\n1. incendiary（煽動性的）\n2. benign（無害的）\n3. verbose（冗長的）\n4. cursory（草率的）\n\n正確答案是：incendiary\n\n'Incendiary' 意思是容易引起衝突或強烈反應，字面意思是引火的。適用因為爭議性言論會導致市場劇烈反應。'Benign' 是無害的，'verbose' 是用詞過多，'cursory' 是倉促不仔細。"
+  },
+  {
+    "id": "vocabulary_003",
+    "prompt": "Choose the word that best completes the sentence: After years of litigation, the two companies reached an _____ agreement that satisfied neither side entirely.",
+    "options": ["expedient", "amicable", "acrimonious", "unilateral"],
+    "answer": "amicable",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: After years of litigation, the two companies reached an _____ agreement that satisfied neither side entirely.\n\n1. expedient\n2. amicable\n3. acrimonious\n4. unilateral\n\nThe correct answer is: amicable\n\n'Amicable' means done in a friendly spirit, often used for agreements reached without hostility. 'Expedient' means convenient and practical despite possibly being improper. 'Acrimonious' means bitter and angry - the opposite of what you'd reach after agreeing. 'Unilateral' means done by one side only.",
+    "response_zh": "詞彙測驗！\n\n選擇最適合的詞：經過多年訴訟，兩家公司達成了一項_____的協議，雙方都不完全滿意。\n\n1. expedient（權宜的）\n2. amicable（友善的）\n3. acrimonious（尖酸的）\n4. unilateral（單方面的）\n\n正確答案是：amicable\n\n'Amicable' 意思是以友善態度進行的，常用於描述沒有敵意的協議。'Expedient' 是方便實用但可能不太恰當。'Acrimonious' 是尖酸刻薄的，跟達成協議相反。'Unilateral' 是單方面的。"
+  },
+  {
+    "id": "vocabulary_004",
+    "prompt": "Choose the word that best completes the sentence: The documentary sought to _____ the widespread misconceptions about nutrition that had persisted for decades.",
+    "options": ["perpetuate", "debunk", "validate", "trivialize"],
+    "answer": "debunk",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The documentary sought to _____ the widespread misconceptions about nutrition that had persisted for decades.\n\n1. perpetuate\n2. debunk\n3. validate\n4. trivialize\n\nThe correct answer is: debunk\n\n'Debunk' means to expose the falseness or hollowness of a myth or belief. It collocates naturally with 'misconceptions'. 'Perpetuate' means to make something continue indefinitely. 'Validate' means to confirm the truth. 'Trivialize' means to treat as less important than it is.",
+    "response_zh": "詞彙測驗！\n\n選擇最適合的詞：這部紀錄片試圖_____數十年來廣泛存在的營養迷思。\n\n1. perpetuate（延續）\n2. debunk（揭穿）\n3. validate（證實）\n4. trivialize（輕視）\n\n正確答案是：debunk\n\n'Debunk' 意思是揭露某個神話或信念的虛假性，跟 'misconceptions' 自然搭配。'Perpetuate' 是使某事無限延續。'Validate' 是確認真實性。'Trivialize' 是把事情看得比實際不重要。"
+  },
+  {
+    "id": "vocabulary_005",
+    "prompt": "Choose the word that best completes the sentence: His _____ approach to problem-solving often meant he overlooked obvious solutions in favor of complicated ones.",
+    "options": ["convoluted", "pragmatic", "systematic", "empirical"],
+    "answer": "convoluted",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: His _____ approach to problem-solving often meant he overlooked obvious solutions in favor of complicated ones.\n\n1. convoluted\n2. pragmatic\n3. systematic\n4. empirical\n\nThe correct answer is: convoluted\n\n'Convoluted' means extremely complex and difficult to follow - it perfectly describes an approach that makes simple things complicated. 'Pragmatic' means dealing with things sensibly and practically. 'Systematic' means done according to a plan or system. 'Empirical' means based on observation and evidence.",
+    "response_zh": "詞彙測驗！\n\n選擇最適合的詞：他_____的解決問題方式意味著他常常忽略明顯的方案，偏好複雜的。\n\n1. convoluted（繁複的）\n2. pragmatic（務實的）\n3. systematic（系統的）\n4. empirical（實證的）\n\n正確答案是：convoluted\n\n'Convoluted' 意思是極度複雜難懂，完美描述一種把簡單事情複雜化的方式。'Pragmatic' 是務實的。'Systematic' 是有系統的。'Empirical' 是基於觀察和證據的。"
+  },
+  {
+    "id": "vocabulary_006",
+    "prompt": "Choose the word that best completes the sentence: The politician's speech was criticized for being full of _____, impressive-sounding but ultimately meaningless statements.",
+    "options": ["platitudes", "axioms", "euphemisms", "anecdotes"],
+    "answer": "platitudes",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The politician's speech was criticized for being full of _____, impressive-sounding but ultimately meaningless statements.\n\n1. platitudes\n2. axioms\n3. euphemisms\n4. anecdotes\n\nThe correct answer is: platitudes\n\n'Platitudes' are remarks that have been used so often they have become meaningless - a staple criticism of political speeches. 'Axioms' are self-evident truths used as starting points for reasoning. 'Euphemisms' are mild or indirect expressions substituted for harsh ones. 'Anecdotes' are short personal stories.",
+    "response_zh": "詞彙測驗！\n\n選擇最適合的詞：這位政客的演講被批評滿是_____，聽起來很厲害但其實毫無意義。\n\n1. platitudes（陳腔濫調）\n2. axioms（公理）\n3. euphemisms（委婉語）\n4. anecdotes（軼事）\n\n正確答案是：platitudes\n\n'Platitudes' 是被用到失去意義的話語，是對政治演講的常見批評。'Axioms' 是不證自明的真理。'Euphemisms' 是替代尖銳用語的溫和表達。'Anecdotes' 是個人小故事。"
+  },
+  {
+    "id": "vocabulary_007",
+    "prompt": "Choose the word that best completes the sentence: The new policy was designed to _____ the effects of inflation on lower-income households.",
+    "options": ["mitigate", "exacerbate", "circumvent", "precipitate"],
+    "answer": "mitigate",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The new policy was designed to _____ the effects of inflation on lower-income households.\n\n1. mitigate\n2. exacerbate\n3. circumvent\n4. precipitate\n\nThe correct answer is: mitigate\n\n'Mitigate' means to make less severe or serious - it collocates strongly with 'effects' in formal writing. 'Exacerbate' is the opposite, meaning to make worse. 'Circumvent' means to find a way around a rule or obstacle. 'Precipitate' means to cause something to happen suddenly.",
+    "response_zh": "詞彙測驗！\n\n選擇最適合的詞：新政策旨在_____通膨對低收入家庭的影響。\n\n1. mitigate（減緩）\n2. exacerbate（加劇）\n3. circumvent（規避）\n4. precipitate（促使）\n\n正確答案是：mitigate\n\n'Mitigate' 意思是使不那麼嚴重，在正式寫作中常與 'effects' 搭配。'Exacerbate' 是反義詞，使更糟。'Circumvent' 是繞過規則或障礙。'Precipitate' 是突然引發某事。"
+  },
+  {
+    "id": "vocabulary_008",
+    "prompt": "Choose the word that best completes the sentence: She had an _____ ability to read a room and adjust her communication style accordingly.",
+    "options": ["uncanny", "arduous", "obtuse", "cursory"],
+    "answer": "uncanny",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: She had an _____ ability to read a room and adjust her communication style accordingly.\n\n1. uncanny\n2. arduous\n3. obtuse\n4. cursory\n\nThe correct answer is: uncanny\n\n'Uncanny' means strange or mysterious in an impressive way, often used to describe abilities that seem almost supernatural. 'Arduous' means demanding great effort. 'Obtuse' means annoyingly insensitive or slow to understand. 'Cursory' means hasty and not thorough.",
+    "response_zh": "詞彙測驗！\n\n選擇最適合的詞：她有一種_____的能力，能讀懂場合氣氛並相應調整溝通方式。\n\n1. uncanny（不可思議的）\n2. arduous（費力的）\n3. obtuse（遲鈍的）\n4. cursory（草率的）\n\n正確答案是：uncanny\n\n'Uncanny' 意思是奇妙而令人印象深刻，常用於描述近乎超自然的能力。'Arduous' 是需要大量努力的。'Obtuse' 是惱人地遲鈍。'Cursory' 是倉促不徹底的。"
+  },
+  {
+    "id": "vocabulary_009",
+    "prompt": "Choose the word that best completes the sentence: The merger talks were derailed by the _____ refusal of the board to consider any compromise.",
+    "options": ["intransigent", "tentative", "ambivalent", "judicious"],
+    "answer": "intransigent",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The merger talks were derailed by the _____ refusal of the board to consider any compromise.\n\n1. intransigent\n2. tentative\n3. ambivalent\n4. judicious\n\nThe correct answer is: intransigent\n\n'Intransigent' means unwilling to change one's views or agree to compromises - an ideal fit for a board refusing any compromise. 'Tentative' means not fully worked out or certain. 'Ambivalent' means having mixed feelings. 'Judicious' means having or showing good judgment.",
+    "response_zh": "詞彙測驗！\n\n選擇最適合的詞：併購談判因董事會_____地拒絕任何妥協而破裂。\n\n1. intransigent（頑固的）\n2. tentative（暫定的）\n3. ambivalent（矛盾的）\n4. judicious（明智的）\n\n正確答案是：intransigent\n\n'Intransigent' 意思是不願改變觀點或同意妥協，完美形容拒絕任何讓步的董事會。'Tentative' 是尚未確定的。'Ambivalent' 是心情矛盾。'Judicious' 是明智有判斷力的。"
+  },
+  {
+    "id": "vocabulary_010",
+    "prompt": "Choose the word that best completes the sentence: The author's use of _____ details about daily life in ancient Rome gave the novel an unusually vivid authenticity.",
+    "options": ["quotidian", "ephemeral", "grandiose", "nebulous"],
+    "answer": "quotidian",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The author's use of _____ details about daily life in ancient Rome gave the novel an unusually vivid authenticity.\n\n1. quotidian\n2. ephemeral\n3. grandiose\n4. nebulous\n\nThe correct answer is: quotidian\n\n'Quotidian' means ordinary or everyday - it describes the routine details of daily life, making it perfect here. 'Ephemeral' means lasting for a very short time. 'Grandiose' means impressive and ambitious in scale but often impractical. 'Nebulous' means unclear or vague.",
+    "response_zh": "詞彙測驗！\n\n選擇最適合的詞：作者運用古羅馬日常生活的_____細節，賦予這部小說異常生動的真實感。\n\n1. quotidian（日常的）\n2. ephemeral（短暫的）\n3. grandiose（宏大的）\n4. nebulous（模糊的）\n\n正確答案是：quotidian\n\n'Quotidian' 意思是普通的、日常的，描述每日生活的例行細節，在這裡非常合適。'Ephemeral' 是持續很短時間。'Grandiose' 是規模宏大但常不切實際。'Nebulous' 是不清楚或模糊的。"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-02-27T00:00:00",
+  "model": "claude-opus-4-6",
+  "version": "2.0",
+  "levels": {
+    "n5": {
+      "grammar": 45,
+      "reading": 5,
+      "conversation": 5,
+      "grammar_points": 15
+    },
+    "n4": {
+      "grammar": 60,
+      "reading": 5,
+      "conversation": 5,
+      "grammar_points": 20
+    },
+    "n3": {
+      "grammar": 75,
+      "reading": 8,
+      "conversation": 5,
+      "grammar_points": 25
+    },
+    "n2": {
+      "grammar": 90,
+      "reading": 10,
+      "conversation": 5,
+      "grammar_points": 30
+    },
+    "n1": {
+      "grammar": 155,
+      "reading": 10,
+      "conversation": 15,
+      "grammar_points": 31
+    }
+  },
+  "total": 598
+}

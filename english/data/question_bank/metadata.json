@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-02-27T00:00:00",
+  "model": "claude-opus-4-6",
+  "stats": {
+    "drills": 40,
+    "fallback_responses": 20
+  },
+  "files": {
+    "drills": [
+      {
+        "file": "drills/grammar_fill.json",
+        "count": 10,
+        "level": "B2-C1",
+        "topics": ["conditionals", "subjunctive", "passive voice", "reported speech", "modals", "relative clauses", "subject-verb agreement", "prepositions", "gerunds", "conjunctions"]
+      },
+      {
+        "file": "drills/vocabulary.json",
+        "count": 10,
+        "level": "B2-C1",
+        "topics": ["academic vocabulary", "professional vocabulary", "formal adjectives", "collocations", "word meaning in context"]
+      },
+      {
+        "file": "drills/situational.json",
+        "count": 10,
+        "level": "B2-C1",
+        "topics": ["workplace feedback", "declining invitations", "apologizing", "salary negotiation", "networking", "job interviews", "complaint handling", "email writing", "meeting facilitation", "language learning advice"]
+      },
+      {
+        "file": "drills/pronunciation.json",
+        "count": 10,
+        "level": "B1-C1",
+        "topics": ["silent letters", "stress patterns", "vowel reduction", "consonant clusters", "French loanwords", "spelling-pronunciation mismatch"]
+      }
+    ],
+    "fallback_responses": [
+      {
+        "file": "fallback_responses/interview-prep.json",
+        "count": 10,
+        "scenario": "interview-prep",
+        "persona": "Generic interviewer for a technology company role",
+        "topics": ["role description", "company info", "team structure", "day-to-day", "required skills", "compensation", "interview process", "company culture", "technical methodology", "start date"]
+      },
+      {
+        "file": "fallback_responses/free-chat.json",
+        "count": 10,
+        "scenario": "free-chat",
+        "topics": ["greetings", "hobbies", "travel", "food and cooking", "movies and TV", "weather", "weekend plans", "work and career", "English learning tips", "culture differences"]
+      }
+    ]
+  }
+}

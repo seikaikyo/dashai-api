@@ -25,6 +25,9 @@ class Settings(BaseSettings):
     # === Red Team 相關 ===
     app_api_key: str = ""
 
+    # === English Tutor 相關 ===
+    app_passcode: str = ""
+
     # === LLM API Keys (共用) ===
     anthropic_api_key: str = ""
     openai_api_key: str = ""
@@ -59,6 +62,10 @@ class Settings(BaseSettings):
         "https://ai-red-team.vercel.app",
         # ai-english-tutor
         "https://english.dashai.dev",
+        "https://ai-english-tutor.vercel.app",
+        # jlpt
+        "http://localhost:5172",
+        "https://jlpt-n1-learner.vercel.app",
     ]
 
     # Shukuyo app 相關

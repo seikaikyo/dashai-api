@@ -17,7 +17,7 @@ from slowapi.util import get_remote_address
 from starlette.middleware.base import BaseHTTPMiddleware
 
 from config import get_settings
-from database import create_db_and_tables, load_redteam_seed
+from database import create_db_and_tables, load_redteam_seed, init_db
 
 logging.basicConfig(
     level=logging.INFO,
@@ -40,6 +40,14 @@ async def lifespan(app: FastAPI):
 
     # Red Team seed data
     load_redteam_seed()
+
+    # JLPT
+    from jlpt.router import init_jlpt
+    init_jlpt()
+
+    # English Tutor
+    from english.router import init_english
+    init_english()
 
     yield
 
@@ -110,7 +118,7 @@ def root():
     return {
         "app": "DashAI API Gateway",
         "version": "1.0.0",
-        "services": ["/factory", "/shukuyo", "/redteam"],
+        "services": ["/factory", "/shukuyo", "/redteam", "/jlpt", "/english"],
     }
 
 
@@ -122,3 +130,9 @@ from redteam.router import router as redteam_router
 app.include_router(factory_router, prefix="/factory")
 app.include_router(shukuyo_router, prefix="/shukuyo")
 app.include_router(redteam_router, prefix="/redteam")
+
+from jlpt.router import router as jlpt_router
+from english.router import router as english_router
+
+app.include_router(jlpt_router, prefix="/jlpt")
+app.include_router(english_router, prefix="/english")

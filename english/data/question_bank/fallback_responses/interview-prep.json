@@ -1,0 +1,72 @@
+[
+  {
+    "id": "interview-prep_001",
+    "keywords": ["tell me about", "what is", "the role", "position", "job"],
+    "user_example": "Can you tell me about the role?",
+    "response": "Sure thing! So this role is about working with the team to tackle key challenges in our domain. You'd be collaborating across functions, contributing to projects that have real impact, and growing your skills in a hands-on environment. We're looking for someone who's curious, proactive, and excited to make a difference. Does that sound like something you'd be interested in?",
+    "response_zh": "沒問題！這個職位主要是跟團隊一起解決我們領域中的關鍵挑戰。你會跨部門合作、參與有實際影響力的專案，也能在實作中提升技能。我們在找一個有好奇心、積極主動、想做出改變的人。這聽起來像你會有興趣的嗎？"
+  },
+  {
+    "id": "interview-prep_002",
+    "keywords": ["company", "what do you do", "about you", "organization"],
+    "user_example": "What does your company do exactly?",
+    "response": "Great question! We're a technology company focused on building products that solve real problems for our customers. Our team combines engineering, design, and domain expertise to deliver solutions at scale. It's a fast-paced environment where you'd get to work on meaningful projects and see the direct impact of your contributions.",
+    "response_zh": "好問題！我們是一家科技公司，專注於打造能解決客戶實際問題的產品。我們的團隊結合了工程、設計和領域專業知識，大規模提供解決方案。這是一個步調快的環境，你可以參與有意義的專案，直接看到你的貢獻產生的影響。"
+  },
+  {
+    "id": "interview-prep_003",
+    "keywords": ["team", "who", "work with", "colleagues"],
+    "user_example": "Who would I be working with on the team?",
+    "response": "You'd be part of a cross-functional team that includes engineers, product managers, and domain specialists. It's a collaborative setup - everyone has visibility into how projects are progressing, and there's plenty of opportunity to learn from people with different backgrounds. You'd also interact with stakeholders across the organization, so strong communication skills are definitely a plus.",
+    "response_zh": "你會加入一個跨功能團隊，包括工程師、產品經理和領域專家。這是一個協作的架構，每個人都能看到專案進度，也有很多機會向不同背景的人學習。你也會跟公司各部門的利害關係人互動，所以良好的溝通能力絕對是加分項。"
+  },
+  {
+    "id": "interview-prep_004",
+    "keywords": ["day to day", "daily", "typical day", "what would i"],
+    "user_example": "What does a typical day look like in this role?",
+    "response": "Honestly it varies a lot, which is part of what makes it interesting. Some days you're heads-down on project work - building, analyzing, or problem-solving. Other days you're in meetings with teammates, reviewing progress, or brainstorming new approaches. There's also time for documentation and knowledge sharing. No two weeks look the same, and there's room to shape the role based on your strengths.",
+    "response_zh": "老實說每天都不太一樣，這也是這份工作有趣的地方。有些日子你會專心投入專案工作，做開發、分析或解決問題。其他日子你會跟隊友開會、檢視進度或腦力激盪新方法。也會有時間做文件和知識分享。沒有哪兩週是一樣的，而且你可以根據自己的強項來塑造這個角色。"
+  },
+  {
+    "id": "interview-prep_005",
+    "keywords": ["skills", "looking for", "qualifications", "experience", "background"],
+    "user_example": "What kind of background are you looking for?",
+    "response": "We're pretty open on the specific background, honestly. The strongest candidates we've seen bring a mix of technical skills and soft skills - things like analytical thinking, clear communication, and the ability to learn quickly. Relevant domain experience is definitely helpful, but we also value diverse perspectives. Being able to work independently while staying aligned with team goals is essential. What's your background like?",
+    "response_zh": "我們對具體背景其實很開放。我們看過最強的候選人通常兼具技術能力和軟實力，像是分析思考、清晰溝通和快速學習的能力。相關領域經驗當然有幫助，但我們也看重多元觀點。能夠獨立工作同時保持跟團隊目標一致是很重要的。你的背景是什麼樣的呢？"
+  },
+  {
+    "id": "interview-prep_006",
+    "keywords": ["salary", "compensation", "pay", "package", "benefits"],
+    "user_example": "What's the compensation for this role?",
+    "response": "The compensation range is competitive with industry standards and depends on experience level. We also offer a solid benefits package that typically includes health coverage, flexible work arrangements, and professional development opportunities. We try to make sure the total package reflects the seniority and impact of the work. Is that something you'd like to discuss in more detail?",
+    "response_zh": "薪資範圍跟業界標準相當，依經驗而定。我們也提供完善的福利，通常包括健康保險、彈性工作安排和專業發展機會。我們會確保整體薪酬反映工作的資深度和影響力。這部分你想再詳細討論嗎？"
+  },
+  {
+    "id": "interview-prep_007",
+    "keywords": ["next steps", "process", "interview", "timeline", "what happens next"],
+    "user_example": "What are the next steps in the process?",
+    "response": "After this conversation, if things look promising on both sides, the next step would be a technical interview with members of the team. That session usually involves a practical exercise related to the role. After that, there's a final interview focused on culture fit and working style. The whole process usually wraps up within two to three weeks. Does that timeline work for you?",
+    "response_zh": "這通電話之後，如果雙方都覺得不錯，下一步是跟團隊成員進行技術面試。那場通常會有一個跟職位相關的實作練習。之後還有一場最終面試，重點在文化契合度和工作風格。整個流程通常在兩到三週內完成。這個時間軸對你可以嗎？"
+  },
+  {
+    "id": "interview-prep_008",
+    "keywords": ["culture", "values", "work environment", "remote", "hybrid"],
+    "user_example": "What's the work culture like?",
+    "response": "We're a pretty direct, low-bureaucracy team. People here are expected to have opinions and contribute ideas - we value intellectual honesty and open communication. We support flexible work arrangements, and async communication is a big part of how we operate. There are regular team events to stay connected. People tend to be self-directed and we try to minimize unnecessary meetings. Does that kind of setup appeal to you?",
+    "response_zh": "我們是一個很直接、低官僚的團隊。這裡的人被期待有自己的想法並貢獻意見，我們重視坦誠和開放溝通。我們支持彈性工作安排，非同步溝通是我們運作的重要方式。會有定期的團隊活動保持聯繫。大家傾向自主工作，我們也盡量減少不必要的會議。這種模式吸引你嗎？"
+  },
+  {
+    "id": "interview-prep_009",
+    "keywords": ["technical", "tools", "technology", "methodology", "stack"],
+    "user_example": "What technologies and methodologies do you use?",
+    "response": "We use a mix of modern tools and established best practices. On the technical side, we work with current frameworks and platforms that are well-suited to our domain. We follow agile methodologies with regular sprint cycles. We also invest in testing, code review, and documentation to maintain quality. The team is open to adopting new tools when they genuinely improve our workflow. Is there a particular area of technology you have the most experience with?",
+    "response_zh": "我們使用多種現代工具和成熟的最佳實踐。技術方面，我們用的是適合我們領域的當前框架和平台。我們遵循敏捷方法論，有定期的衝刺週期。我們也投入測試、程式碼審查和文件來維持品質。團隊對採用新工具持開放態度，只要確實能改善流程。你在哪個技術領域最有經驗？"
+  },
+  {
+    "id": "interview-prep_010",
+    "keywords": ["start", "when", "available", "notice period", "join"],
+    "user_example": "When could I start if I got an offer?",
+    "response": "That's great to hear you're thinking ahead! Ideally we'd like someone who can start within four to six weeks. We understand that most people have notice periods and we want to make sure you wrap up your current role properly. If you need a bit more time, we can usually be flexible. Is there anything on your end that might affect your availability to start?",
+    "response_zh": "很高興聽到你在想這個！理想上我們希望能在四到六週內到職。我們理解大多數人有交接期，也希望你能好好收尾目前的工作。如果你需要多一點時間，我們通常可以彈性配合。你那邊有什麼可能影響到職時間的嗎？"
+  }
+]
