@@ -15,7 +15,7 @@ from ..config.grammar_points import LEVELS
 logger = logging.getLogger(__name__)
 
 # 題庫根目錄
-QUESTION_BANK_DIR = Path(__file__).parent.parent.parent / 'data' / 'question_bank'
+QUESTION_BANK_DIR = Path(__file__).parent.parent / 'data' / 'question_bank'
 
 MODES = ('grammar', 'reading', 'conversation')
 
