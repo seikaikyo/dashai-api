@@ -1,7 +1,8 @@
 import asyncio
 from datetime import datetime
 from sqlmodel import Session, select, and_, func
-from ..models.database import LearningRecord, GrammarMastery, ReadingProgress, engine
+from database import engine
+from ..models.database import LearningRecord, GrammarMastery, ReadingProgress
 
 
 def get_grammar_mastery_data(level: str = 'n1') -> dict[str, float]:

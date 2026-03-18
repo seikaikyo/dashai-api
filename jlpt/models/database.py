@@ -1,36 +1,13 @@
-import os
+"""JLPT Models - 使用 Gateway 共用資料庫連線"""
 import logging
 from datetime import datetime
 from typing import Optional
-from sqlmodel import Field, SQLModel, create_engine, Session
-from pathlib import Path
+from sqlmodel import Field, SQLModel
+
+# 共用 engine 和 session（不再自建連線池）
+from database import engine, get_session, create_db_and_tables  # noqa: F401
 
 logger = logging.getLogger(__name__)
-
-# 資料庫連線：優先使用 DATABASE_URL（PostgreSQL），fallback 到 SQLite
-DATABASE_URL = os.environ.get('DATABASE_URL')
-
-if DATABASE_URL:
-    # Neon PostgreSQL - 使用 psycopg (v3) driver
-    _pg_url = DATABASE_URL.replace('postgresql://', 'postgresql+psycopg://')
-    engine = create_engine(
-        _pg_url,
-        echo=False,
-        pool_size=5,
-        max_overflow=5,
-        pool_timeout=10,
-        pool_recycle=300,
-        pool_pre_ping=True,
-    )
-    logger.info('使用 PostgreSQL 資料庫')
-else:
-    # 本地開發 SQLite fallback
-    DB_PATH = Path(__file__).parent.parent.parent.parent / 'data' / 'learning.db'
-    DATABASE_URL_SQLITE = f'sqlite:///{DB_PATH}'
-    engine = create_engine(DATABASE_URL_SQLITE, echo=False)
-    logger.info('使用 SQLite 資料庫: %s', DB_PATH)
-    if os.environ.get('ENV') == 'production':
-        logger.warning('生產環境未設定 DATABASE_URL，使用 SQLite（資料會在部署時遺失）')
 
 
 class LearningRecord(SQLModel, table=True):
@@ -74,15 +51,5 @@ class ReadingProgress(SQLModel, table=True):
 
 
 def init_db():
-    """初始化資料庫（PostgreSQL 已透過 MCP 建好 schema，SQLite 自動建表）"""
-    if not os.environ.get('DATABASE_URL'):
-        # SQLite 需要自動建表
-        db_path = Path(__file__).parent.parent.parent.parent / 'data' / 'learning.db'
-        db_path.parent.mkdir(parents=True, exist_ok=True)
-    SQLModel.metadata.create_all(engine)
-
-
-def get_session():
-    """取得資料庫 session"""
-    with Session(engine) as session:
-        yield session
+    """初始化資料庫（委託給 Gateway 共用函式）"""
+    create_db_and_tables()
