@@ -899,9 +899,16 @@ class SukuyodoService:
         section = data.get(key, {})
         cbeta_base = data.get("_cbeta_base", "https://cbetaonline.dila.edu.tw/zh/T21n1299_p")
         result: dict = {}
-        # 傳出 role_label（如：「衰方」我（接受方））
+        # 傳出雙方 role_label
         if section.get("role_label"):
             result["_role_label"] = section["role_label"]
+        # 反方向的 role_label（對方）
+        inverse_dir = self.DIRECTION_INVERSE.get(direction, direction)
+        inv_key = direction_to_key.get(inverse_dir, "")
+        inv_section = data.get(inv_key, {})
+        if inv_section.get("role_label"):
+            # 把「我」換成「對方」
+            result["_inverse_role_label"] = inv_section["role_label"].replace("我", "對方")
         for role in ("lover", "spouse", "friend", "colleague", "family", "parent"):
             paragraphs = section.get(role)
             if not paragraphs:
