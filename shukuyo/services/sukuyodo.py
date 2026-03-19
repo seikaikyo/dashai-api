@@ -870,6 +870,46 @@ class SukuyodoService:
         self._relations_i18n_cache[lang] = data
         return data
 
+    _role_guidance_cache: dict | None = None
+
+    @classmethod
+    def _load_role_guidance(cls) -> dict:
+        """載入原典式角色指南 (有快取)"""
+        if cls._role_guidance_cache is not None:
+            return cls._role_guidance_cache
+        path = Path(__file__).parent.parent / "data" / "role_guidance.json"
+        if path.exists():
+            with open(path, "r", encoding="utf-8") as f:
+                cls._role_guidance_cache = json.load(f)
+        else:
+            cls._role_guidance_cache = {}
+        return cls._role_guidance_cache
+
+    def _get_role_guidance(self, direction: str) -> dict:
+        """取得指定方向的角色指南（含原典引用）"""
+        data = self._load_role_guidance()
+        # direction 是中文字（栄/親/友/衰/安/壊/危/成/命/業/胎）
+        # 對應 role_guidance.json 的 key 是 cite key (ei/shin/yu/sui/an/kai/ki/sei/mei/gyo/tai)
+        direction_to_key = {
+            "栄": "ei", "親": "shin", "友": "yu", "衰": "sui",
+            "安": "an", "壊": "kai", "危": "ki", "成": "sei",
+            "命": "mei", "業": "gyo", "胎": "tai",
+        }
+        key = direction_to_key.get(direction, "")
+        section = data.get(key, {})
+        cbeta_base = data.get("_cbeta_base", "https://cbetaonline.dila.edu.tw/zh/T21n1299_p")
+        result = {}
+        for role in ("lover", "spouse", "friend", "colleague", "family", "parent"):
+            paragraphs = section.get(role)
+            if not paragraphs:
+                continue
+            # 補上完整 CBETA URL
+            for p in paragraphs:
+                if p.get("cbeta") and not p.get("cbeta_url"):
+                    p["cbeta_url"] = f"{cbeta_base}{p['cbeta']}"
+            result[role] = {"paragraphs": paragraphs}
+        return result
+
     def _load_i18n(self, lang: str) -> dict:
         """載入指定語系的文案 JSON (有快取)"""
         if lang in self._i18n_cache:
@@ -1384,7 +1424,7 @@ class SukuyodoService:
                     relation["type"],
                     distance_detail_i18n.get("career") or distance_detail.get("career", "")
                 ),
-                "roles": self.ROLE_DESCRIPTIONS.get(relation["type"], {})
+                "roles": self._get_role_guidance(relation.get("direction", "命"))
             },
             "calculation": {
                 "distance": distance,

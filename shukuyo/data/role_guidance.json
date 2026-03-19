@@ -1,0 +1,563 @@
+{
+  "_source": "基於 T21n1299《宿曜經》品二～品五，每段詮釋皆有原典依據",
+  "_cbeta_base": "https://cbetaonline.dila.edu.tw/zh/T21n1299_p",
+
+  "ei": {
+    "direction_name": "栄",
+    "lover": [
+      {
+        "theme": "relationship_value",
+        "sutra": "宜入官拜職、對見大人、上書表進獻君王",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "栄日強調向上推進和正式場合的有利。戀人關係中，你是被提升的一方，對方的存在讓你有動力往更好的方向走。適合一起設定未來目標。"
+      },
+      {
+        "theme": "action",
+        "sutra": "興營買賣",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "經文把營生買賣列為吉。代表這段感情帶來實際的生活改善，不只是情感面，在物質和事業上也互相加分。"
+      }
+    ],
+    "friend": [
+      {
+        "theme": "social_dynamic",
+        "sutra": "宜入官拜職、對見大人",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "栄日的核心是「拜職見大人」。你從這個朋友身上獲得提升，可能是人脈、視野或機會。這是一段讓你向上走的友誼。"
+      },
+      {
+        "theme": "growth",
+        "sutra": "上書表進獻君王",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "「進獻」代表主動展現。在這段友誼中，你會被激勵去展現自己的能力，對方扮演的是推薦者和支持者的角色。"
+      }
+    ],
+    "colleague": [
+      {
+        "theme": "career_boost",
+        "sutra": "宜入官拜職、對見大人、上書表進獻君王",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "經文列出的全是職場行為：升遷、面見上級、呈報成果。栄方在職場上從對方獲得直接的助力，適合爭取升遷、提案、向上管理。"
+      },
+      {
+        "theme": "business",
+        "sutra": "興營買賣",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "買賣營生為吉，合作創業或商業夥伴關係特別有利。栄方負責對外拓展，效果會比自己單打獨鬥好很多。"
+      }
+    ],
+    "family": [
+      {
+        "theme": "support",
+        "sutra": "宜入官拜職、對見大人",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "栄日代表向上的能量。這位家人是你的靠山，在重大決定時給你支持和信心，讓你有底氣去爭取更好的機會。"
+      }
+    ]
+  },
+
+  "shin": {
+    "direction_name": "親",
+    "lover": [
+      {
+        "theme": "bonding",
+        "sutra": "宜結交、定婚姻、歡宴聚會並吉",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "親日把結交、婚姻、聚會全部列為吉。你是關係中的栽培方，自然地為對方創造穩定和溫暖。適合長期承諾。"
+      },
+      {
+        "theme": "commitment",
+        "sutra": "定婚姻",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "「定婚姻」三個字直接點出親方適合正式的關係。你的付出會讓這段感情穩固，但要留意自己的需求是否也被照顧到。"
+      }
+    ],
+    "friend": [
+      {
+        "theme": "gathering",
+        "sutra": "宜結交、歡宴聚會並吉",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "經文強調結交和聚會。你是這段友誼的經營者，常常主動約、主動關心。朋友圈的凝聚力很大程度靠你維繫。"
+      }
+    ],
+    "colleague": [
+      {
+        "theme": "nurturing",
+        "sutra": "宜結交、歡宴聚會並吉",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "親方在職場扮演栽培者。你會自然地協助對方，分享資源和機會。團隊聚餐、社交活動由你發起效果最好。"
+      }
+    ],
+    "family": [
+      {
+        "theme": "caretaking",
+        "sutra": "宜結交、定婚姻、歡宴聚會並吉",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "親方是家庭的黏著劑。你維繫家庭關係、安排聚會、照顧對方的感受。經文把這些全列為吉，代表你的付出會有好結果。"
+      }
+    ]
+  },
+
+  "yu": {
+    "direction_name": "友",
+    "lover": [
+      {
+        "theme": "friendship_base",
+        "sutra": "宜結交朋友大吉",
+        "ref": "T21 p.391b",
+        "cbeta": "0391b",
+        "interpretation": "友日的核心是結交。這段感情的基礎是友誼，你們先是朋友再發展為戀人。相處輕鬆沒壓力，但可能缺乏激情。"
+      }
+    ],
+    "friend": [
+      {
+        "theme": "natural_bond",
+        "sutra": "宜結交朋友大吉",
+        "ref": "T21 p.391b",
+        "cbeta": "0391b",
+        "interpretation": "經文直接說「結交朋友大吉」，這是六種關係中對友誼最直白的吉兆。你是主動方，自然地付出關心，友誼會長久。"
+      }
+    ],
+    "colleague": [
+      {
+        "theme": "networking",
+        "sutra": "宜結交朋友大吉",
+        "ref": "T21 p.391b",
+        "cbeta": "0391b",
+        "interpretation": "友方在職場上是天然的人脈建立者。你主動經營的同事關係會帶來意想不到的合作機會。適合跨部門協作。"
+      }
+    ],
+    "family": [
+      {
+        "theme": "warmth",
+        "sutra": "宜結交朋友大吉",
+        "ref": "T21 p.391b",
+        "cbeta": "0391b",
+        "interpretation": "友方對家人像朋友一樣相處，氣氛輕鬆。你是家中的和事佬，擅長化解尷尬和緩和緊張。"
+      }
+    ]
+  },
+
+  "sui": {
+    "direction_name": "衰",
+    "lover": [
+      {
+        "theme": "energy_drain",
+        "sutra": "唯宜解除諸惡、療病",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "衰日只有解除和療病為吉。在感情中你是能量流出的一方，容易為對方付出超過自己能承受的。需要有意識地保留自己的空間。"
+      },
+      {
+        "theme": "caution",
+        "sutra": "不宜出入遷移、買賣",
+        "ref": "T21 p.391b",
+        "cbeta": "0391b",
+        "interpretation": "經文警告不宜變動。感情穩定前避免為對方做重大改變（搬家、換工作），先把自己的生活基礎顧好。"
+      }
+    ],
+    "friend": [
+      {
+        "theme": "healing",
+        "sutra": "唯宜解除諸惡、療病",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "衰方擅長傾聽和療癒。朋友遇到困難時你是第一個被想到的人，但長期單方面付出會耗損你自己。適度設定界線。"
+      }
+    ],
+    "colleague": [
+      {
+        "theme": "problem_solving",
+        "sutra": "唯宜解除諸惡、療病",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "衰日吉在「解除」。職場上你擅長排除障礙、解決問題，但功勞容易被對方拿走。確保你的貢獻被看見。"
+      },
+      {
+        "theme": "stability",
+        "sutra": "不宜出入遷移、買賣",
+        "ref": "T21 p.391b",
+        "cbeta": "0391b",
+        "interpretation": "經文明確說不宜變動和買賣。跟這位同事合作時，不適合一起跳槽、創業或做重大投資決定。"
+      }
+    ],
+    "family": [
+      {
+        "theme": "sacrifice",
+        "sutra": "唯宜解除諸惡、療病",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "你是家庭中默默付出的人，幫家人解決麻煩、照顧病痛。經文提醒「唯宜」代表只有這件事為吉，其他方面要保護自己。"
+      }
+    ]
+  },
+
+  "ki": {
+    "direction_name": "危",
+    "lover": [
+      {
+        "theme": "formal_settings",
+        "sutra": "宜結交、定婚姻，歡宴聚會並吉",
+        "ref": "T21 p.397c-398a",
+        "cbeta": "0397c",
+        "interpretation": "危日把結交和婚姻列為吉。危方的感情適合在正式場合推進（見家長、訂婚），聚會和社交是這段關係的最佳切入點。"
+      },
+      {
+        "theme": "caution_change",
+        "sutra": "不宜遠行出入移徙",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "經文禁忌遠行和遷移。關係穩定前不要為對方做重大生活變動，在原本的環境裡先把感情基礎打穩。"
+      },
+      {
+        "theme": "deep_pattern",
+        "sutra": "危者...先凶後吉",
+        "ref": "T21 品五 三九秘法",
+        "cbeta": "0399c",
+        "interpretation": "三九秘法把危定義為先苦後甘。初期的磨合和不適不代表不合，而是這段關係的正常節奏。撐過去會比其他關係更穩固。"
+      }
+    ],
+    "friend": [
+      {
+        "theme": "social_start",
+        "sutra": "宜結交、歡宴聚會並吉",
+        "ref": "T21 p.397c-398a",
+        "cbeta": "0397c",
+        "interpretation": "經文強調結交和聚會。透過活動或聚會認識比一對一深聊更自然，社交場合是這段友誼的起點。"
+      },
+      {
+        "theme": "patience",
+        "sutra": "危者...先凶後吉",
+        "ref": "T21 品五 三九秘法",
+        "cbeta": "0399c",
+        "interpretation": "初期可能聊不到一起去，但某次深入對話後會突然理解對方的世界觀。先凶後吉，需要時間發酵。"
+      }
+    ],
+    "colleague": [
+      {
+        "theme": "formal_interaction",
+        "sutra": "宜結交、歡宴聚會並吉",
+        "ref": "T21 p.397c-398a",
+        "cbeta": "0397c",
+        "interpretation": "團隊聚餐和社交活動比會議室更容易建立信任。合作初期多安排非正式場合，效果比硬聊工作好。"
+      },
+      {
+        "theme": "avoid_change",
+        "sutra": "不宜遠行出入移徙、買賣",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "經文禁忌買賣和遷移。不適合跟對方一起做重大商業決定或組織變動，先在現有框架裡合作。"
+      }
+    ],
+    "family": [
+      {
+        "theme": "gathering_repair",
+        "sutra": "宜結交、歡宴聚會並吉",
+        "ref": "T21 p.397c-398a",
+        "cbeta": "0397c",
+        "interpretation": "家庭聚會是修復這段關係的好時機。年節團聚、家族活動比日常溝通更有效，正式場合反而更自然。"
+      },
+      {
+        "theme": "slow_bond",
+        "sutra": "危者...先凶後吉",
+        "ref": "T21 品五 三九秘法",
+        "cbeta": "0399c",
+        "interpretation": "跟這位家人的關係可能初期有摩擦，但時間是最好的化解劑。先凶後吉，年紀越大相處越融洽。"
+      }
+    ]
+  },
+
+  "sei": {
+    "direction_name": "成",
+    "lover": [
+      {
+        "theme": "growth_together",
+        "sutra": "宜修道學問、作諸成就法並吉",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "成日的核心是修學和成就。這段感情中，對方帶給你的是成長而非舒適。一起學習、一起進步是這段關係最好的經營方式。"
+      },
+      {
+        "theme": "long_term",
+        "sutra": "合和長年藥法",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "「長年藥法」意味著長期修煉。成方的感情不是速效型，需要時間慢慢熬煉，但最終的結果會很紮實。"
+      }
+    ],
+    "friend": [
+      {
+        "theme": "learning_partner",
+        "sutra": "宜修道學問、作諸成就法並吉",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "經文把修道學問列為吉。這位朋友適合一起學習、考證照、讀書會。知識面的交流是你們最強的連結。"
+      }
+    ],
+    "colleague": [
+      {
+        "theme": "skill_development",
+        "sutra": "宜修道學問、作諸成就法並吉",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "成日主修學和成就。跟對方合作最適合技術研發、專案攻關、考照進修。結果導向的合作會有很好的產出。"
+      },
+      {
+        "theme": "long_project",
+        "sutra": "合和長年藥法",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "「長年藥法」代表長期投入。適合一起做需要長時間才能見效的專案，不適合短線操作。"
+      }
+    ],
+    "family": [
+      {
+        "theme": "education",
+        "sutra": "宜修道學問、作諸成就法並吉",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "成方跟家人的關係建立在共同學習上。一起參加課程、討論知識、分享見解，比純粹的情感交流更有效。"
+      }
+    ]
+  },
+
+  "an": {
+    "direction_name": "安",
+    "lover": [
+      {
+        "theme": "stability_giver",
+        "sutra": "移徙吉、造作園宅並吉",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "安日主穩定和建設。你是這段感情的穩定基石，提供安全感和生活的基礎建設。適合一起規劃居所、經營家庭。"
+      },
+      {
+        "theme": "giving_nature",
+        "sutra": "安坐臥床帳吉",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "經文把安居列為吉。你為對方創造安穩的環境，但要注意自己的能量是持續流出的，需要對方也回饋你。"
+      }
+    ],
+    "friend": [
+      {
+        "theme": "reliable",
+        "sutra": "移徙吉、造作園宅並吉",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "安方是朋友圈裡最可靠的人。搬家找你幫忙、裝修找你參謀、需要穩定的建議找你。但別讓自己變成只被需要時才出現的人。"
+      }
+    ],
+    "colleague": [
+      {
+        "theme": "infrastructure",
+        "sutra": "移徙吉、造作園宅並吉",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "安日主建設。職場上你負責建立制度、流程、基礎建設，讓對方能在穩定的環境裡發揮。你的貢獻不顯眼但不可或缺。"
+      }
+    ],
+    "family": [
+      {
+        "theme": "home_builder",
+        "sutra": "移徙吉、造作園宅並吉、安坐臥床帳吉",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "經文把搬家、建宅、安居全列為吉。你是家庭的建設者，維持家的穩定運作。但「安壊」的安方意味著你在成就家人的同時被消耗，記得照顧自己。"
+      }
+    ]
+  },
+
+  "kai": {
+    "direction_name": "壊",
+    "lover": [
+      {
+        "theme": "intensity",
+        "sutra": "宜作鎮壓、降伏怨讎，餘並不堪",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "壊日只有鎮壓降伏為吉，「餘並不堪」。感情中你是接受穩定的一方，對方為你付出很多。這段關係強烈但不對等，需要有意識地回饋。"
+      }
+    ],
+    "friend": [
+      {
+        "theme": "receiving",
+        "sutra": "宜作鎮壓、降伏怨讎，餘並不堪",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "壊方是友誼中的受益者。對方的付出讓你獲得穩定和資源，但經文說「餘並不堪」，代表除了接受以外，你很難在其他方面回報對方。"
+      }
+    ],
+    "colleague": [
+      {
+        "theme": "leverage",
+        "sutra": "宜作鎮壓、降伏怨讎",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "壊方在職場上從對方的穩定建設中獲益。你得到的資源、制度、基礎建設都是對方（安方）建立的。善用但要知恩。"
+      }
+    ],
+    "family": [
+      {
+        "theme": "awareness",
+        "sutra": "宜作鎮壓、降伏怨讎，餘並不堪",
+        "ref": "T21 p.398a",
+        "cbeta": "0398a",
+        "interpretation": "你是家庭中被照顧的一方，家人（安方）為你提供穩定。「餘並不堪」提醒你，這段關係的不對等是天然的，最好的回報是讓自己成長得更好。"
+      }
+    ]
+  },
+
+  "mei": {
+    "direction_name": "命",
+    "lover": [
+      {
+        "theme": "mirror",
+        "sutra": "不宜舉動百事",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "命日禁忌「舉動百事」。同宿的戀人像照鏡子，太相似反而容易摩擦。經文提示要靜守而非行動，代表這段感情需要內省而非改變對方。"
+      },
+      {
+        "theme": "practice",
+        "sutra": "宜修功德",
+        "ref": "T21 品三 p.391b",
+        "cbeta": "0391b",
+        "interpretation": "品三補充命日「宜修功德」。同宿的感情最好的經營方式是一起成長、一起修行，而非追求外在的刺激或變化。"
+      }
+    ],
+    "friend": [
+      {
+        "theme": "understanding",
+        "sutra": "不宜舉動百事",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "同宿的朋友不需要多說就能理解你。但經文說不宜行動，代表這段友誼的價值在於相互理解和陪伴，不在於一起冒險。"
+      },
+      {
+        "theme": "self_reflection",
+        "sutra": "宜修功德",
+        "ref": "T21 品三 p.391b",
+        "cbeta": "0391b",
+        "interpretation": "對方是你的鏡子，在對方身上看到的缺點往往是你自己的。品三建議修功德，代表這段友誼的最大價值是自我成長。"
+      }
+    ],
+    "colleague": [
+      {
+        "theme": "resonance",
+        "sutra": "不宜舉動百事",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "同宿的同事想法高度一致，溝通成本很低。但經文禁忌行動，代表你們適合一起規劃和思考，執行面需要找其他人互補。"
+      }
+    ],
+    "family": [
+      {
+        "theme": "mirror_family",
+        "sutra": "不宜舉動百事",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "同宿的家人跟你極度相似，優缺點都放大。經文的靜守建議很適合：遇到摩擦先內觀自己，而非試圖改變對方。"
+      },
+      {
+        "theme": "shared_growth",
+        "sutra": "宜修功德",
+        "ref": "T21 品三 p.391b",
+        "cbeta": "0391b",
+        "interpretation": "一起參加課程、一起修行、一起做公益，比在家裡爭論誰對誰錯有效得多。同宿家人的相處之道在於共同向上。"
+      }
+    ]
+  },
+
+  "gyo": {
+    "direction_name": "業",
+    "lover": [
+      {
+        "theme": "karmic_weight",
+        "sutra": "所作善惡亦不成就，甚衰",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "業日「善惡不成就」，代表你帶著過去的因在這段關係中。好壞都不容易立刻看到結果，需要長時間才能顯現。不要急著下判斷。"
+      }
+    ],
+    "friend": [
+      {
+        "theme": "patience",
+        "sutra": "所作善惡亦不成就，甚衰",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "經文說「不成就」。業方在友誼中的付出不會立刻有回報，但這不代表沒有意義。長期來看，這段因緣會在意想不到的時候發揮作用。"
+      }
+    ],
+    "colleague": [
+      {
+        "theme": "long_game",
+        "sutra": "所作善惡亦不成就，甚衰",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "職場上跟對方的合作短期看不到明顯成效。不適合追求快速成果的專案，適合需要長期佈局的戰略性工作。"
+      }
+    ],
+    "family": [
+      {
+        "theme": "acceptance",
+        "sutra": "所作善惡亦不成就，甚衰",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "業方跟家人的關係帶有前世因緣的重量。不用強求立刻改善，也不用因為現狀不理想就放棄。時間會慢慢化解。"
+      }
+    ]
+  },
+
+  "tai": {
+    "direction_name": "胎",
+    "lover": [
+      {
+        "theme": "future_potential",
+        "sutra": "不宜舉動百事",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "胎日禁忌行動，但「胎」本身代表孕育和未來。你是這段關係中承載未來果的一方，現在的沉潛是為了之後的綻放。不要急。"
+      }
+    ],
+    "friend": [
+      {
+        "theme": "potential",
+        "sutra": "不宜舉動百事",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "胎方在友誼中是被孕育的一方。對方（業方）的付出在你身上會慢慢長出成果，你不需要急著回報，但要記住這份因緣。"
+      }
+    ],
+    "colleague": [
+      {
+        "theme": "incubation",
+        "sutra": "不宜舉動百事",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "胎方在職場上是成長方。跟業方的合作看起來短期沒成效，但你從中累積的經驗和能力會在未來的職涯中發揮作用。"
+      }
+    ],
+    "family": [
+      {
+        "theme": "growing",
+        "sutra": "不宜舉動百事",
+        "ref": "T21 p.397c",
+        "cbeta": "0397c",
+        "interpretation": "胎方是家庭中被養育成長的角色。家人（業方）的付出可能看起來「不成就」，但都在你身上慢慢累積。最好的回報是讓自己成長得更好。"
+      }
+    ]
+  }
+}
