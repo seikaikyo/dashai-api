@@ -898,7 +898,10 @@ class SukuyodoService:
         key = direction_to_key.get(direction, "")
         section = data.get(key, {})
         cbeta_base = data.get("_cbeta_base", "https://cbetaonline.dila.edu.tw/zh/T21n1299_p")
-        result = {}
+        result: dict = {}
+        # 傳出 role_label（如：「衰方」我（接受方））
+        if section.get("role_label"):
+            result["_role_label"] = section["role_label"]
         for role in ("lover", "spouse", "friend", "colleague", "family", "parent"):
             paragraphs = section.get(role)
             if not paragraphs:
