@@ -1286,7 +1286,24 @@ class SukuyodoService:
 
         # 綜合分數（等級映射 + 元素加成）
         rel_level = self.RELATION_LEVEL_MAP.get(relation["type"], "chukichi")
-        final_score = min(100, self.LEVEL_DISPLAY_SCORE[rel_level] + element_bonus)
+        base_score = self.LEVEL_DISPLAY_SCORE[rel_level] + element_bonus
+        final_score = min(100, base_score)
+
+        # 雙向分數（依方向能量流向調整）
+        direction_p1 = relation.get("direction", "命")
+        direction_p2 = self.DIRECTION_INVERSE.get(direction_p1, direction_p1)
+        mod_p1 = self.DIRECTION_SCORE_MODIFIER.get(direction_p1, 0)
+        mod_p2 = self.DIRECTION_SCORE_MODIFIER.get(direction_p2, 0)
+        score_p1_to_p2 = min(100, max(10, base_score + mod_p1))
+        score_p2_to_p1 = min(100, max(10, base_score + mod_p2))
+
+        # 凌犯對配對的影響（凌犯是曆法期間，雙方同時受影響）
+        today = date.today()
+        ryouhan_today = self.check_ryouhan_period(today)
+        ryouhan_active = ryouhan_today is not None
+        # 凌犯逆轉：高分變低，低分變高
+        ryouhan_score_p1 = (100 - score_p1_to_p2) if ryouhan_active else None
+        ryouhan_score_p2 = (100 - score_p2_to_p1) if ryouhan_active else None
 
         # 載入 i18n 關係翻譯
         relations_i18n = self._load_relations_i18n(lang)
@@ -1376,6 +1393,22 @@ class SukuyodoService:
             },
             "score": final_score,
             "element_bonus": element_bonus,
+            "directional_scores": {
+                "person1_to_person2": {
+                    "direction": direction_p1,
+                    "score": score_p1_to_p2,
+                    "modifier": mod_p1,
+                    "ryouhan_active": ryouhan_active,
+                    "ryouhan_adjusted_score": ryouhan_score_p1,
+                },
+                "person2_to_person1": {
+                    "direction": direction_p2,
+                    "score": score_p2_to_p1,
+                    "modifier": mod_p2,
+                    "ryouhan_active": ryouhan_active,
+                    "ryouhan_adjusted_score": ryouhan_score_p2,
+                },
+            },
             "summary": self._generate_summary(mansion1, mansion2, relation, final_score),
             "classical_analysis": self.get_classical_analysis(mansion1["index"], mansion2["index"]),
             "direction_analysis": self.get_direction_analysis(relation.get("direction", "命"), mode, lang),
@@ -2010,6 +2043,30 @@ class SukuyodoService:
         "kyo": 35,
     }
 
+    # 方向分數修正 — 依原典能量流向調整
+    # 正值=該方向受益，負值=該方向付出
+    DIRECTION_SCORE_MODIFIER = {
+        "栄": 5,    # 被提升方，獲得成長
+        "親": -3,   # 栽培方，付出資源
+        "友": 5,    # 友好方，主動經營
+        "衰": -8,   # 被消耗方，能量流失
+        "安": -10,  # 安定方，持續付出穩定
+        "壊": 15,   # 受益方，接受資源
+        "危": -5,   # 承受壓力方
+        "成": 10,   # 獲得成就方
+        "命": 0,    # 對稱
+        "業": -3,   # 過去因，背負
+        "胎": 3,    # 未來果，成長
+    }
+
+    # 方向配對（反方向查找）
+    DIRECTION_INVERSE = {
+        "栄": "親", "親": "栄",
+        "友": "衰", "衰": "友",
+        "安": "壊", "壊": "安",
+        "危": "成", "成": "危",
+        "命": "命", "業": "胎", "胎": "業",
+    }
 
     # 等級 → 中日文名稱
     LEVEL_NAMES = {
