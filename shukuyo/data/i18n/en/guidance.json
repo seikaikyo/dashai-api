@@ -509,12 +509,103 @@
     },
     "sutra_ref_template": "Classical text \"{sutra}\" — ",
     "ankai_warn": {
-      "壊_seeker": "The initial adjustment period tends to be longer, but once you get through the first 3-6 months, things become solid",
-      "安_seeker": "This direction has a stabilizing effect on the company, but you may take on more pressure — remember to take care of yourself",
-      "壊_hr": "The initial adjustment period tends to be longer; plan for a 3-6 month onboarding window — things become solid after that",
-      "安_hr": "This direction has a stabilizing effect on the company, but this person may take on more pressure — check in regularly"
+      "壊_seeker": "The classical text states 'the rest is unbearable.' This company's direction toward you is Destroy — everything beyond crisis handling will drain you. Do not enter.",
+      "安_seeker": "You are the Settle side — you will stabilize this company, but it will not repay you. Your efforts will be consumed. If you have other options, take them.",
+      "壊_hr": "This person is on the Destroy side — only suited for crisis management roles. All other placements will be ineffective. Do not hire unless you have a specific crisis need.",
+      "安_hr": "This person is on the Settle side — they will stabilize the environment, but the company will disproportionately drain them. Monitor workload closely or expect turnover."
     }
   },
+  "relationship_verdicts": {
+    "ankai": {
+      "安方": {
+        "severity": "warning",
+        "verdict": "Do not enter",
+        "explanation": "The classical text describes their direction toward you as Destroy: 'suited only for suppression and subduing enemies; the rest is unbearable.' You are the Settle side (builder) — you will stabilize this environment, but they will not repay you. Your construction will be consumed. Your time and energy are limited. Rather than wasting them where 'the rest is unbearable,' save your opportunity for a Prosper or Settle match.",
+        "bottom_line_seeker": "Do not go. You will be drained completely. Wait for a better opportunity — you deserve a better environment.",
+        "bottom_line_hr": "This person will stabilize the company, but the company will over-consume them. Long-term departure is certain. Monitor workload closely."
+      },
+      "壊方": {
+        "severity": "warning",
+        "verdict": "Do not enter",
+        "explanation": "The classical text states your direction here is Destroy: 'suited only for suppression and subduing enemies; the rest is unbearable.' Only crisis handling is favorable. Daily work, teamwork, and career growth will all hit walls. The text uses 'unbearable' — not 'difficult,' but 'cannot be sustained.' Your time and energy are limited. Save them for a Prosper or Settle match.",
+        "bottom_line_seeker": "Do not go. Unless this role is specifically crisis management, you will hit walls in daily work. Wait for a better opportunity.",
+        "bottom_line_hr": "This person is only suited for crisis management roles. Daily operations placement will be very poor. Do not hire unless you have a specific need."
+      }
+    },
+    "yusui": {
+      "衰方": {
+        "severity": "caution",
+        "verdict": "Proceed with caution. Your energy will be drained over time.",
+        "explanation": "You are the Decline side. Your energy will gradually diminish in this relationship. The other party keeps you comfortable but also keeps you stagnant. Good for short-term problem-solving, not for long-term growth.",
+        "bottom_line_seeker": "Acceptable, but don't put all your chips here. Focus on problem-solving and skill-building while watching for better opportunities.",
+        "bottom_line_hr": "This person performs well in problem-solving roles but will lose energy over time. Pair with training programs to maintain performance."
+      },
+      "友方": {
+        "severity": "neutral",
+        "verdict": "Good fit. Networking brings opportunities, but avoid complacency.",
+        "explanation": "You are the Friend side. Social interactions and teamwork flow naturally. The risk is becoming too comfortable and stagnating together.",
+        "bottom_line_seeker": "A good environment for development. Set your own growth targets — don't let comfort hold you back.",
+        "bottom_line_hr": "This person brings positive team energy. Set clear goals to prevent complacency."
+      }
+    },
+    "kisei": {
+      "危方": {
+        "severity": "caution",
+        "verdict": "Proceed with caution. Strong socially but limited in mobility.",
+        "explanation": "You are the Danger side. Your social skills are strong but the text warns 'not auspicious to travel far or relocate.' Internal coordination works well; external assignments and transfers do not.",
+        "bottom_line_seeker": "Consider if the role is fixed-location and values internal coordination. Skip roles requiring frequent travel.",
+        "bottom_line_hr": "Place in internal coordination roles. Do not assign field work or frequent transfers."
+      },
+      "成方": {
+        "severity": "good",
+        "verdict": "Good fit. Learning and delivery are both favored.",
+        "explanation": "You are the Achievement side. Study, certification, and project completion are all auspicious. This is an environment where your effort produces tangible results.",
+        "bottom_line_seeker": "A good opportunity. Choose roles with solid training programs — you will thrive here.",
+        "bottom_line_hr": "This person is a fast learner with on-time delivery. Provide training opportunities to accelerate growth."
+      }
+    },
+    "eishin": {
+      "栄方": {
+        "severity": "good",
+        "verdict": "Seize this opportunity. Bold action will bring above-expected returns.",
+        "explanation": "You are the Prosper side. Promotion, proposals, meeting leaders — all highly auspicious. This is your stage.",
+        "bottom_line_seeker": "Prepare actively and act soon. This is a rare strong match.",
+        "bottom_line_hr": "This person is in their peak period. Assign to core responsibilities for maximum impact."
+      },
+      "親方": {
+        "severity": "good",
+        "verdict": "Great match. They want to invest in you.",
+        "explanation": "You are the Intimate side. The other party naturally wants to mentor and support you. Suited for long-term commitment.",
+        "bottom_line_seeker": "Accept the mentorship and deepen the relationship. Interviews will feel relaxed.",
+        "bottom_line_hr": "This person has high compatibility and strong loyalty. Worth long-term investment."
+      }
+    },
+    "mei": {
+      "命方": {
+        "severity": "neutral",
+        "verdict": "Stable but patient. An accumulation phase, not a breakthrough phase.",
+        "explanation": "Same mansion — familiar and comfortable but lacking stimulation. Suited for steady output in known territory, not for pioneering.",
+        "bottom_line_seeker": "Acceptable, but don't expect breakthroughs. Focus on self-improvement while waiting for the next cycle.",
+        "bottom_line_hr": "This person delivers consistent output in a stable environment. Pair with training programs."
+      }
+    },
+    "gyotai": {
+      "業方": {
+        "severity": "caution",
+        "verdict": "Proceed with caution. Effort will not produce proportional returns.",
+        "explanation": "You are the Karma side. The text states 'good and evil deeds alike do not come to fruition.' Everything feels like running into headwind — this is timing, not ability.",
+        "bottom_line_seeker": "Unless you have no other options, wait for better timing. Entering now means working twice as hard for half the result.",
+        "bottom_line_hr": "This person's short-term performance will be limited. Place in long-term accumulation work with a focus on development."
+      },
+      "胎方": {
+        "severity": "neutral",
+        "verdict": "Potential to develop. Grow within an established system.",
+        "explanation": "You are the Embryo side — potential is incubating. Choose mature companies with training programs as a springboard.",
+        "bottom_line_seeker": "Consider companies with structured training. A breakthrough will come when the timing is right.",
+        "bottom_line_hr": "This person has high potential. Suited for talent pipeline programs with room to grow."
+      }
+    }
+  }
   "strategic": {
     "score_suffix": " pts",
     "tier_prefix": "Tier {rank}",

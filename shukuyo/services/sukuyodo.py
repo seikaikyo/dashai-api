@@ -1526,6 +1526,19 @@ class SukuyodoService:
             "person2_to_person1": _build_direction_view(index2, index1),
         }
 
+    @staticmethod
+    def _get_relation_type_for_direction(direction: str) -> str:
+        """方向 → 關係類型 key（對應 relationship_verdicts）"""
+        mapping = {
+            "栄": "eishin", "親": "eishin",
+            "友": "yusui", "衰": "yusui",
+            "安": "ankai", "壊": "ankai",
+            "危": "kisei", "成": "kisei",
+            "命": "mei",
+            "業": "gyotai", "胎": "gyotai",
+        }
+        return mapping.get(direction, "")
+
     def get_direction_analysis(self, direction: str, mode: str = "seeker", lang: str = "zh-TW") -> dict:
         """方向性深度分析：能量流動 + 職場意涵
 
@@ -1561,7 +1574,24 @@ class SukuyodoService:
         inv_data = guidance_json.get("directions", {}).get(inverse, {})
         nar_key = "narrative_hr" if mode == "hr" else "narrative"
 
+        # 關係綜合判斷（relationship verdict）
+        relation_type = self._get_relation_type_for_direction(direction)
+        verdicts_data = guidance_json.get("relationship_verdicts", {})
+        bl_key = "bottom_line_hr" if mode == "hr" else "bottom_line_seeker"
+        verdict = None
+        if relation_type in verdicts_data:
+            side = f"{direction}方"
+            verdict_entry = verdicts_data[relation_type].get(side)
+            if verdict_entry:
+                verdict = {
+                    "severity": verdict_entry.get("severity", "neutral"),
+                    "verdict": verdict_entry.get("verdict", ""),
+                    "explanation": verdict_entry.get("explanation", ""),
+                    "bottom_line": verdict_entry.get(bl_key, ""),
+                }
+
         return {
+            "verdict": verdict,
             "direction": direction,
             "role_name": dir_data.get("role_name", direction),
             "narrative": dir_data.get(nar_key, dir_data.get("narrative", "")),
