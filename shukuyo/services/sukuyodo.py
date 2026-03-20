@@ -2677,18 +2677,18 @@ class SukuyodoService:
     # 三期サイクル：27 日為一循環，分三期各 9 天
     # 每期的起始關係和名稱
     SANKI_CYCLE = [
-        {"name": "躍動の週", "reading": "やくどうのしゅう", "start_relation": "命",
-         "description": "活動期（三九秘法，T21 品二 p.397c-398a）。27日循環的第一期（一九），從命宿開始。能量充沛，適合積極行動、開展新事。",
+        {"name": "善期", "reading": "やくどうのしゅう", "start_relation": "命",
+         "description": "善期（三九秘法，T21 品二 p.397c-398a）。27日循環的第一期（一九），從命宿開始。經栄日「諸吉事並大吉」，整體適合積極行動。",
          "description_classic": "（編者歸納）一九者，命宿起行之期。命日「不宜舉動百事」、栄日「及諸吉事並大吉」、安日「移徙吉，遠行人入宅、造作園宅、安坐臥床帳、作壇場並吉」、成日「宜修道學問、合和長年藥法，作諸成就法並吉」、友・親日「宜結交、定婚姻，歡宴聚會並吉」（T21 p.397c-398a）。",
-         "description_ja": "一九（いっく）は命宿から始まる活動期なり（三九秘法、T21 品二 p.397c-398a）。27日循環の最初の9日間にして、エネルギーが最も充実する時期。新たな計画の発起、重要な約束、積極的な行動に適す。"},
-        {"name": "破壊の週", "reading": "はかいのしゅう", "start_relation": "業",
-         "description": "衰退期（三九秘法，T21 品二 p.397c-398a）。27日循環的第二期（二九），從業宿開始。前期積累的問題浮現，宜收斂整理。",
+         "description_ja": "善期（一九）。三九秘法の第一期、命宿より始まる（三九秘法、T21 品二 p.397c-398a）。27日循環の最初の9日間にして、エネルギーが最も充実する時期。新たな計画の発起、重要な約束、積極的な行動に適す。"},
+        {"name": "惡期", "reading": "はかいのしゅう", "start_relation": "業",
+         "description": "惡期（三九秘法，T21 品二 p.397c-398a）。27日循環的第二期（二九），從業宿開始。業日「甚衰」、壊日「餘並不堪」，凶日多，宜收斂。",
          "description_classic": "（編者歸納）二九者，業宿起行之期。原典記載「值業宿日，所作善惡亦不成就，甚衰」（T21 p.397c）。",
-         "description_ja": "二九（にく）は業宿から始まる衰退期なり（三九秘法、T21 品二 p.397c-398a）。前期に蓄積した疲労や問題が表面化し、エネルギーが収斂に向かう。新規の着手を避け、手元の整理と反省に努めるべき時期。"},
-        {"name": "再生の週", "reading": "さいせいのしゅう", "start_relation": "胎",
-         "description": "轉換期（三九秘法，T21 品二 p.397c-398a）。27日循環的第三期（三九），從胎宿開始。舊的結束、新的萌芽，適合反省與準備。",
+         "description_ja": "悪期（二九）。三九秘法の第二期、業宿より始まる（三九秘法、T21 品二 p.397c-398a）。前期に蓄積した疲労や問題が表面化し、エネルギーが収斂に向かう。新規の着手を避け、手元の整理と反省に努めるべき時期。"},
+        {"name": "中期", "reading": "さいせいのしゅう", "start_relation": "胎",
+         "description": "中期（三九秘法，T21 品二 p.397c-398a）。27日循環的第三期（三九），從胎宿開始。胎日「不宜舉動百事」，但友日「大吉」、親日「聚會吉」，吉凶交錯。",
          "description_classic": "（編者歸納）三九者，胎宿起行之期。原典記載「凡命、胎宿直日，不宜舉動百事」（T21 p.391b）。",
-         "description_ja": "三九（さんく）は胎宿から始まる転換期なり（三九秘法、T21 品二 p.397c-398a）。27日循環の最終段階にして、古きものの終わりと新しきものの萌芽が同時に起こる。静養・整理・準備に充て、次の循環に向けた蓄力の時期とす。"},
+         "description_ja": "中期（三九）。三九秘法の第三期、胎宿より始まる（三九秘法、T21 品二 p.397c-398a）。27日循環の最終段階にして、古きものの終わりと新しきものの萌芽が同時に起こる。静養・整理・準備に充て、次の循環に向けた蓄力の時期とす。"},
     ]
 
     # 三期サイクル各日型（每期 9 天：起始日 + 栄→衰→安→危→成→壊→友→親）
@@ -2702,8 +2702,8 @@ class SukuyodoService:
             2: {"name": "業の日", "reading": "ごうのひ",
                 # 校勘注：品三(p.391b)記載「業宿直日，所作皆吉祥」，卷下(p.397c)記載「所作善惡亦不成就，甚衰」。
                 # 兩處記載矛盾，系統採用卷下版本（三九秘要法的詳細展開，更具體可操作）。
-                "description": "前世因緣顯現的業之位置。原典卷下記載「所作善惡亦不成就，甚衰」（注：品三另記「所作皆吉祥」，兩說不同，系統從卷下）。做什麼都難有結果，應低調收斂，不宜妄動。破壊の週的入口。",
-                "description_ja": "前世からの因縁を示す業の位置。原典巻下に「善悪ともに成就せず、甚だ衰なり」とある（注：品三には「所作皆吉祥」とあり記載が異なる。本システムは巻下に従う）。何をしても結果に繋がりにくい。控えめに過ごし、破壊の週の入口として心構えを整える日。"},
+                "description": "前世因緣顯現的業之位置。原典卷下記載「所作善惡亦不成就，甚衰」（注：品三另記「所作皆吉祥」，兩說不同，系統從卷下）。做什麼都難有結果，應低調收斂，不宜妄動。惡期的入口。",
+                "description_ja": "前世からの因縁を示す業の位置。原典巻下に「善悪ともに成就せず、甚だ衰なり」とある（注：品三には「所作皆吉祥」とあり記載が異なる。本システムは巻下に従う）。何をしても結果に繋がりにくい。控えめに過ごし、惡期の入口として心構えを整える日。"},
             3: {"name": "胎の日", "reading": "たいのひ",
                 "description": "再生的開始，對應胎之位置。原典記載「凡命、胎宿直日，不宜舉動百事」（T21 p.391b; p.397c），與命日同為靜守之日。適合靜心內省，為下一個循環做準備。",
                 "description_ja": "再生の始まりにして胎の位置。原典に「凡そ命・胎の宿の直日は、百事を挙動するに宜しからず」（T21 p.391b; p.397c）とあり、命の日と同じく静守の日。内省を深め、次の循環に備える時。"},
@@ -3807,7 +3807,7 @@ class SukuyodoService:
                 "ryouhan_active": is_ryouhan,
                 "is_dark_week": is_dark,
                 "sanki_period_index": sanki.get("period_index", 1),
-                "sanki_period": sanki.get("period", "躍動の週"),
+                "sanki_period": sanki.get("period", "善期"),
                 "sanki_day_in_period": sanki.get("day_in_period", 1),
                 "sanki_day_type": sanki.get("day_type", ""),
             })
@@ -5230,7 +5230,7 @@ class SukuyodoService:
                 "trip": f"{element}性本命宿者，旅遊的精髓在於體驗而非打卡。不用把行程塞滿，留一些空白時間隨性探索。有時候迷路的那條小巷，反而藏著整趟旅行最美的風景。"
             },
             "grooming": {
-                "teihatsu": f"{element}性本命宿者，剃髮前先沐浴淨身，以清晨或上午為佳。水曜日（水星之力，清淨智慧）和金曜日（金星之力，莊嚴身儀）是傳統上最適合剃髮的日子。火曜日災厄最重，務必避開。羅刹日不宜舉動百事，應避免。破壊の週中，原典記載栄日「剃髮吉」，其餘日型宜謹慎。剃髮後端坐片刻，收攝身心。"
+                "teihatsu": f"{element}性本命宿者，剃髮前先沐浴淨身，以清晨或上午為佳。水曜日（水星之力，清淨智慧）和金曜日（金星之力，莊嚴身儀）是傳統上最適合剃髮的日子。火曜日災厄最重，務必避開。羅刹日不宜舉動百事，應避免。惡期中，原典記載栄日「剃髮吉」，其餘日型宜謹慎。剃髮後端坐片刻，收攝身心。"
             },
             "beauty": {
                 "hair_coloring": f"{element}性本命宿者，染髮前一天不要洗頭，頭皮的天然油脂能保護髮質。選色的時候考慮你平時的穿著風格和膚色，百搭的色調比流行色更實用。",
@@ -5312,7 +5312,7 @@ class SukuyodoService:
                     exclude_reason = "羅刹日，災厄之日，務必避開"
                 conflicts.append("羅刹日")
 
-        # 4. 破壊の週：不再整體排除，改為逐日判斷三九日型
+        # 4. 惡期：不再整體排除，改為逐日判斷三九日型
         #    原典 T21n1299 p.397c-398a 各日吉凶：
         #    - 業日：「所作善惡亦不成就，甚衰」→ 已由起始日判斷排除
         #    - 栄日：「諸吉事並大吉」→ 不排除
@@ -5322,7 +5322,7 @@ class SukuyodoService:
         #    - 成日：「修道學問、作諸成就法並吉」→ 不排除
         #    - 壊日：「宜作鎮壓、降伏」→ 已由壊日條件處理
         if sanki.get("is_dark_week", False):
-            conflicts.append("破壊の週")
+            conflicts.append("惡期")
             # 剃髮特殊規則：暗黒の一週間中，栄日原典記載「出家人剃髮...吉」（p.397c-398a），
             # 故栄日不排除剃髮；其餘日型排除
             if action_key == "teihatsu" and not excluded:
@@ -5416,9 +5416,9 @@ class SukuyodoService:
                 rating_shift += 1
                 shift_reasons.append("成の日利教學（修道學問吉）")
 
-        # 衝突判定：同時有實質衝突（非僅破壊の週標記）和加持 → 維持排除
-        # 破壊の週只是資訊標記，逐日判斷由各日型條件處理
-        real_conflicts = [c for c in conflicts if c != "破壊の週"]
+        # 衝突判定：同時有實質衝突（非僅惡期標記）和加持 → 維持排除
+        # 惡期只是資訊標記，逐日判斷由各日型條件處理
+        real_conflicts = [c for c in conflicts if c != "惡期"]
         if boosts and real_conflicts and not excluded:
             excluded = True
             exclude_reason = f"{'、'.join(real_conflicts)}與{'、'.join(boosts)}衝突，宜避開"
@@ -6447,9 +6447,9 @@ class SukuyodoService:
         計算日運三期サイクル
 
         27 日為一循環，從命宿開始依序分三期各 9 天：
-        - 躍動の週（一九/活動期）：命宿起 9 天
-        - 破壊の週（二九/衰退期）：業宿起 9 天
-        - 再生の週（三九/轉換期）：胎宿起 9 天
+        - 善期（一九/活動期）：命宿起 9 天
+        - 惡期（二九/衰退期）：業宿起 9 天
+        - 中期（三九/轉換期）：胎宿起 9 天
 
         Args:
             birth_mansion_index: 本命宿索引
@@ -6462,13 +6462,13 @@ class SukuyodoService:
         # 計算當日宿相對於命宿的距離（前向）
         distance = (day_mansion_index - birth_mansion_index) % 27
 
-        # 分三期：0-8 = 躍動, 9-17 = 破壊, 18-26 = 再生
+        # 分三期：0-8 = 善期, 9-17 = 惡期, 18-26 = 中期
         period_index = distance // 9
         day_in_period = (distance % 9) + 1  # 第幾天（1-9）
 
         cycle_info = self.SANKI_CYCLE[period_index]
 
-        # 暗黒の一週間：破壊の週 distance 9-15（業→栄→衰→安→危→成→壊）
+        # 暗黒の一週間：惡期 distance 9-15（業→栄→衰→安→危→成→壊）
         is_dark_week = (9 <= distance <= 15)
 
         # 日型判定：第 1 天為期起始日（命/業/胎），第 2-9 天為共通日型
@@ -6528,7 +6528,7 @@ class SukuyodoService:
         is_dark_week = sanki.get("is_dark_week", False)
         is_auspicious_relation = mansion_relation_type in ("eishin", "mei")
 
-        # 1. triple_auspicious：甘露/金剛 + 栄親/命（破壊の週的栄日/安日/成日仍可觸發）
+        # 1. triple_auspicious：甘露/金剛 + 栄親/命（惡期的栄日/安日/成日仍可觸發）
         if special_day_type in ("kanro", "kongou") and is_auspicious_relation:
             if not ryouhan:
                 results.append({
@@ -6573,7 +6573,7 @@ class SukuyodoService:
                 "description_classic": "（編者歸納）凌犯六害相重。原典凌犯化解法：「宜修功德造善以禳之」（T21 p.392a-b，化解法參照凌犯規則，六害宿段無專屬化解記載）。"
             })
 
-        # 5. compounded_negative：安壊 + 破壊の週の凶日型（業/衰/危/壊）
+        # 5. compounded_negative：安壊 + 惡期の凶日型（業/衰/危/壊）
         sanki_day_type = sanki.get("day_type", "")
         dark_week_bad_days = ("業の日", "衰の日", "危の日", "壊の日")
         if mansion_relation_type == "ankai" and is_dark_week and sanki_day_type in dark_week_bad_days:
@@ -6581,8 +6581,8 @@ class SukuyodoService:
                 "pattern": "compounded_negative",
                 "severity": 4,
                 "name": "凶因重疊",
-                "description": "安壊的破壞性與破壊の週的凶日型重疊，運勢處於谷底。今天不是行動的日子，專注在不需要外界配合的事情上。",
-                "description_ja": "安壊の破壊性と破壊の週の凶日型が重なり、運勢は最低点に。行動を控え、外部との関わりを最小限に留めるべし。",
+                "description": "安壊的破壞性與惡期的凶日型重疊，運勢處於谷底。今天不是行動的日子，專注在不需要外界配合的事情上。",
+                "description_ja": "安壊の破壊性と惡期の凶日型が重なり、運勢は最低点に。行動を控え、外部との関わりを最小限に留めるべし。",
                 "description_classic": "（編者歸納）安壊逢破壊の凶日，凶因重疊。原典壊日：「餘並不堪」（T21 p.398a）。"
             })
 
@@ -6895,7 +6895,7 @@ class SukuyodoService:
 
     @staticmethod
     def _ics_day_tip(level: str | None, personal: dict | None, day: dict) -> str:
-        """白話提醒：依特殊日、凌犯、破壊の週、一般等級產生每日建議"""
+        """白話提醒：依特殊日、凌犯、惡期、一般等級產生每日建議"""
         has_ryouhan = bool(day.get('ryouhan') and day['ryouhan'].get('active'))
         is_dark = bool(personal and personal.get('is_dark_week'))
         has_rokugai = bool(personal and personal.get('rokugai'))
@@ -6923,28 +6923,28 @@ class SukuyodoService:
         if has_ryouhan and has_rokugai:
             return '凌犯期間碰上六害宿，今天最該避開。原典記載宜修福：入灌頂及護摩，並修諸功德'
 
-        # 破壊の週：依三九日型分別建議（原典各日吉凶不同）
+        # 惡期：依三九日型分別建議（原典各日吉凶不同）
         if is_dark:
             day_type = (personal or {}).get('sanki_day_type', '')
             if day_type == '栄の日':
-                return '破壊の週但逢栄日，原典記載即宜入官拜職、對見大人、上書表進獻君王、興營買賣、裁著新衣、沐浴及諸吉事並大吉。可正常行動'
+                return '惡期但逢栄日，原典記載即宜入官拜職、對見大人、上書表進獻君王、興營買賣、裁著新衣、沐浴及諸吉事並大吉。可正常行動'
             if day_type == '安の日':
-                return '破壊の週但逢安日，原典記載移徙吉，遠行人入宅、造作園宅、安坐臥床帳、作壇場並吉。穩定踏實的一天'
+                return '惡期但逢安日，原典記載移徙吉，遠行人入宅、造作園宅、安坐臥床帳、作壇場並吉。穩定踏實的一天'
             if day_type == '成の日':
-                return '破壊の週但逢成日，原典記載宜修道學問、合和長年藥法，作諸成就法並吉。適合修行精進'
+                return '惡期但逢成日，原典記載宜修道學問、合和長年藥法，作諸成就法並吉。適合修行精進'
             if day_type == '壊の日':
-                return '破壊の週壊日，原典記載宜作鎮壓、降伏怨讎及討伐阻壞奸惡之謀，餘並不堪'
+                return '惡期壊日，原典記載宜作鎮壓、降伏怨讎及討伐阻壞奸惡之謀，餘並不堪'
             if day_type == '業の日':
-                return '破壊の週業日，原典記載所作善惡亦不成就，甚衰。低調收斂為上'
+                return '惡期業日，原典記載所作善惡亦不成就，甚衰。低調收斂為上'
             if day_type == '衰の日':
-                return '破壊の週衰日，原典記載唯宜解除諸惡、療病。保守度過'
+                return '惡期衰日，原典記載唯宜解除諸惡、療病。保守度過'
             if day_type == '危の日':
-                return '破壊の週危日，原典記載宜結交、定婚姻，歡宴聚會並吉。社交可行，重大決定宜避開'
+                return '惡期危日，原典記載宜結交、定婚姻，歡宴聚會並吉。社交可行，重大決定宜避開'
             if day_type == '命の日':
-                return '破壊の週命日，原典記載不宜舉動百事。低調靜養'
+                return '惡期命日，原典記載不宜舉動百事。低調靜養'
             if day_type == '胎の日':
-                return '破壊の週胎日，原典記載不宜舉動百事。低調靜養'
-            return '破壊の週，整體氣運偏弱，做好手邊的事就好'
+                return '惡期胎日，原典記載不宜舉動百事。低調靜養'
+            return '惡期，整體氣運偏弱，做好手邊的事就好'
 
         # 凌犯期間（無特殊日、無六害宿）
         if has_ryouhan:
@@ -7070,7 +7070,7 @@ class SukuyodoService:
                     desc_parts.append('-- 凌犯期間: 吉凶逆転に注意 --')
                 if personal and personal.get('is_dark_week'):
                     day_type = personal.get('sanki_day_type', '')
-                    desc_parts.append(f"-- 破壊の週 ({day_type or '二九'}) --")
+                    desc_parts.append(f"-- 惡期 ({day_type or '二九'}) --")
                 if personal and personal.get('rokugai'):
                     desc_parts.append('-- 六害宿 --')
 
