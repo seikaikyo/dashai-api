@@ -605,7 +605,7 @@
         "bottom_line_hr": "ポテンシャル型人材。人材備蓄プランに組み込み、成長の余地と時間を与える。"
       }
     }
-  }
+  },
   "strategic": {
     "score_suffix": "点",
     "tier_prefix": "第{rank}ティア",
