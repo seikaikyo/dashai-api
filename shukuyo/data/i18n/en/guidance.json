@@ -536,7 +536,9 @@
         "bottom_line_hr": "This person will stabilize the company, but the company will over-consume them. Long-term departure is certain. Monitor workload closely.",
         "bottom_line_personal": "You build, they tear down. The sutra says \"unbearable\" for everything else. No exceptions.",
         "verdict_personal": "You're auspicious, but they are \"unbearable\" toward you.",
-        "explanation_personal": "Sutra: You are the peace side — \"moving and building are auspicious,\" you stabilize the environment. But they are the destruction side — \"suitable only for suppression, everything else is unbearable.\" You build, they break."
+        "explanation_personal": "Sutra: You are the peace side — \"moving and building are auspicious,\" you stabilize the environment. But they are the destruction side — \"suitable only for suppression, everything else is unbearable.\" You build, they break.",
+        "verdict_hr": "They'll stabilize, but company is \"unbearable\" for them.",
+        "explanation_hr": "Sutra: This person is the peace side — \"moving and building are auspicious,\" they stabilize the team. But company is destruction side — \"everything else is unbearable.\" Company will drain them. Long-term departure inevitable."
       },
       "壊方": {
         "severity": "warning",
@@ -546,7 +548,9 @@
         "bottom_line_hr": "This person is only suited for crisis management roles. Daily operations placement will be very poor. Do not hire unless you have a specific need.",
         "bottom_line_personal": "The sutra says \"everything else is unbearable.\" Not a compatibility issue — it's structural.",
         "verdict_personal": "Inauspicious. The sutra says \"everything else is unbearable.\"",
-        "explanation_personal": "Sutra: \"Suitable only for suppression and subduing enemies — everything else is unbearable.\" You are the destruction side — only confrontation is auspicious. Daily interaction is completely unfavorable. \"Unbearable\" is the sutra's word."
+        "explanation_personal": "Sutra: \"Suitable only for suppression and subduing enemies — everything else is unbearable.\" You are the destruction side — only confrontation is auspicious. Daily interaction is completely unfavorable. \"Unbearable\" is the sutra's word.",
+        "verdict_hr": "Not recommended. Sutra says \"everything else is unbearable.\"",
+        "explanation_hr": "Sutra: This person is the destruction side — \"suitable only for suppression, everything else is unbearable.\" Only crisis-handling roles work. Don't hire for routine operations."
       }
     },
     "yusui": {
@@ -558,7 +562,9 @@
         "bottom_line_hr": "This person performs well in problem-solving roles but will lose energy over time. Pair with training programs to maintain performance.",
         "bottom_line_personal": "The sutra says \"only\" — that means nothing else works.",
         "verdict_personal": "Mostly inauspicious. Only problem-solving is favorable.",
-        "explanation_personal": "Sutra: \"Only suitable for removing evils and treating illness.\" You are the decline side — only fixing problems is auspicious, nothing else. The word \"only\" is clear — there's nothing else good here. They are the friend side, comfortable with you, but your role is problem-solver."
+        "explanation_personal": "Sutra: \"Only suitable for removing evils and treating illness.\" You are the decline side — only fixing problems is auspicious, nothing else. The word \"only\" is clear — there's nothing else good here. They are the friend side, comfortable with you, but your role is problem-solver.",
+        "verdict_hr": "Caution. Only suitable for troubleshooting roles.",
+        "explanation_hr": "Sutra: This person is the decline side — \"only suitable for removing evils and treating illness.\" Only problem-solving is auspicious. Assign to QA, audit, troubleshooting roles. The word \"only\" is clear."
       },
       "友方": {
         "severity": "neutral",
@@ -568,7 +574,9 @@
         "bottom_line_hr": "This person brings positive team energy. Set clear goals to prevent complacency.",
         "bottom_line_personal": "Friendship is auspicious, but they can only help you with problems.",
         "verdict_personal": "Auspicious. Making friends is greatly favorable.",
-        "explanation_personal": "Sutra: \"Making friends — greatly auspicious.\" You are the friend side — friendship is very auspicious. But they are the decline side, where \"only removing evils\" is favorable. They can help when you're in trouble, but don't expect much otherwise."
+        "explanation_personal": "Sutra: \"Making friends — greatly auspicious.\" You are the friend side — friendship is very auspicious. But they are the decline side, where \"only removing evils\" is favorable. They can help when you're in trouble, but don't expect much otherwise.",
+        "verdict_hr": "Can hire, but they only help with problem-solving.",
+        "explanation_hr": "Sutra: This person is the friend side — \"making friends, greatly auspicious.\" Teamwork is favorable. But company is decline side — \"only removing evils is suitable.\" They handle problems well, don't expect more."
       }
     },
     "kisei": {
@@ -580,7 +588,9 @@
         "bottom_line_hr": "Place in internal coordination roles. Do not assign field work or frequent transfers.",
         "bottom_line_personal": "The sutra says don't move. Stay put, don't attempt big things together.",
         "verdict_personal": "Inauspicious. No big moves.",
-        "explanation_personal": "Sutra: \"Not suitable for long journeys, going out, or moving.\" You are the danger side — making big changes together is inauspicious. They are the achievement side and can learn on their own, but you're immobilized in this relationship."
+        "explanation_personal": "Sutra: \"Not suitable for long journeys, going out, or moving.\" You are the danger side — making big changes together is inauspicious. They are the achievement side and can learn on their own, but you're immobilized in this relationship.",
+        "verdict_hr": "Caution. Don't assign mobile roles.",
+        "explanation_hr": "Sutra: This person is the danger side — \"not suitable for long journeys or moving.\" Not for travel-heavy or frequently reassigned positions. Company is achievement side — stable internal roles are better."
       },
       "成方": {
         "severity": "good",
@@ -590,7 +600,9 @@
         "bottom_line_hr": "This person is a fast learner with on-time delivery. Provide training opportunities to accelerate growth.",
         "bottom_line_personal": "Your own learning is auspicious, but they're stuck. Don't expect to move forward together.",
         "verdict_personal": "Your side is auspicious, but they can't move.",
-        "explanation_personal": "Sutra: You are the achievement side — \"suitable for studying and completing undertakings — all auspicious.\" But they are the danger side — \"not suitable for long journeys or moving.\" You want to do things, they can't act. You can learn on your own, but they'll hold you back."
+        "explanation_personal": "Sutra: You are the achievement side — \"suitable for studying and completing undertakings — all auspicious.\" But they are the danger side — \"not suitable for long journeys or moving.\" You want to do things, they can't act. You can learn on your own, but they'll hold you back.",
+        "verdict_hr": "Can hire. Self-learning auspicious, but don't reassign often.",
+        "explanation_hr": "Sutra: This person is the achievement side — \"suitable for studying and completing undertakings.\" Assign learning or project delivery roles. But company is danger side — \"not suitable for moving.\" Don't frequently reassign."
       }
     },
     "eishin": {
@@ -602,7 +614,9 @@
         "bottom_line_hr": "This person is in their peak period. Assign to core responsibilities for maximum impact.",
         "bottom_line_personal": "The sutra says everything is auspicious. Engage actively.",
         "verdict_personal": "Auspicious. The sutra lists many favorable activities.",
-        "explanation_personal": "Sutra: \"Suitable for taking office, meeting important people, trade and commerce.\" You are the glory side — active engagement is auspicious. They are the affinity side, responding with \"friendship and gatherings — all auspicious.\" The best combination among the six relationships."
+        "explanation_personal": "Sutra: \"Suitable for taking office, meeting important people, trade and commerce.\" You are the glory side — active engagement is auspicious. They are the affinity side, responding with \"friendship and gatherings — all auspicious.\" The best combination among the six relationships.",
+        "verdict_hr": "Recommend hiring. Sutra lists many auspicious activities.",
+        "explanation_hr": "Sutra: This person is the glory side — \"suitable for taking office, meeting important people, trade.\" Assigning key roles and client-facing work is auspicious. Company is affinity side. Best combination."
       },
       "親方": {
         "severity": "good",
@@ -612,7 +626,9 @@
         "bottom_line_hr": "This person has high compatibility and strong loyalty. Worth long-term investment.",
         "bottom_line_personal": "The sutra says friendship and gatherings are auspicious. Go ahead.",
         "verdict_personal": "Auspicious. Friendship and gatherings are favorable.",
-        "explanation_personal": "Sutra: \"Suitable for making friends, settling marriage, banquets and gatherings — all auspicious.\" You are the affinity side — building this relationship is auspicious. They are the glory side, actively reciprocating."
+        "explanation_personal": "Sutra: \"Suitable for making friends, settling marriage, banquets and gatherings — all auspicious.\" You are the affinity side — building this relationship is auspicious. They are the glory side, actively reciprocating.",
+        "verdict_hr": "Recommend hiring. Building relationship is auspicious.",
+        "explanation_hr": "Sutra: This person is the affinity side — \"suitable for friendship, gatherings — all auspicious.\" They bond well with the company. Company is glory side, giving opportunities will pay off."
       }
     },
     "mei": {
@@ -624,7 +640,9 @@
         "bottom_line_hr": "This person delivers consistent output in a stable environment. Pair with training programs.",
         "bottom_line_personal": "The sutra says nothing is suitable. Maintain status quo, don't force things.",
         "verdict_personal": "Inauspicious. Not suitable for any undertaking.",
-        "explanation_personal": "Sutra: \"Not suitable for any undertaking.\" Same mansion — nothing should be actively pushed forward. It's not that you can't be together, just don't expect this relationship to drive anything forward."
+        "explanation_personal": "Sutra: \"Not suitable for any undertaking.\" Same mansion — nothing should be actively pushed forward. It's not that you can't be together, just don't expect this relationship to drive anything forward.",
+        "verdict_hr": "Neutral. Don't assign pioneering tasks.",
+        "explanation_hr": "Sutra: \"Not suitable for any undertaking.\" Same mansion — don't assign creative or pioneering work. Stable, routine positions only."
       }
     },
     "gyotai": {
@@ -636,7 +654,9 @@
         "bottom_line_hr": "This person's short-term performance will be limited. Place in long-term accumulation work with a focus on development.",
         "bottom_line_personal": "The sutra says \"very inauspicious.\" Don't invest too many expectations.",
         "verdict_personal": "Inauspicious. Nothing succeeds.",
-        "explanation_personal": "Sutra: \"Whether good or bad, nothing succeeds — very inauspicious.\" You are the karma side — good or bad efforts both fail. The sutra says \"very inauspicious\" with no room for interpretation."
+        "explanation_personal": "Sutra: \"Whether good or bad, nothing succeeds — very inauspicious.\" You are the karma side — good or bad efforts both fail. The sutra says \"very inauspicious\" with no room for interpretation.",
+        "verdict_hr": "Not recommended. Sutra says \"very inauspicious.\"",
+        "explanation_hr": "Sutra: \"Whether good or bad, nothing succeeds — very inauspicious.\" Hard to achieve results in this role. If hiring, assign long-term accumulation work. Don't expect short-term performance."
       },
       "胎方": {
         "severity": "neutral",
@@ -646,7 +666,9 @@
         "bottom_line_hr": "This person has high potential. Suited for talent pipeline programs with room to grow.",
         "bottom_line_personal": "The sutra says nothing is suitable. Wait. Don't rush.",
         "verdict_personal": "Inauspicious. Not suitable for any undertaking.",
-        "explanation_personal": "Sutra: \"Not suitable for any undertaking.\" You are the embryo side — same as destiny mansion, nothing should be actively pushed. Embryo implies \"not yet formed\" — the timing isn't right."
+        "explanation_personal": "Sutra: \"Not suitable for any undertaking.\" You are the embryo side — same as destiny mansion, nothing should be actively pushed. Embryo implies \"not yet formed\" — the timing isn't right.",
+        "verdict_hr": "Reserve talent only. Don't expect output soon.",
+        "explanation_hr": "Sutra: \"Not suitable for any undertaking.\" Embryo side — timing isn't right. Suitable for talent pipeline programs. Give time and space."
       }
     }
   },

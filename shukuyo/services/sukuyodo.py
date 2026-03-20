@@ -1599,6 +1599,9 @@ class SukuyodoService:
                 if mode == "personal":
                     v_text = verdict_entry.get("verdict_personal", verdict_entry.get("verdict", ""))
                     e_text = verdict_entry.get("explanation_personal", verdict_entry.get("explanation", ""))
+                elif mode == "hr":
+                    v_text = verdict_entry.get("verdict_hr", verdict_entry.get("verdict", ""))
+                    e_text = verdict_entry.get("explanation_hr", verdict_entry.get("explanation", ""))
                 else:
                     v_text = verdict_entry.get("verdict", "")
                     e_text = verdict_entry.get("explanation", "")
