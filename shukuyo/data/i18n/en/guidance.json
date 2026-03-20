@@ -379,8 +379,8 @@
         "reason": "Room for development, but the company's fortune this year requires attention"
       },
       "4": {
-        "label": "Needs Adjustment",
-        "reason": "The astrological compatibility requires more adaptation; refer to the classical analysis below for suitable departments"
+        "label": "Not Recommended",
+        "reason": "Classical texts indicate poor compatibility; consider other opportunities first"
       }
     },
     "hr": {
@@ -397,8 +397,8 @@
         "reason": "Has specific strengths to leverage; needs to be matched with the right role"
       },
       "4": {
-        "label": "Needs Arrangement",
-        "reason": "The astrological compatibility requires more adaptation; proper role placement per the direction guidance can still yield contributions"
+        "label": "Not Recommended",
+        "reason": "Classical texts indicate poor compatibility; not recommended unless for specific crisis management needs"
       }
     }
   },
@@ -471,10 +471,10 @@
         ]
       },
       "4": {
-        "summary_prefix": "Needs Adjustment",
+        "summary_prefix": "Not Recommended",
         "action_items": [
-          "The astrological compatibility requires more adaptation; refer to the classical analysis below to choose suitable departments and roles",
-          "Focus on understanding whether the specific role aligns with your directional strengths during the interview"
+          "Classical texts indicate poor compatibility; consider other companies first",
+          "If no other options, carefully review the classical analysis below"
         ]
       }
     },
@@ -500,10 +500,10 @@
         ]
       },
       "4": {
-        "summary_prefix": "Needs Arrangement",
+        "summary_prefix": "Not Recommended",
         "action_items": [
-          "The astrological compatibility requires more adaptation; proper role placement per the classical analysis can still bring results",
-          "Refer to the classical analysis for suitable role placement; avoid positions that conflict with their directional strengths"
+          "Classical texts indicate poor compatibility; not recommended unless for specific needs",
+          "If still hiring, follow the classical analysis strictly for role placement"
         ]
       }
     },
