@@ -717,6 +717,8 @@ class CompanySearchService:
                     "relation": relation,
                     "person2": compat.get("person2", {}),
                     "direction_analysis": compat.get("direction_analysis", {}),
+                    "directional_scores": compat.get("directional_scores", {}),
+                    "practical_guidance": compat.get("practical_guidance", {}),
                 },
                 "company_fortune": company_fortune,
                 "tier": tier,
