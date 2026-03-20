@@ -531,14 +531,14 @@
       "安方": {
         "severity": "warning",
         "verdict": "Do not enter",
-        "explanation": "Sutra: You are the peace side — \"moving, entering a home, building — all auspicious.\" You stabilize the environment. But they are the destruction side — \"suitable only for suppression, everything else is unbearable.\"",
+        "explanation": "Sutra: You are the peace side — \"moving, entering a home, building — all auspicious.\" You stabilize the environment. But this company falls in your destruction position — everything except confrontational work is \"unbearable.\"",
         "bottom_line_seeker": "Sutra says \"everything else is unbearable.\" Not a compatibility issue.",
-        "bottom_line_hr": "Sutra: This person is peace side \"moving is auspicious,\" stabilizes environment. But company is destruction side \"everything else is unbearable.\"",
+        "bottom_line_hr": "Sutra: For this person at this company, everything except confrontational work is \"unbearable.\"",
         "bottom_line_personal": "You build, they tear down. The sutra says \"unbearable\" for everything else. No exceptions.",
-        "verdict_personal": "You're auspicious, but they are \"unbearable\" toward you.",
-        "explanation_personal": "Sutra: You are the peace side — \"moving and building are auspicious,\" you stabilize the environment. But they are the destruction side — \"suitable only for suppression, everything else is unbearable.\" You build, they break.",
-        "verdict_hr": "They'll stabilize, but company is \"unbearable\" for them.",
-        "explanation_hr": "Sutra: This person is the peace side — \"moving and building are auspicious,\" they stabilize the team. But company is destruction side — \"suitable only for suppression, everything else is unbearable.\" For this person, everything except confrontation is \"unbearable.\""
+        "verdict_personal": "You stabilize, but they fall in your destruction position — \"everything else is unbearable.\"",
+        "explanation_personal": "Sutra: You are the peace side — \"moving and building are auspicious,\" you stabilize the environment. But they fall in your destruction position — everything except confrontational interaction is \"unbearable.\"",
+        "verdict_hr": "This person stabilizes, but at this company \"everything else is unbearable.\"",
+        "explanation_hr": "Sutra: This person is the peace side — \"moving and building are auspicious,\" stabilizes the team. But the company falls in their destruction position — for this person here, everything except confrontational work is \"unbearable.\""
       },
       "壊方": {
         "severity": "warning",
