@@ -534,7 +534,9 @@
         "explanation": "The classical text describes their direction toward you as Destroy: 'suited only for suppression and subduing enemies; the rest is unbearable.' You are the Settle side (builder) — you will stabilize this environment, but they will not repay you. Your construction will be consumed. Your time and energy are limited. Rather than wasting them where 'the rest is unbearable,' save your opportunity for a Prosper or Settle match.",
         "bottom_line_seeker": "Do not go. You will be drained completely. Wait for a better opportunity — you deserve a better environment.",
         "bottom_line_hr": "This person will stabilize the company, but the company will over-consume them. Long-term departure is certain. Monitor workload closely.",
-        "bottom_line_personal": "You'll keep giving, but they'll keep draining you. Long-term, you'll be exhausted. Keeping distance protects yourself."
+        "bottom_line_personal": "You'll keep giving, but they'll keep draining you. Long-term, you'll be exhausted. Keeping distance protects yourself.",
+        "verdict_personal": "Not recommended for close relationship",
+        "explanation_personal": "You are the stabilizer, constantly giving and maintaining. But the other person drains your energy structurally. This isn't about compatibility effort — it's an inherent imbalance."
       },
       "壊方": {
         "severity": "warning",
@@ -542,7 +544,9 @@
         "explanation": "The classical text states your direction here is Destroy: 'suited only for suppression and subduing enemies; the rest is unbearable.' Only crisis handling is favorable. Daily work, teamwork, and career growth will all hit walls. The text uses 'unbearable' — not 'difficult,' but 'cannot be sustained.' Your time and energy are limited. Save them for a Prosper or Settle match.",
         "bottom_line_seeker": "Do not go. Unless this role is specifically crisis management, you will hit walls in daily work. Wait for a better opportunity.",
         "bottom_line_hr": "This person is only suited for crisis management roles. Daily operations placement will be very poor. Do not hire unless you have a specific need.",
-        "bottom_line_personal": "They'll constantly push your boundaries. Unless you share a clear common goal, friction will only grow. Think carefully."
+        "bottom_line_personal": "They'll constantly push your boundaries. Unless you share a clear common goal, friction will only grow. Think carefully.",
+        "verdict_personal": "Not recommended for close relationship",
+        "explanation_personal": "You are the disruptor. Only crisis handling and conflict resolution go well. Daily interactions and emotional connection will hit walls. Friction grows over time."
       }
     },
     "yusui": {
@@ -552,7 +556,9 @@
         "explanation": "You are the Decline side. Your energy will gradually diminish in this relationship. The other party keeps you comfortable but also keeps you stagnant. Good for short-term problem-solving, not for long-term growth.",
         "bottom_line_seeker": "Acceptable, but don't put all your chips here. Focus on problem-solving and skill-building while watching for better opportunities.",
         "bottom_line_hr": "This person performs well in problem-solving roles but will lose energy over time. Pair with training programs to maintain performance.",
-        "bottom_line_personal": "Okay to maintain, but set boundaries. Don't invest all your energy here — save some for yourself."
+        "bottom_line_personal": "Okay to maintain, but set boundaries. Don't invest all your energy here — save some for yourself.",
+        "verdict_personal": "Proceed with boundaries",
+        "explanation_personal": "Your energy gradually drains in this relationship. The other person relaxes you but also stagnates you. Keep appropriate distance and don't over-invest."
       },
       "友方": {
         "severity": "neutral",
@@ -560,7 +566,9 @@
         "explanation": "You are the Friend side. Social interactions and teamwork flow naturally. The risk is becoming too comfortable and stagnating together.",
         "bottom_line_seeker": "A good environment for development. Set your own growth targets — don't let comfort hold you back.",
         "bottom_line_hr": "This person brings positive team energy. Set clear goals to prevent complacency.",
-        "bottom_line_personal": "A fun, easy relationship. Enjoy it. But set your own growth goals so you don't get stuck in a comfort zone."
+        "bottom_line_personal": "A fun, easy relationship. Enjoy it. But set your own growth goals so you don't get stuck in a comfort zone.",
+        "verdict_personal": "Fun and easy, but avoid stagnating together",
+        "explanation_personal": "Comfortable and enjoyable together. The risk is getting too comfortable and stagnating. Keep your own growth momentum."
       }
     },
     "kisei": {
@@ -570,7 +578,9 @@
         "explanation": "You are the Danger side. Your social skills are strong but the text warns 'not auspicious to travel far or relocate.' Internal coordination works well; external assignments and transfers do not.",
         "bottom_line_seeker": "Consider if the role is fixed-location and values internal coordination. Skip roles requiring frequent travel.",
         "bottom_line_hr": "Place in internal coordination roles. Do not assign field work or frequent transfers.",
-        "bottom_line_personal": "Good for structured interactions — meetups and gatherings work well. But avoid living together or intense proximity. Distance helps longevity."
+        "bottom_line_personal": "Good for structured interactions — meetups and gatherings work well. But avoid living together or intense proximity. Distance helps longevity.",
+        "verdict_personal": "Better with some distance",
+        "explanation_personal": "Face-to-face interactions work well, but too much proximity creates friction. Good for regular meetups, not for living together."
       },
       "成方": {
         "severity": "good",
@@ -578,7 +588,9 @@
         "explanation": "You are the Achievement side. Study, certification, and project completion are all auspicious. This is an environment where your effort produces tangible results.",
         "bottom_line_seeker": "A good opportunity. Choose roles with solid training programs — you will thrive here.",
         "bottom_line_hr": "This person is a fast learner with on-time delivery. Provide training opportunities to accelerate growth.",
-        "bottom_line_personal": "A great learning partner. Exchange ideas often and you'll keep growing. Worth investing in."
+        "bottom_line_personal": "A great learning partner. Exchange ideas often and you'll keep growing. Worth investing in.",
+        "verdict_personal": "Worth deepening — they help you grow",
+        "explanation_personal": "Learning and exchanging with this person brings real growth. A relationship that keeps you improving."
       }
     },
     "eishin": {
@@ -588,7 +600,9 @@
         "explanation": "You are the Prosper side. Promotion, proposals, meeting leaders — all highly auspicious. This is your stage.",
         "bottom_line_seeker": "Prepare actively and act soon. This is a rare strong match.",
         "bottom_line_hr": "This person is in their peak period. Assign to core responsibilities for maximum impact.",
-        "bottom_line_personal": "Cherish this relationship. Reach out actively — your investment will be richly rewarded."
+        "bottom_line_personal": "Cherish this relationship. Reach out actively — your investment will be richly rewarded.",
+        "verdict_personal": "Cherish this — your investment pays off richly",
+        "explanation_personal": "Active care and giving bring abundant returns. A mutually nourishing relationship."
       },
       "親方": {
         "severity": "good",
@@ -596,7 +610,9 @@
         "explanation": "You are the Intimate side. The other party naturally wants to mentor and support you. Suited for long-term commitment.",
         "bottom_line_seeker": "Accept the mentorship and deepen the relationship. Interviews will feel relaxed.",
         "bottom_line_hr": "This person has high compatibility and strong loyalty. Worth long-term investment.",
-        "bottom_line_personal": "They naturally like you. Accept their goodwill sincerely. A relationship worth nurturing long-term."
+        "bottom_line_personal": "They naturally like you. Accept their goodwill sincerely. A relationship worth nurturing long-term.",
+        "verdict_personal": "They naturally like you — worth long-term nurturing",
+        "explanation_personal": "The other person opens up to you willingly. Accept their goodwill and respond sincerely."
       }
     },
     "mei": {
@@ -606,7 +622,9 @@
         "explanation": "Same mansion — familiar and comfortable but lacking stimulation. Suited for steady output in known territory, not for pioneering.",
         "bottom_line_seeker": "Acceptable, but don't expect breakthroughs. Focus on self-improvement while waiting for the next cycle.",
         "bottom_line_hr": "This person delivers consistent output in a stable environment. Pair with training programs.",
-        "bottom_line_personal": "Stable but no big breakthroughs. Enjoy the comfort while each maintaining your own growth momentum."
+        "bottom_line_personal": "Stable but no big breakthroughs. Enjoy the comfort while each maintaining your own growth momentum.",
+        "verdict_personal": "Stable but no big breakthroughs",
+        "explanation_personal": "Same mansion — familiar but lacking novelty. Enjoy the comfort while maintaining individual growth."
       }
     },
     "gyotai": {
@@ -616,7 +634,9 @@
         "explanation": "You are the Karma side. The text states 'good and evil deeds alike do not come to fruition.' Everything feels like running into headwind — this is timing, not ability.",
         "bottom_line_seeker": "Unless you have no other options, wait for better timing. Entering now means working twice as hard for half the result.",
         "bottom_line_hr": "This person's short-term performance will be limited. Place in long-term accumulation work with a focus on development.",
-        "bottom_line_personal": "No rush. The value of this relationship takes time to reveal itself. Be patient."
+        "bottom_line_personal": "No rush. The value of this relationship takes time to reveal itself. Be patient.",
+        "verdict_personal": "Patience needed — don't rush",
+        "explanation_personal": "Your investment doesn't pay off immediately. Not incompatibility — just timing. Be patient."
       },
       "胎方": {
         "severity": "neutral",
@@ -624,7 +644,9 @@
         "explanation": "You are the Embryo side — potential is incubating. Choose mature companies with training programs as a springboard.",
         "bottom_line_seeker": "Consider companies with structured training. A breakthrough will come when the timing is right.",
         "bottom_line_hr": "This person has high potential. Suited for talent pipeline programs with room to grow.",
-        "bottom_line_personal": "A high-potential relationship. Give each other space and time — good things will come when the timing is right."
+        "bottom_line_personal": "A high-potential relationship. Give each other space and time — good things will come when the timing is right.",
+        "verdict_personal": "High potential — let it develop naturally",
+        "explanation_personal": "This relationship's potential is still incubating. Give space and time — good results come when ready."
       }
     }
   },

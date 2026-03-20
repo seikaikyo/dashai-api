@@ -1561,7 +1561,10 @@ class SukuyodoService:
         inverse = direction_pairs.get(direction, direction)
         inverse_meaning = self.DIRECTION_CAREER_MEANINGS.get(inverse, {})
 
-        if mode == "hr":
+        if mode == "personal":
+            sutra_items = []
+            inverse_sutra_items = []
+        elif mode == "hr":
             sutra_items = self.get_hr_sutra_career_items(direction)
             inverse_sutra_items = self.get_hr_sutra_career_items(inverse)
         else:
@@ -1593,10 +1596,16 @@ class SukuyodoService:
             side = f"{direction}方"
             verdict_entry = verdicts_data[relation_type].get(side)
             if verdict_entry:
+                if mode == "personal":
+                    v_text = verdict_entry.get("verdict_personal", verdict_entry.get("verdict", ""))
+                    e_text = verdict_entry.get("explanation_personal", verdict_entry.get("explanation", ""))
+                else:
+                    v_text = verdict_entry.get("verdict", "")
+                    e_text = verdict_entry.get("explanation", "")
                 verdict = {
                     "severity": verdict_entry.get("severity", "neutral"),
-                    "verdict": verdict_entry.get("verdict", ""),
-                    "explanation": verdict_entry.get("explanation", ""),
+                    "verdict": v_text,
+                    "explanation": e_text,
                     "bottom_line": verdict_entry.get(bl_key, ""),
                 }
 
