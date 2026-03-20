@@ -1572,12 +1572,22 @@ class SukuyodoService:
         guidance_json = self._load_guidance_json(lang)
         dir_data = guidance_json.get("directions", {}).get(direction, {})
         inv_data = guidance_json.get("directions", {}).get(inverse, {})
-        nar_key = "narrative_hr" if mode == "hr" else "narrative"
+        if mode == "hr":
+            nar_key = "narrative_hr"
+        elif mode == "personal":
+            nar_key = "narrative_personal"
+        else:
+            nar_key = "narrative"
 
         # 關係綜合判斷（relationship verdict）
         relation_type = self._get_relation_type_for_direction(direction)
         verdicts_data = guidance_json.get("relationship_verdicts", {})
-        bl_key = "bottom_line_hr" if mode == "hr" else "bottom_line_seeker"
+        if mode == "hr":
+            bl_key = "bottom_line_hr"
+        elif mode == "personal":
+            bl_key = "bottom_line_personal"
+        else:
+            bl_key = "bottom_line_seeker"
         verdict = None
         if relation_type in verdicts_data:
             side = f"{direction}方"

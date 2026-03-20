@@ -47,6 +47,7 @@ class CompatibilityRequest(BaseModel):
     """相性診斷請求"""
     date1: str  # YYYY-MM-DD
     date2: str  # YYYY-MM-DD
+    mode: str = "personal"  # "personal" (個人配對) / "seeker" / "hr"
 
 
 class CompanySearchRequest(BaseModel):
@@ -288,7 +289,7 @@ def calculate_compatibility(
                 detail="僅支援 1900 年後的日期"
             )
 
-    result = sukuyodo_service.calculate_compatibility(date1, date2, lang=lang)
+    result = sukuyodo_service.calculate_compatibility(date1, date2, lang=lang, mode=request.mode)
 
     # 記錄使用統計
     stats_service.log_usage(session, Features.SUKUYODO_COMPATIBILITY)
