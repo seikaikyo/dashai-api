@@ -556,9 +556,9 @@
         "explanation": "You are the Decline side. Your energy will gradually diminish in this relationship. The other party keeps you comfortable but also keeps you stagnant. Good for short-term problem-solving, not for long-term growth.",
         "bottom_line_seeker": "Acceptable, but don't put all your chips here. Focus on problem-solving and skill-building while watching for better opportunities.",
         "bottom_line_hr": "This person performs well in problem-solving roles but will lose energy over time. Pair with training programs to maintain performance.",
-        "bottom_line_personal": "Okay to maintain, but set boundaries. Don't invest all your energy here — save some for yourself.",
-        "verdict_personal": "Proceed with boundaries",
-        "explanation_personal": "Your energy gradually drains in this relationship. The other person relaxes you but also stagnates you. Keep appropriate distance and don't over-invest."
+        "bottom_line_personal": "They won't hurt you on purpose, but you'll be slowly emptied. Control how often you meet. Rest when tired.",
+        "verdict_personal": "You'll be drained — protect yourself",
+        "explanation_personal": "You are the decline side — your energy steadily drains in this relationship. The other person is the friend side, comfortable around you, but unaware they're draining you. Not malicious, just structural imbalance."
       },
       "友方": {
         "severity": "neutral",
@@ -578,9 +578,9 @@
         "explanation": "You are the Danger side. Your social skills are strong but the text warns 'not auspicious to travel far or relocate.' Internal coordination works well; external assignments and transfers do not.",
         "bottom_line_seeker": "Consider if the role is fixed-location and values internal coordination. Skip roles requiring frequent travel.",
         "bottom_line_hr": "Place in internal coordination roles. Do not assign field work or frequent transfers.",
-        "bottom_line_personal": "Good for structured interactions — meetups and gatherings work well. But avoid living together or intense proximity. Distance helps longevity.",
-        "verdict_personal": "Better with some distance",
-        "explanation_personal": "Face-to-face interactions work well, but too much proximity creates friction. Good for regular meetups, not for living together."
+        "bottom_line_personal": "Not easy together. Good for occasional catch-ups, but intense proximity exhausts both of you.",
+        "verdict_personal": "You stress them out, they make you anxious",
+        "explanation_personal": "You are the danger side — your emotions and anxiety affect them. Meanwhile they are the growth side, pushing you to \"develop\" in ways that add pressure. Neither side has it easy. Lots of communication and boundaries needed."
       },
       "成方": {
         "severity": "good",
@@ -588,9 +588,9 @@
         "explanation": "You are the Achievement side. Study, certification, and project completion are all auspicious. This is an environment where your effort produces tangible results.",
         "bottom_line_seeker": "A good opportunity. Choose roles with solid training programs — you will thrive here.",
         "bottom_line_hr": "This person is a fast learner with on-time delivery. Provide training opportunities to accelerate growth.",
-        "bottom_line_personal": "A great learning partner. Exchange ideas often and you'll keep growing. Worth investing in.",
-        "verdict_personal": "Worth deepening — they help you grow",
-        "explanation_personal": "Learning and exchanging with this person brings real growth. A relationship that keeps you improving."
+        "bottom_line_personal": "Growth is possible, but set emotional boundaries. Their instability will drain you. If you feel emptied out, keep your distance.",
+        "verdict_personal": "You can learn, but they bring instability",
+        "explanation_personal": "You are the growth side — you can genuinely learn and develop from this person. But they are the danger side, transferring anxiety, insecurity, and emotional burden onto you. The growth is real, but so is the drain. If their negativity is too strong, protect yourself first."
       }
     },
     "eishin": {
