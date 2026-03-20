@@ -27,7 +27,7 @@
       },
       "summary": "Suited for stable roles with steady output in familiar areas, paired with internal training",
       "action_advice": "Focus on building your skills and preparing for the next wave of action",
-      "narrative_personal": "You two are like two sides of the same mirror — similar personalities and values. Easy to get along, but also easy to stay in a comfort zone. You need to push each other to grow."
+      "narrative_personal": "Sutra: \"Not suitable for any undertaking.\" Same mansion — don't push for change. Maintain the status quo."
     },
     "栄": {
       "role_name": "Appointee",
@@ -67,7 +67,7 @@
       },
       "summary": "A great time for bold action — promotions, proposals, and business development will pay off",
       "action_advice": "Present yourself confidently in interviews; seize opportunities for advancement and growth",
-      "narrative_personal": "You energize this person. Your active investment creates a positive cycle for both sides. Taking initiative pays off."
+      "narrative_personal": "Sutra: \"Suitable for taking office, meeting important people, trade and commerce.\" Your active engagement benefits this relationship."
     },
     "衰": {
       "role_name": "Problem Resolver",
@@ -108,7 +108,7 @@
       },
       "summary": "Excels at solving existing problems; suited for stable execution roles paired with continuing education for growth",
       "action_advice": "Focus on resolving the issues at hand while building skills through certifications and training",
-      "narrative_personal": "You are the problem-solver in this relationship. They come to you when things go wrong, but you may feel drained over time. Set boundaries."
+      "narrative_personal": "Sutra: \"Only suitable for removing evils and treating illness.\" Nothing else is auspicious in this direction."
     },
     "安": {
       "role_name": "Foundation Builder",
@@ -148,7 +148,7 @@
       },
       "summary": "Excels at settling into new environments and building from scratch; best in roles that require establishing foundations",
       "action_advice": "Settle in for long-term growth and build a solid work base",
-      "narrative_personal": "You stabilize this person's life and emotions. Good for building a long-term partnership. Together, things become orderly."
+      "narrative_personal": "Sutra: \"Moving is auspicious, entering a home, building a residence — all auspicious.\" You stabilize this person's environment."
     },
     "危": {
       "role_name": "Internal Aligner",
@@ -183,7 +183,7 @@
       },
       "summary": "Strong in social settings; best suited for internal coordination and team building roles",
       "action_advice": "Demonstrate your social skills in interviews; focus on team relationship building after joining",
-      "narrative_personal": "The other person dumps their emotions on you. When anxious, they transfer their stress through complaining and criticizing others. You become their emotional dumping ground. Bearable short-term, devastating long-term."
+      "narrative_personal": "Sutra: \"Not suitable for long journeys, going out, or moving.\" Don't make big changes together."
     },
     "成": {
       "role_name": "Achiever",
@@ -217,7 +217,7 @@
       },
       "summary": "Learning and project delivery are both favored; effort will produce tangible results",
       "action_advice": "Highlight your learning ability and expertise in interviews; pursue continuing education after joining",
-      "narrative_personal": "This person helps you grow. Learning from and collaborating with them brings tangible results. Stay humble and open to advice."
+      "narrative_personal": "Sutra: \"Suitable for studying, making medicine, completing undertakings — all auspicious.\" This direction benefits YOUR learning, not learning from them."
     },
     "壊": {
       "role_name": "Obstacle Breaker",
@@ -246,7 +246,7 @@
       },
       "summary": "Excels at tackling tough problems and crisis response; performs best in challenging environments",
       "action_advice": "Focus on troubleshooting assignments after joining — that is where you shine",
-      "narrative_personal": "There is tension between you. You challenge each other's comfort zones. Stimulating short-term, but requires lots of communication long-term."
+      "narrative_personal": "Sutra: \"Suitable only for suppression and subduing enemies — everything else is unbearable.\" The sutra uses the word \"unbearable.\""
     },
     "友": {
       "role_name": "Network Builder",
@@ -274,7 +274,7 @@
       },
       "summary": "Networking brings opportunities; team building and expanding connections are both favored",
       "action_advice": "Actively expand your network and build team relationships after joining",
-      "narrative_personal": "Natural chemistry between you two. Social interactions feel effortless. Great for activities together, but watch out for staying too surface-level."
+      "narrative_personal": "Sutra: \"Making friends — greatly auspicious.\" That's it. Good for casual interaction."
     },
     "親": {
       "role_name": "Collaboration Receiver",
@@ -308,7 +308,7 @@
       },
       "summary": "High compatibility with the company; well-suited for mentorship and long-term collaboration",
       "action_advice": "Accept the resources and mentorship the company offers; deepen the working relationship",
-      "narrative_personal": "This person is willing to support and nurture you. Accept their goodwill and deepen the connection. Good for long-term relationships."
+      "narrative_personal": "Sutra: \"Suitable for making friends, settling marriage, banquets and gatherings — all auspicious.\" Building this relationship is auspicious."
     },
     "業": {
       "role_name": "Energy Accumulator",
@@ -343,7 +343,7 @@
       },
       "summary": "Suited for long-term accumulation work; building energy in a stable environment to prepare for the next peak",
       "action_advice": "Focus your energy on learning and building your skill set",
-      "narrative_personal": "A fated feeling, but returns don't come quickly. Patience and long-term investment needed — rushing for results backfires."
+      "narrative_personal": "Sutra: \"Whether good or bad, nothing succeeds — very inauspicious.\" The sutra says \"very inauspicious\" directly."
     },
     "胎": {
       "role_name": "Potential Developer",
@@ -372,7 +372,7 @@
       },
       "summary": "High potential; suited for taking over established operations with steady growth — a breakthrough will come when the time is right",
       "action_advice": "Build your capabilities within an established system, preparing for a future breakthrough",
-      "narrative_personal": "This relationship is like a seed — great potential but needs time. Let it develop naturally and surprises will come when it matures."
+      "narrative_personal": "Sutra: \"Not suitable for any undertaking.\" Same as destiny mansion. Just wait."
     }
   },
   "tiers": {
@@ -534,9 +534,9 @@
         "explanation": "The classical text describes their direction toward you as Destroy: 'suited only for suppression and subduing enemies; the rest is unbearable.' You are the Settle side (builder) — you will stabilize this environment, but they will not repay you. Your construction will be consumed. Your time and energy are limited. Rather than wasting them where 'the rest is unbearable,' save your opportunity for a Prosper or Settle match.",
         "bottom_line_seeker": "Do not go. You will be drained completely. Wait for a better opportunity — you deserve a better environment.",
         "bottom_line_hr": "This person will stabilize the company, but the company will over-consume them. Long-term departure is certain. Monitor workload closely.",
-        "bottom_line_personal": "You'll keep giving, but they'll keep draining you. Long-term, you'll be exhausted. Keeping distance protects yourself.",
-        "verdict_personal": "Not recommended for close relationship",
-        "explanation_personal": "You are the stabilizer, constantly giving and maintaining. But the other person drains your energy structurally. This isn't about compatibility effort — it's an inherent imbalance."
+        "bottom_line_personal": "You build, they tear down. The sutra says \"unbearable\" for everything else. No exceptions.",
+        "verdict_personal": "You're auspicious, but they are \"unbearable\" toward you.",
+        "explanation_personal": "Sutra: You are the peace side — \"moving and building are auspicious,\" you stabilize the environment. But they are the destruction side — \"suitable only for suppression, everything else is unbearable.\" You build, they break."
       },
       "壊方": {
         "severity": "warning",
@@ -544,9 +544,9 @@
         "explanation": "The classical text states your direction here is Destroy: 'suited only for suppression and subduing enemies; the rest is unbearable.' Only crisis handling is favorable. Daily work, teamwork, and career growth will all hit walls. The text uses 'unbearable' — not 'difficult,' but 'cannot be sustained.' Your time and energy are limited. Save them for a Prosper or Settle match.",
         "bottom_line_seeker": "Do not go. Unless this role is specifically crisis management, you will hit walls in daily work. Wait for a better opportunity.",
         "bottom_line_hr": "This person is only suited for crisis management roles. Daily operations placement will be very poor. Do not hire unless you have a specific need.",
-        "bottom_line_personal": "They'll constantly push your boundaries. Unless you share a clear common goal, friction will only grow. Think carefully.",
-        "verdict_personal": "Not recommended for close relationship",
-        "explanation_personal": "You are the disruptor. Only crisis handling and conflict resolution go well. Daily interactions and emotional connection will hit walls. Friction grows over time."
+        "bottom_line_personal": "The sutra says \"everything else is unbearable.\" Not a compatibility issue — it's structural.",
+        "verdict_personal": "Inauspicious. The sutra says \"everything else is unbearable.\"",
+        "explanation_personal": "Sutra: \"Suitable only for suppression and subduing enemies — everything else is unbearable.\" You are the destruction side — only confrontation is auspicious. Daily interaction is completely unfavorable. \"Unbearable\" is the sutra's word."
       }
     },
     "yusui": {
@@ -556,9 +556,9 @@
         "explanation": "You are the Decline side. Your energy will gradually diminish in this relationship. The other party keeps you comfortable but also keeps you stagnant. Good for short-term problem-solving, not for long-term growth.",
         "bottom_line_seeker": "Acceptable, but don't put all your chips here. Focus on problem-solving and skill-building while watching for better opportunities.",
         "bottom_line_hr": "This person performs well in problem-solving roles but will lose energy over time. Pair with training programs to maintain performance.",
-        "bottom_line_personal": "They won't hurt you on purpose, but you'll be slowly emptied. Control how often you meet. Rest when tired.",
-        "verdict_personal": "You'll be drained — protect yourself",
-        "explanation_personal": "You are the decline side — your energy steadily drains in this relationship. The other person is the friend side, comfortable around you, but unaware they're draining you. Not malicious, just structural imbalance."
+        "bottom_line_personal": "The sutra says \"only\" — that means nothing else works.",
+        "verdict_personal": "Mostly inauspicious. Only problem-solving is favorable.",
+        "explanation_personal": "Sutra: \"Only suitable for removing evils and treating illness.\" You are the decline side — only fixing problems is auspicious, nothing else. The word \"only\" is clear — there's nothing else good here. They are the friend side, comfortable with you, but your role is problem-solver."
       },
       "友方": {
         "severity": "neutral",
@@ -566,9 +566,9 @@
         "explanation": "You are the Friend side. Social interactions and teamwork flow naturally. The risk is becoming too comfortable and stagnating together.",
         "bottom_line_seeker": "A good environment for development. Set your own growth targets — don't let comfort hold you back.",
         "bottom_line_hr": "This person brings positive team energy. Set clear goals to prevent complacency.",
-        "bottom_line_personal": "A fun, easy relationship. Enjoy it. But set your own growth goals so you don't get stuck in a comfort zone.",
-        "verdict_personal": "Fun and easy, but avoid stagnating together",
-        "explanation_personal": "Comfortable and enjoyable together. The risk is getting too comfortable and stagnating. Keep your own growth momentum."
+        "bottom_line_personal": "Friendship is auspicious, but they can only help you with problems.",
+        "verdict_personal": "Auspicious. Making friends is greatly favorable.",
+        "explanation_personal": "Sutra: \"Making friends — greatly auspicious.\" You are the friend side — friendship is very auspicious. But they are the decline side, where \"only removing evils\" is favorable. They can help when you're in trouble, but don't expect much otherwise."
       }
     },
     "kisei": {
@@ -578,9 +578,9 @@
         "explanation": "You are the Danger side. Your social skills are strong but the text warns 'not auspicious to travel far or relocate.' Internal coordination works well; external assignments and transfers do not.",
         "bottom_line_seeker": "Consider if the role is fixed-location and values internal coordination. Skip roles requiring frequent travel.",
         "bottom_line_hr": "Place in internal coordination roles. Do not assign field work or frequent transfers.",
-        "bottom_line_personal": "Not easy together. Good for occasional catch-ups, but intense proximity exhausts both of you.",
-        "verdict_personal": "You stress them out, they make you anxious",
-        "explanation_personal": "You are the danger side — under stress, you unconsciously transfer anxiety onto others, or feel better by criticizing them. The other person is the growth side and will tolerate you longer, but will cut you off when they hit their limit. This relationship requires you to consciously manage your emotional outlets."
+        "bottom_line_personal": "The sutra says don't move. Stay put, don't attempt big things together.",
+        "verdict_personal": "Inauspicious. No big moves.",
+        "explanation_personal": "Sutra: \"Not suitable for long journeys, going out, or moving.\" You are the danger side — making big changes together is inauspicious. They are the achievement side and can learn on their own, but you're immobilized in this relationship."
       },
       "成方": {
         "severity": "good",
@@ -588,9 +588,9 @@
         "explanation": "You are the Achievement side. Study, certification, and project completion are all auspicious. This is an environment where your effort produces tangible results.",
         "bottom_line_seeker": "A good opportunity. Choose roles with solid training programs — you will thrive here.",
         "bottom_line_hr": "This person is a fast learner with on-time delivery. Provide training opportunities to accelerate growth.",
-        "bottom_line_personal": "Don't be trapped by the illusion of \"maybe I can learn something.\" If all that's left is drain, walk away.",
-        "verdict_personal": "You give, they drain",
-        "explanation_personal": "You are the growth side — classically \"suitable for study and achievement.\" But in practice, all your energy gets consumed by their emotional dumping. You end up teaching and helping them while they only dump their problems on you. This isn't growth — it's one-sided extraction."
+        "bottom_line_personal": "Your own learning is auspicious, but they're stuck. Don't expect to move forward together.",
+        "verdict_personal": "Your side is auspicious, but they can't move.",
+        "explanation_personal": "Sutra: You are the achievement side — \"suitable for studying and completing undertakings — all auspicious.\" But they are the danger side — \"not suitable for long journeys or moving.\" You want to do things, they can't act. You can learn on your own, but they'll hold you back."
       }
     },
     "eishin": {
@@ -600,9 +600,9 @@
         "explanation": "You are the Prosper side. Promotion, proposals, meeting leaders — all highly auspicious. This is your stage.",
         "bottom_line_seeker": "Prepare actively and act soon. This is a rare strong match.",
         "bottom_line_hr": "This person is in their peak period. Assign to core responsibilities for maximum impact.",
-        "bottom_line_personal": "Cherish this relationship. Reach out actively — your investment will be richly rewarded.",
-        "verdict_personal": "Cherish this — your investment pays off richly",
-        "explanation_personal": "Active care and giving bring abundant returns. A mutually nourishing relationship."
+        "bottom_line_personal": "The sutra says everything is auspicious. Engage actively.",
+        "verdict_personal": "Auspicious. The sutra lists many favorable activities.",
+        "explanation_personal": "Sutra: \"Suitable for taking office, meeting important people, trade and commerce.\" You are the glory side — active engagement is auspicious. They are the affinity side, responding with \"friendship and gatherings — all auspicious.\" The best combination among the six relationships."
       },
       "親方": {
         "severity": "good",
@@ -610,9 +610,9 @@
         "explanation": "You are the Intimate side. The other party naturally wants to mentor and support you. Suited for long-term commitment.",
         "bottom_line_seeker": "Accept the mentorship and deepen the relationship. Interviews will feel relaxed.",
         "bottom_line_hr": "This person has high compatibility and strong loyalty. Worth long-term investment.",
-        "bottom_line_personal": "They naturally like you. Accept their goodwill sincerely. A relationship worth nurturing long-term.",
-        "verdict_personal": "They naturally like you — worth long-term nurturing",
-        "explanation_personal": "The other person opens up to you willingly. Accept their goodwill and respond sincerely."
+        "bottom_line_personal": "The sutra says friendship and gatherings are auspicious. Go ahead.",
+        "verdict_personal": "Auspicious. Friendship and gatherings are favorable.",
+        "explanation_personal": "Sutra: \"Suitable for making friends, settling marriage, banquets and gatherings — all auspicious.\" You are the affinity side — building this relationship is auspicious. They are the glory side, actively reciprocating."
       }
     },
     "mei": {
@@ -622,9 +622,9 @@
         "explanation": "Same mansion — familiar and comfortable but lacking stimulation. Suited for steady output in known territory, not for pioneering.",
         "bottom_line_seeker": "Acceptable, but don't expect breakthroughs. Focus on self-improvement while waiting for the next cycle.",
         "bottom_line_hr": "This person delivers consistent output in a stable environment. Pair with training programs.",
-        "bottom_line_personal": "Stable but no big breakthroughs. Enjoy the comfort while each maintaining your own growth momentum.",
-        "verdict_personal": "Stable but no big breakthroughs",
-        "explanation_personal": "Same mansion — familiar but lacking novelty. Enjoy the comfort while maintaining individual growth."
+        "bottom_line_personal": "The sutra says nothing is suitable. Maintain status quo, don't force things.",
+        "verdict_personal": "Inauspicious. Not suitable for any undertaking.",
+        "explanation_personal": "Sutra: \"Not suitable for any undertaking.\" Same mansion — nothing should be actively pushed forward. It's not that you can't be together, just don't expect this relationship to drive anything forward."
       }
     },
     "gyotai": {
@@ -634,9 +634,9 @@
         "explanation": "You are the Karma side. The text states 'good and evil deeds alike do not come to fruition.' Everything feels like running into headwind — this is timing, not ability.",
         "bottom_line_seeker": "Unless you have no other options, wait for better timing. Entering now means working twice as hard for half the result.",
         "bottom_line_hr": "This person's short-term performance will be limited. Place in long-term accumulation work with a focus on development.",
-        "bottom_line_personal": "No rush. The value of this relationship takes time to reveal itself. Be patient.",
-        "verdict_personal": "Patience needed — don't rush",
-        "explanation_personal": "Your investment doesn't pay off immediately. Not incompatibility — just timing. Be patient."
+        "bottom_line_personal": "The sutra says \"very inauspicious.\" Don't invest too many expectations.",
+        "verdict_personal": "Inauspicious. Nothing succeeds.",
+        "explanation_personal": "Sutra: \"Whether good or bad, nothing succeeds — very inauspicious.\" You are the karma side — good or bad efforts both fail. The sutra says \"very inauspicious\" with no room for interpretation."
       },
       "胎方": {
         "severity": "neutral",
@@ -644,9 +644,9 @@
         "explanation": "You are the Embryo side — potential is incubating. Choose mature companies with training programs as a springboard.",
         "bottom_line_seeker": "Consider companies with structured training. A breakthrough will come when the timing is right.",
         "bottom_line_hr": "This person has high potential. Suited for talent pipeline programs with room to grow.",
-        "bottom_line_personal": "A high-potential relationship. Give each other space and time — good things will come when the timing is right.",
-        "verdict_personal": "High potential — let it develop naturally",
-        "explanation_personal": "This relationship's potential is still incubating. Give space and time — good results come when ready."
+        "bottom_line_personal": "The sutra says nothing is suitable. Wait. Don't rush.",
+        "verdict_personal": "Inauspicious. Not suitable for any undertaking.",
+        "explanation_personal": "Sutra: \"Not suitable for any undertaking.\" You are the embryo side — same as destiny mansion, nothing should be actively pushed. Embryo implies \"not yet formed\" — the timing isn't right."
       }
     }
   },
