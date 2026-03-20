@@ -3,6 +3,7 @@
     "命": {
       "role_name": "Self-cultivator",
       "narrative": "Your role here is Self-cultivator — focused on building your skills and delivering steady output in familiar areas. Not the time for bold moves; stockpile your strengths.",
+      "narrative_hr": "This person is a Self-cultivator type — delivers steady output in familiar areas. Pair with internal training for continued growth. Not the time for pioneering assignments.",
       "suitable": [
         {
           "sutra": "宜修功德（品三凌犯化解）",
@@ -30,6 +31,7 @@
     "栄": {
       "role_name": "Appointee",
       "narrative": "Your role here is Appointee — suited for taking on key positions, presenting proposals, and meeting decision-makers. Your actions will bring above-expected returns.",
+      "narrative_hr": "This person is an Appointee type — suited for key positions and leading proposals. Give them room and resources for above-expected contributions.",
       "suitable": [
         {
           "sutra": "宜入官拜職",
@@ -68,6 +70,7 @@
     "衰": {
       "role_name": "Problem Resolver",
       "narrative": "Your role here is Problem Resolver — you excel at fixing existing issues and removing obstacles, best suited for stable execution work. Not the time for expansion or major changes.",
+      "narrative_hr": "This person is a Problem Resolver type — excels at fixing existing issues and removing obstacles. Place in stable execution roles. Avoid frequent transfers.",
       "suitable": [
         {
           "sutra": "唯宜解除諸惡、療病",
@@ -107,6 +110,7 @@
     "安": {
       "role_name": "Foundation Builder",
       "narrative": "Your role here is Foundation Builder — you excel at settling into new environments and building systems from scratch. Relocations, transfers, and joining new teams go smoothly.",
+      "narrative_hr": "This person is a Foundation Builder type — adapts quickly after joining. Best in roles that involve establishing new locations or systems.",
       "suitable": [
         {
           "sutra": "移徙吉",
@@ -145,6 +149,7 @@
     "危": {
       "role_name": "Internal Aligner",
       "narrative": "Your role here is Internal Aligner — your social skills are most effective when applied within the company. Building team relationships and cross-department networks is your strength.",
+      "narrative_hr": "This person is an Internal Aligner type — social skills are best applied within the company. Place in roles requiring internal coordination or team building.",
       "suitable": [
         {
           "sutra": "宜結交、歡宴聚會並吉",
@@ -178,6 +183,7 @@
     "成": {
       "role_name": "Achiever",
       "narrative": "Your role here is Achiever — both learning and project delivery are in your favor. Effort produces tangible results, suited for deep, sustained work.",
+      "narrative_hr": "This person is an Achiever type — fast learner, delivers projects on schedule. Training and certification opportunities will rapidly boost capabilities.",
       "suitable": [
         {
           "sutra": "宜修道學問",
@@ -210,6 +216,7 @@
     "壊": {
       "role_name": "Obstacle Breaker",
       "narrative": "Your role here is Obstacle Breaker — you specialize in tough problems and crisis response. You perform best solving difficult challenges; routine work is not your arena.",
+      "narrative_hr": "This person is an Obstacle Breaker type — thrives on tough problems and crisis response. Give clear objectives; delegate routine work to others.",
       "suitable": [
         {
           "sutra": "宜作鎮壓、降伏怨讎",
@@ -237,6 +244,7 @@
     "友": {
       "role_name": "Network Builder",
       "narrative": "Your role here is Network Builder — expanding connections and team building are your strengths. Networking will generate opportunities beyond expectations.",
+      "narrative_hr": "This person is a Network Builder type — brings external connections and positive energy to the team. Well-suited for collaborative and cross-team roles.",
       "suitable": [
         {
           "sutra": "宜結交朋友大吉",
@@ -263,6 +271,7 @@
     "親": {
       "role_name": "Collaboration Receiver",
       "narrative": "Your role here is Collaboration Receiver — the company is willing to invest resources and mentorship in you. Accept it, deepen the partnership, suited for long-term commitments.",
+      "narrative_hr": "This person has high compatibility with the company and strong loyalty. Worth long-term investment — providing resources and mentorship deepens the working relationship.",
       "suitable": [
         {
           "sutra": "宜結交",
@@ -295,6 +304,7 @@
     "業": {
       "role_name": "Energy Accumulator",
       "narrative": "Your role here is Energy Accumulator — you are in an energy-building phase, focused on learning and recharging. Input and output won't be proportional for now, but nothing you build goes to waste.",
+      "narrative_hr": "This person is an Energy Accumulator type — suited for long-term accumulation work. Building energy in a low-pressure environment, focusing on long-term development.",
       "suitable": [
         {
           "sutra": "宜修功德（品三）",
@@ -328,6 +338,7 @@
     "胎": {
       "role_name": "Potential Developer",
       "narrative": "Your role here is Potential Developer — a high-potential type, growing steadily within established systems. A breakthrough will come when the timing is right; nothing you build now goes to waste.",
+      "narrative_hr": "This person is a Potential Developer type — high potential, suited for taking over established operations. Worth long-term cultivation.",
       "suitable": [
         {
           "sutra": "宜修功德（品三凌犯化解）",

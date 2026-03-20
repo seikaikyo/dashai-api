@@ -1555,15 +1555,16 @@ class SukuyodoService:
             sutra_items = self.get_sutra_career_items(direction)
             inverse_sutra_items = self.get_sutra_career_items(inverse)
 
-        # 從 guidance.json 取角色名和敘事
+        # 從 guidance.json 取角色名和敘事（依 mode 選版本）
         guidance_json = self._load_guidance_json(lang)
         dir_data = guidance_json.get("directions", {}).get(direction, {})
         inv_data = guidance_json.get("directions", {}).get(inverse, {})
+        nar_key = "narrative_hr" if mode == "hr" else "narrative"
 
         return {
             "direction": direction,
             "role_name": dir_data.get("role_name", direction),
-            "narrative": dir_data.get("narrative", ""),
+            "narrative": dir_data.get(nar_key, dir_data.get("narrative", "")),
             "energy_flow": meaning.get("energy_flow", ""),
             "person1_perspective": meaning.get("as_person1", ""),
             "person2_perspective": meaning.get("as_person2", ""),
@@ -1572,7 +1573,7 @@ class SukuyodoService:
             "guidance": self.get_direction_guidance(direction, mode, lang),
             "inverse_direction": inverse,
             "inverse_role_name": inv_data.get("role_name", inverse),
-            "inverse_narrative": inv_data.get("narrative", ""),
+            "inverse_narrative": inv_data.get(nar_key, inv_data.get("narrative", "")),
             "inverse_meaning": inverse_meaning.get("energy_flow", ""),
             "inverse_sutra_career_items": inverse_sutra_items,
             "inverse_guidance": self.get_direction_guidance(inverse, mode, lang),
