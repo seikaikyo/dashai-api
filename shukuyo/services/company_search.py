@@ -1087,9 +1087,18 @@ class CompanySearchService:
             first_sutra = guidance_items["timing_poor"][0].get("sutra", "")
         sutra_ref = sutra_ref_tpl.format(sutra=first_sutra) if first_sutra else ""
 
-        # Summary
+        # Summary（有明顯雙向風險時加上反向提醒）
         prefix = rec_data.get("summary_prefix", tier["label"])
-        summary = f"{prefix} — {sutra_ref}{career_summary}"
+        inverse_map = {"栄": "親", "親": "栄", "友": "衰", "衰": "友",
+                       "安": "壊", "壊": "安", "危": "成", "成": "危",
+                       "命": "命", "業": "胎", "胎": "業"}
+        inverse_dir = inverse_map.get(direction, direction)
+        warn_relations = {"ankai", "kisei", "yusui", "gyotai"}
+        if relation_type in warn_relations and direction != inverse_dir:
+            inverse_career = SukuyodoService.get_career_summary(inverse_dir, lang)
+            summary = f"{prefix} — {sutra_ref}{career_summary}。但公司是{inverse_dir}位：{inverse_career}"
+        else:
+            summary = f"{prefix} — {sutra_ref}{career_summary}"
 
         # Action items
         for item in rec_data.get("action_items", []):
@@ -1144,7 +1153,21 @@ class CompanySearchService:
         sutra_ref = sutra_ref_tpl.format(sutra=first_sutra) if first_sutra else ""
 
         prefix = rec_data.get("summary_prefix", "")
-        summary = f"{prefix} — {sutra_ref}{hr_summary}"
+
+        # 安壊關係：summary 要同時提到壊位的風險，不能只說安方的好處
+        inverse_map = {"栄": "親", "親": "栄", "友": "衰", "衰": "友",
+                       "安": "壊", "壊": "安", "危": "成", "成": "危",
+                       "命": "命", "業": "胎", "胎": "業"}
+        inverse_dir = inverse_map.get(direction, direction)
+        inverse_summary_data = json_data.get("hr_summary", {}).get(inverse_dir, {})
+        inverse_summary = inverse_summary_data.get("summary", "")
+
+        # 安壊/危成/友衰/業胎：反向有明顯風險時，summary 要提到
+        warn_relations = {"ankai", "kisei", "yusui", "gyotai"}
+        if relation_type in warn_relations and inverse_summary:
+            summary = f"{prefix} — {sutra_ref}{hr_summary}。但公司落在此人的{inverse_dir}位：{inverse_summary}"
+        else:
+            summary = f"{prefix} — {sutra_ref}{hr_summary}"
 
         for item in rec_data.get("action_items", []):
             action_items.append(item)
